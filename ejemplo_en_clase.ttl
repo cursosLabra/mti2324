@@ -1,0 +1,32 @@
+@prefix :       <http://example.org/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sc:     <http://purl.org/science/owl/sciencecommons/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+:ReinoUnido  rdf:type  :Country .
+
+:london  rdf:type  :Ciudad ;
+        :country  :ReinoUnido .
+
+:rodrigo  rdf:type  schema:Person ;
+        :knows    :paulina .
+
+:francisco  rdf:type  schema:Person ;
+        :knows    :paulina .
+
+:paulina  rdf:type  :Persona ;
+        :knows    :timbl .
+
+:timbl  rdf:type     :Human ;
+        rdfs:label   1234 ;
+        :birthDate   "1955-06-08"^^xsd:date ;
+        :birthPlace  :london ;
+        :employer    :CERN ;
+        :knows       :paulina .
+
+:CERN   rdf:type  :Organization .
+
+:cristian  rdf:type  :Persona ;
+        :knows    :timbl .

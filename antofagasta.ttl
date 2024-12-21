@@ -1,0 +1,5949 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3612 a schema:Dataset ;
+	schema:about wd:Q3612 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "2246726969"^^xsd:integer ;
+	schema:dateModified "2024-09-11T15:31:06Z"^^xsd:dateTime ;
+	wikibase:statements "74"^^xsd:integer ;
+	wikibase:sitelinks "121"^^xsd:integer ;
+	wikibase:identifiers "35"^^xsd:integer .
+
+wd:Q3612 a wikibase:Item .
+
+<https://nl.wikivoyage.org/wiki/Antofagasta_(stad)> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikivoyage.org/> ;
+	schema:name "Antofagasta (stad)"@nl .
+
+<https://nl.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://es.wikivoyage.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikivoyage.org/> ;
+	schema:name "Antofagasta"@es .
+
+<https://es.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://pl.wikivoyage.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikivoyage.org/> ;
+	schema:name "Antofagasta"@pl .
+
+<https://pl.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://pt.wikivoyage.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikivoyage.org/> ;
+	schema:name "Antofagasta"@pt .
+
+<https://pt.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://en.wikivoyage.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikivoyage.org/> ;
+	schema:name "Antofagasta"@en .
+
+<https://en.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://commons.wikimedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "Antofagasta"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+<https://fr.wikivoyage.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikivoyage.org/> ;
+	schema:name "Antofagasta"@fr .
+
+<https://fr.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://fa.wikivoyage.org/wiki/%D8%A2%D9%86%D8%AA%D9%88%D9%81%D8%A7%DA%AF%D8%A7%D8%B3%D8%AA%D8%A7> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikivoyage.org/> ;
+	schema:name "آنتوفاگاستا"@fa .
+
+<https://fa.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ro.wikivoyage.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikivoyage.org/> ;
+	schema:name "Antofagasta"@ro .
+
+<https://ro.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://en.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Antofagasta"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Antofagasta"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Antofagasta"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Antofagasta"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D1%82%D0%BE%D1%84%D0%B0%D0%B3%D0%B0%D1%81%D1%82%D0%B0> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Антофагаста"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Antofagasta"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%B3%E3%83%88%E3%83%95%E3%82%A1%E3%82%AC%E3%82%B9%E3%82%BF> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "アントファガスタ"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Antofagasta_(stad)> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Antofagasta (stad)"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Antofagasta"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Antofagasta"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%AE%89%E6%89%98%E6%B3%95%E5%8A%A0%E6%96%AF%E5%A1%94> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "安托法加斯塔"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Antofagasta"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%A2%D9%86%D8%AA%D9%88%D9%81%D8%A7%DA%AF%D8%A7%D8%B3%D8%AA%D8%A7> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "آنتوفاگاستا"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%90%D7%A0%D7%98%D7%95%D7%A4%D7%92%D7%A1%D7%98%D7%94> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "אנטופגסטה"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Antofagasta,_%C5%9Eili> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Antofagasta, Şili"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Antofagasta"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A3%D9%86%D8%AA%D9%88%D9%81%D8%A7%D8%BA%D8%A7%D8%B3%D8%AA%D8%A7> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "أنتوفاغاستا"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Antofagasta,_Chile> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Antofagasta, Chile"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Antofagasta"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%90%D0%BD%D1%82%D0%BE%D1%84%D0%B0%D0%B3%D0%B0%D1%81%D1%82%D0%B0_(%D0%BC%D1%96%D1%81%D1%82%D0%BE)> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Антофагаста (місто)"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%95%88%ED%86%A0%ED%8C%8C%EA%B0%80%EC%8A%A4%ED%83%80> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "안토파가스타"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Antofagasta"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Antofagasta"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%90%D0%BD%D1%82%D0%BE%D1%84%D0%B0%D0%B3%D0%B0%D1%81%D1%82%D0%B0> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Антофагаста"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Antofagasta"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Antofagasta"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Antofagasta"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Antofagasta"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%90%D0%BD%D1%82%D0%BE%D1%84%D0%B0%D0%B3%D0%B0%D1%81%D1%82%D0%B0> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Антофагаста"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Antofagasta"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://am.wikipedia.org/wiki/%E1%8A%A3%E1%8A%95%E1%89%B6%E1%8D%8B%E1%8C%8B%E1%88%B5%E1%89%B3> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "am" ;
+	schema:isPartOf <https://am.wikipedia.org/> ;
+	schema:name "ኣንቶፋጋስታ"@am .
+
+<https://am.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ang.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "ang" ;
+	schema:isPartOf <https://ang.wikipedia.org/> ;
+	schema:name "Antofagasta"@ang .
+
+<https://ang.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arc.wikipedia.org/wiki/%DC%90%DC%A2%DC%9B%DC%98%DC%A6%DC%90%DC%93%DC%90%DC%A3%DC%9B%DC%90> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "arc" ;
+	schema:isPartOf <https://arc.wikipedia.org/> ;
+	schema:name "ܐܢܛܘܦܐܓܐܣܛܐ"@arc .
+
+<https://arc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D8%A7%D9%86%D8%AA%D9%88%D9%81%D8%A7%D8%AC%D8%A7%D8%B3%D8%AA%D8%A7> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "انتوفاجاستا"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Antofagasta"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ay.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "ay" ;
+	schema:isPartOf <https://ay.wikipedia.org/> ;
+	schema:name "Antofagasta"@ay .
+
+<https://ay.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bar.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "bar" ;
+	schema:isPartOf <https://bar.wikipedia.org/> ;
+	schema:name "Antofagasta"@bar .
+
+<https://bar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bat-smg.wikipedia.org/wiki/Antuofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "sgs" ;
+	schema:isPartOf <https://bat-smg.wikipedia.org/> ;
+	schema:name "Antuofagasta"@sgs .
+
+<https://bat-smg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%90%D0%BD%D1%82%D0%B0%D1%84%D0%B0%D0%B3%D0%B0%D1%81%D1%82%D0%B0> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Антафагаста"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bo.wikipedia.org/wiki/%E0%BD%A8%E0%BD%93%E0%BC%8B%E0%BD%8F%E0%BD%BC%E0%BC%8B%E0%BD%95%E0%BC%8B%E0%BD%82%E0%BC%8B%E0%BD%A6%E0%BD%B2%E0%BC%8B%E0%BD%8F> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "bo" ;
+	schema:isPartOf <https://bo.wikipedia.org/> ;
+	schema:name "ཨན་ཏོ་ཕ་ག་སི་ཏ"@bo .
+
+<https://bo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Antofagasta"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bs.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "bs" ;
+	schema:isPartOf <https://bs.wikipedia.org/> ;
+	schema:name "Antofagasta"@bs .
+
+<https://bs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cbk-zam.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "cbk-x-zam" ;
+	schema:isPartOf <https://cbk-zam.wikipedia.org/> ;
+	schema:name "Antofagasta"@cbk-x-zam .
+
+<https://cbk-zam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ceb.wikipedia.org/wiki/Antofagasta_(kapital_sa_rehiyon)> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "ceb" ;
+	schema:isPartOf <https://ceb.wikipedia.org/> ;
+	schema:name "Antofagasta (kapital sa rehiyon)"@ceb .
+
+<https://ceb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://chy.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "chy" ;
+	schema:isPartOf <https://chy.wikipedia.org/> ;
+	schema:name "Antofagasta"@chy .
+
+<https://chy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://co.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "co" ;
+	schema:isPartOf <https://co.wikipedia.org/> ;
+	schema:name "Antofagasta"@co .
+
+<https://co.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%91%CE%BD%CF%84%CE%BF%CF%86%CE%B1%CE%B3%CE%AC%CF%83%CF%84%CE%B1> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Αντοφαγάστα"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Antofagasta_(urbo)> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Antofagasta (urbo)"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Antofagasta"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Antofagasta"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frp.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "frp" ;
+	schema:isPartOf <https://frp.wikipedia.org/> ;
+	schema:name "Antofagasta"@frp .
+
+<https://frp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fur.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "fur" ;
+	schema:isPartOf <https://fur.wikipedia.org/> ;
+	schema:name "Antofagasta"@fur .
+
+<https://fur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ga.wikipedia.org/wiki/Antofagasta,_an_tSile> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "ga" ;
+	schema:isPartOf <https://ga.wikipedia.org/> ;
+	schema:name "Antofagasta, an tSile"@ga .
+
+<https://ga.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gn.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "gn" ;
+	schema:isPartOf <https://gn.wikipedia.org/> ;
+	schema:name "Antofagasta"@gn .
+
+<https://gn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%8F%E0%A4%82%E0%A4%9F%E0%A5%8B%E0%A4%AB%E0%A4%BC%E0%A4%97%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "एंटोफ़गास्टा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Antofagasta"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ht.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "ht" ;
+	schema:isPartOf <https://ht.wikipedia.org/> ;
+	schema:name "Antofagasta"@ht .
+
+<https://ht.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://io.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "io" ;
+	schema:isPartOf <https://io.wikipedia.org/> ;
+	schema:name "Antofagasta"@io .
+
+<https://io.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Antofagasta"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%90%E1%83%9C%E1%83%A2%E1%83%9D%E1%83%A4%E1%83%90%E1%83%92%E1%83%90%E1%83%A1%E1%83%A2%E1%83%90_(%E1%83%A5%E1%83%90%E1%83%9A%E1%83%90%E1%83%A5%E1%83%98)> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "ანტოფაგასტა (ქალაქი)"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kk.wikipedia.org/wiki/%D0%90%D0%BD%D1%82%D0%BE%D1%84%D0%B0%D0%B3%D0%B0%D1%81%D1%82%D0%B0> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "kk" ;
+	schema:isPartOf <https://kk.wikipedia.org/> ;
+	schema:name "Антофагаста"@kk .
+
+<https://kk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Antofagasta"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lad.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "lad" ;
+	schema:isPartOf <https://lad.wikipedia.org/> ;
+	schema:name "Antofagasta"@lad .
+
+<https://lad.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://li.wikipedia.org/wiki/Antofagasta_(stad)> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "li" ;
+	schema:isPartOf <https://li.wikipedia.org/> ;
+	schema:name "Antofagasta (stad)"@li .
+
+<https://li.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Antofagasta"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Antofagasta"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mn.wikipedia.org/wiki/%D0%90%D0%BD%D1%82%D0%BE%D1%84%D0%B0%D0%B3%D0%B0%D1%81%D1%82%D0%B0> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "mn" ;
+	schema:isPartOf <https://mn.wikipedia.org/> ;
+	schema:name "Антофагаста"@mn .
+
+<https://mn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mr.wikipedia.org/wiki/%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A5%8B%E0%A4%AB%E0%A4%BE%E0%A4%97%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "mr" ;
+	schema:isPartOf <https://mr.wikipedia.org/> ;
+	schema:name "अंतोफागास्ता"@mr .
+
+<https://mr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nrm.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "fr-x-nrm" ;
+	schema:isPartOf <https://nrm.wikipedia.org/> ;
+	schema:name "Antofagasta"@fr-x-nrm .
+
+<https://nrm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Antofagasta"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pap.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "pap" ;
+	schema:isPartOf <https://pap.wikipedia.org/> ;
+	schema:name "Antofagasta"@pap .
+
+<https://pap.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Antofagasta"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%D8%A7%D9%86%D8%AA%D9%88%D9%81%D8%A7%DA%A9%D9%88%D8%B3%D8%AA%D8%A7> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "انتوفاکوستا"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://qu.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "qu" ;
+	schema:isPartOf <https://qu.wikipedia.org/> ;
+	schema:name "Antofagasta"@qu .
+
+<https://qu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rmy.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "rmy" ;
+	schema:isPartOf <https://rmy.wikipedia.org/> ;
+	schema:name "Antofagasta"@rmy .
+
+<https://rmy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sco.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "sco" ;
+	schema:isPartOf <https://sco.wikipedia.org/> ;
+	schema:name "Antofagasta"@sco .
+
+<https://sco.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Antofagasta"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sk.wikipedia.org/wiki/Antofagasta_(mesto)> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "sk" ;
+	schema:isPartOf <https://sk.wikipedia.org/> ;
+	schema:name "Antofagasta (mesto)"@sk .
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Antofagasta"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%99%E0%B9%82%E0%B8%95%E0%B8%9F%E0%B8%B2%E0%B8%81%E0%B8%B1%E0%B8%AA%E0%B8%95%E0%B8%B2> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "อันโตฟากัสตา"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Antofagasta"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%90%D0%BD%D1%82%D0%BE%D1%84%D0%B0%D0%B3%D0%B0%D1%81%D1%82%D0%B0> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Антофагаста"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D8%A7%D9%86%D8%AA%D9%88%D9%81%D8%A7%DA%AF%D8%A7%D8%B3%D8%AA%D8%A7> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "انتوفاگاستا"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Antofagasta"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vep.wikipedia.org/wiki/Antofagast> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "vep" ;
+	schema:isPartOf <https://vep.wikipedia.org/> ;
+	schema:name "Antofagast"@vep .
+
+<https://vep.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vo.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "vo" ;
+	schema:isPartOf <https://vo.wikipedia.org/> ;
+	schema:name "Antofagasta"@vo .
+
+<https://vo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://war.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "war" ;
+	schema:isPartOf <https://war.wikipedia.org/> ;
+	schema:name "Antofagasta"@war .
+
+<https://war.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://yi.wikipedia.org/wiki/%D7%90%D7%A0%D7%98%D7%90%D7%A4%D7%90%D7%92%D7%90%D7%A1%D7%98%D7%90> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "yi" ;
+	schema:isPartOf <https://yi.wikipedia.org/> ;
+	schema:name "אנטאפאגאסטא"@yi .
+
+<https://yi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://za.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "za" ;
+	schema:isPartOf <https://za.wikipedia.org/> ;
+	schema:name "Antofagasta"@za .
+
+<https://za.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-min-nan.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "nan" ;
+	schema:isPartOf <https://zh-min-nan.wikipedia.org/> ;
+	schema:name "Antofagasta"@nan .
+
+<https://zh-min-nan.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E5%AE%89%E6%89%98%E6%B3%95%E5%8A%A0%E6%96%AF%E5%A1%94> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "安托法加斯塔"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sc.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "sc" ;
+	schema:isPartOf <https://sc.wikipedia.org/> ;
+	schema:name "Antofagasta"@sc .
+
+<https://sc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ia.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "ia" ;
+	schema:isPartOf <https://ia.wikipedia.org/> ;
+	schema:name "Antofagasta"@ia .
+
+<https://ia.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Antofaqasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Antofaqasta"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Antofagasta"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sl.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikipedia.org/> ;
+	schema:name "Antofagasta"@sl .
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Antofagasta"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%90%D0%BD%D1%82%D0%B0%D1%84%D0%B0%D0%B3%D0%B0%D1%81%D1%82%D0%B0> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Антафагаста"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikinews.org/wiki/Kategorie:Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikinews.org/> ;
+	schema:name "Kategorie:Antofagasta"@de .
+
+<https://de.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://diq.wikipedia.org/wiki/Antofagasta,_%C5%9Eili> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Antofagasta, Şili"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E5%AE%89%E6%89%98%E6%B3%95%E5%8A%A0%E6%96%AF%E5%A1%94> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "安托法加斯塔"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikivoyage.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikivoyage.org/> ;
+	schema:name "Antofagasta"@it .
+
+<https://it.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://hy.wikipedia.org/wiki/%D4%B1%D5%B6%D5%BF%D5%B8%D6%86%D5%A1%D5%A3%D5%A1%D5%BD%D5%BF%D5%A1_(%D6%84%D5%A1%D5%B2%D5%A1%D6%84)> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Անտոֆագաստա (քաղաք)"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Antofagasta"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Antofagasta"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Antofagasta"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%90%D0%BD%D1%82%D0%BE%D1%84%D0%B0%D0%B3%D0%B0%D1%81%D1%82%D0%B0> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Антофагаста"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ckb.wikipedia.org/wiki/%D8%A6%D8%A7%D9%86%D8%AA%DB%86%D9%81%D8%A7%DA%AF%D8%A7%D8%B3%D8%AA%D8%A7> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "ckb" ;
+	schema:isPartOf <https://ckb.wikipedia.org/> ;
+	schema:name "ئانتۆفاگاستا"@ckb .
+
+<https://ckb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://os.wikipedia.org/wiki/%D0%90%D0%BD%D1%82%D0%BE%D1%84%D0%B0%D0%B3%D0%B0%D1%81%D1%82%C3%A6> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "os" ;
+	schema:isPartOf <https://os.wikipedia.org/> ;
+	schema:name "Антофагастæ"@os .
+
+<https://os.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lb.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "lb" ;
+	schema:isPartOf <https://lb.wikipedia.org/> ;
+	schema:name "Antofagasta"@lb .
+
+<https://lb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://xmf.wikipedia.org/wiki/%E1%83%90%E1%83%9C%E1%83%A2%E1%83%9D%E1%83%A4%E1%83%90%E1%83%92%E1%83%90%E1%83%A1%E1%83%A2%E1%83%90> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "xmf" ;
+	schema:isPartOf <https://xmf.wikipedia.org/> ;
+	schema:name "ანტოფაგასტა"@xmf .
+
+<https://xmf.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Antofagasta> a schema:Article ;
+	schema:about wd:Q3612 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Antofagasta"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3612 wdt:P1464 wd:Q8043695 ;
+	wdt:P948 <http://commons.wikimedia.org/wiki/Special:FilePath/Antofagasta%20WV%20Banner.jpg> ;
+	wdt:P190 wd:Q1663,
+		wd:Q748474,
+		wd:Q360326,
+		wd:Q200036,
+		wd:Q210161 ;
+	wdt:P373 "Antofagasta" ;
+	wdt:P17 wd:Q298 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Montaje%20de%20Antofagasta.jpg> ;
+	wdt:P421 wd:Q5762 ;
+	wdt:P625 "Point(-70.398055555556 -23.646388888889)"^^geo:wktLiteral ;
+	wdt:P131 wd:Q23660303 ;
+	wdt:P910 wd:Q8256626 ;
+	wdt:P998 "Regional/South_America/Chile/Regions/Antofagasta/Antofagasta/" ;
+	wdt:P31 wd:Q25412763,
+		wd:Q1549591 ;
+	wdt:P646 "/m/03n6h_" ;
+	wdt:P94 <http://commons.wikimedia.org/wiki/Special:FilePath/Escudo%20de%20Antofagasta.svg> ;
+	wdt:P1566 "3899539" ;
+	wdtn:P1566 <https://sws.geonames.org/3899539/> ;
+	wdt:P1465 wd:Q18575102 ;
+	wdt:P227 "4472501-2" ;
+	wdtn:P227 <https://d-nb.info/gnd/4472501-2> ;
+	wdt:P982 "61c41a27-64bf-4c0e-8a32-beaad1248129" ;
+	wdtn:P982 <http://musicbrainz.org/area/61c41a27-64bf-4c0e-8a32-beaad1248129> ;
+	wdt:P214 "146569688" ;
+	wdtn:P214 <http://viaf.org/viaf/146569688> ;
+	wdt:P935 "Antofagasta" ;
+	wdt:P1997 "110061615681238" ;
+	wdt:P1792 wd:Q18575100 ;
+	wdt:P856 <https://www.municipalidadantofagasta.cl/> ;
+	wdt:P281 "1240000" ;
+	wdt:P1082 "+348517"^^xsd:decimal ;
+	wdt:P473 "55" ;
+	wdt:P2046 "+56.12"^^xsd:decimal ;
+	wdt:P571 "1868-10-22T00:00:00Z"^^xsd:dateTime ;
+	wdt:P1296 "0004377" ;
+	wdt:P2044 "+40"^^xsd:decimal ;
+	wdt:P3417 "Antofagasta-Chile" ;
+	wdt:P1705 "Antofagasta"@es ;
+	wdt:P1225 "10037859" ;
+	wdt:P3219 "antofagasta" ;
+	wdt:P2924 "702010" ;
+	wdt:P1448 "Antofagasta"@es ;
+	wdt:P5573 "9538" ;
+	wdt:P949 "000976284" ;
+	wdt:P1376 wd:Q2118,
+		wd:Q94552,
+		wd:Q23660303 ;
+	wdt:P244 "n79086811" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/n79086811> ;
+	wdt:P6766 "102017963" ;
+	wdt:P1343 wd:Q3181656,
+		wd:Q867541 ;
+	wdt:P1245 "1655827" ;
+	wdt:P206 wd:Q98 ;
+	wdt:P691 "ge502099" ;
+	wdt:P6929 "02101" ;
+	wdt:P5063 "i82727" ;
+	wdtn:P5063 <http://globalwordnet.org/ili/i82727> ;
+	wdt:P8814 "08738978-n" ;
+	wdtn:P8814 <http://wordnet-rdf.princeton.edu/rdf/id/08738978-n> ;
+	wdt:P9241 wd:Q2839096 ;
+	wdt:P9545 "191275" ;
+	wdt:P1889 wd:Q109759762,
+		wd:Q2076979 ;
+	wdt:P7305 "3869900" ;
+	wdt:P8189 "987007547801905171" ;
+	wdt:P4342 "Antofagasta" ;
+	wdt:P8313 "Antofagasta" ;
+	wdt:P8592 <http://commons.wikimedia.org/wiki/Special:FilePath/Antofagasta%2C%20Chile%20ESA23283624%20%28cropped%29.jpeg> ;
+	wdt:P7197 "3899539" ;
+	wdt:P8168 "Q540105" ;
+	wdtn:P8168 <https://database.factgrid.de/entity/Q540105> ;
+	wdt:P12385 "antofagasta-0" ;
+	wdt:P1937 "CLANF" ;
+	wdt:P10832 "E39PBJp68grfrr9hBtrWdDtBT3" ;
+	wdt:P12749 "Q45336" ;
+	wdt:P12800 "fr:Antofagasta" ;
+	wdt:P8519 "33628" ;
+	wdtn:P8519 <https://data.rkd.nl/thesau/33628> ;
+	p:P1464 s:Q3612-f64cf70e-4d96-02e0-d580-b39feb6020c4 .
+
+s:Q3612-f64cf70e-4d96-02e0-d580-b39feb6020c4 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1464 wd:Q8043695 .
+
+wd:Q3612 p:P948 s:Q3612-20ceb72e-4339-82c6-8567-417da08f9171 .
+
+s:Q3612-20ceb72e-4339-82c6-8567-417da08f9171 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P948 <http://commons.wikimedia.org/wiki/Special:FilePath/Antofagasta%20WV%20Banner.jpg> .
+
+wd:Q3612 p:P1036 s:Q3612-c04409e3-4ab8-5ea9-0bb9-f1c2c5db929f .
+
+s:Q3612-c04409e3-4ab8-5ea9-0bb9-f1c2c5db929f a wikibase:Statement ;
+	wikibase:rank wikibase:DeprecatedRank ;
+	ps:P1036 "2--83138" .
+
+wd:Q3612 p:P190 s:Q3612-cb9d5cce-45b4-a0fb-9c34-ebc9d66ec485 .
+
+s:Q3612-cb9d5cce-45b4-a0fb-9c34-ebc9d66ec485 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P190 wd:Q1663 .
+
+wd:Q3612 p:P190 s:Q3612-e60ea4c7-4f57-11a5-ceff-72b9c6fb73f2 .
+
+s:Q3612-e60ea4c7-4f57-11a5-ceff-72b9c6fb73f2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P190 wd:Q748474 .
+
+wd:Q3612 p:P190 s:Q3612-e2a0332b-4eee-14d6-cf3f-1027654546a8 .
+
+s:Q3612-e2a0332b-4eee-14d6-cf3f-1027654546a8 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P190 wd:Q360326 .
+
+wd:Q3612 p:P190 s:Q3612-63c238ac-4254-33c1-1bb0-02e591a7617e .
+
+s:Q3612-63c238ac-4254-33c1-1bb0-02e591a7617e a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P190 wd:Q200036 .
+
+wd:Q3612 p:P190 s:Q3612-0C1EEF85-BC2A-4FAE-A9D4-9CE37E843DE5 .
+
+s:Q3612-0C1EEF85-BC2A-4FAE-A9D4-9CE37E843DE5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P190 wd:Q210161 .
+
+wd:Q3612 p:P373 s:q3612-E73CB72A-33ED-410F-9CE6-E75834C0303A .
+
+s:q3612-E73CB72A-33ED-410F-9CE6-E75834C0303A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P373 "Antofagasta" .
+
+wd:Q3612 p:P17 s:q3612-F0A36B09-B70F-4656-83DC-B3D2ED953EDD .
+
+s:q3612-F0A36B09-B70F-4656-83DC-B3D2ED953EDD a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 wd:Q298 ;
+	prov:wasDerivedFrom ref:0b8cf0718e458c98eb60911afc839f476272ecb0 .
+
+wd:Q3612 p:P18 s:q3612-24C04C1B-9089-4A8F-AC16-5C9C8A888D2D .
+
+s:q3612-24C04C1B-9089-4A8F-AC16-5C9C8A888D2D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Montaje%20de%20Antofagasta.jpg> .
+
+wd:Q3612 p:P421 s:q3612-2F4B726E-618F-4FC9-BE17-C6A4735F92E1 .
+
+s:q3612-2F4B726E-618F-4FC9-BE17-C6A4735F92E1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P421 wd:Q5762 .
+
+wd:Q3612 p:P625 s:q3612-C1DD281D-8FD2-4565-8C69-C460611FB943 .
+
+s:q3612-C1DD281D-8FD2-4565-8C69-C460611FB943 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P625 "Point(-70.398055555556 -23.646388888889)"^^geo:wktLiteral ;
+	psv:P625 v:64200e70e50da8b1b679a8a59ff8cbcf .
+
+wd:Q3612 p:P131 s:Q3612-e3d1d2f8-443a-bd9d-d143-ff58ea30893f .
+
+s:Q3612-e3d1d2f8-443a-bd9d-d143-ff58ea30893f a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P131 wd:Q23660303 .
+
+wd:Q3612 p:P910 s:Q3612-CAC31017-FE50-4057-A151-ED56CCFCD68A .
+
+s:Q3612-CAC31017-FE50-4057-A151-ED56CCFCD68A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P910 wd:Q8256626 .
+
+wd:Q3612 p:P998 s:Q3612-F65CDE68-CDE9-40DF-929A-BE4F3A5B9C6D .
+
+s:Q3612-F65CDE68-CDE9-40DF-929A-BE4F3A5B9C6D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P998 "Regional/South_America/Chile/Regions/Antofagasta/Antofagasta/" .
+
+wd:Q3612 p:P31 s:Q3612-7A35B721-C3B7-43AF-B555-23998C64F71D .
+
+s:Q3612-7A35B721-C3B7-43AF-B555-23998C64F71D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P31 wd:Q25412763 .
+
+wd:Q3612 p:P31 s:Q3612-E484424A-BDF6-445A-8333-DEE91E72151E .
+
+s:Q3612-E484424A-BDF6-445A-8333-DEE91E72151E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P31 wd:Q1549591 .
+
+wd:Q3612 p:P646 s:Q3612-BC78E058-ED18-427E-B502-27CC6C93DB4D .
+
+s:Q3612-BC78E058-ED18-427E-B502-27CC6C93DB4D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P646 "/m/03n6h_" ;
+	prov:wasDerivedFrom ref:2b00cb481cddcac7623114367489b5c194901c4a .
+
+wd:Q3612 p:P94 s:Q3612-169427C4-A30C-4823-8D89-1A60D438E98E .
+
+s:Q3612-169427C4-A30C-4823-8D89-1A60D438E98E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P94 <http://commons.wikimedia.org/wiki/Special:FilePath/Escudo%20de%20Antofagasta.svg> ;
+	prov:wasDerivedFrom ref:288ab581e7d2d02995a26dfa8b091d96e78457fc .
+
+wd:Q3612 p:P1566 s:Q3612-1C26F405-AA2F-4738-BD69-85A078CF7BD3 .
+
+s:Q3612-1C26F405-AA2F-4738-BD69-85A078CF7BD3 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1566 "3899539" ;
+	psn:P1566 <https://sws.geonames.org/3899539/> ;
+	prov:wasDerivedFrom ref:88694a0f4d1486770c269f7db16a1982f74da69d .
+
+wd:Q3612 p:P1465 s:Q3612-28361465-4a0c-352f-a043-80080ad32f06 .
+
+s:Q3612-28361465-4a0c-352f-a043-80080ad32f06 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1465 wd:Q18575102 .
+
+wd:Q3612 p:P227 s:Q3612-579EB379-81BB-47CA-ABE2-1BACDDA9ED5A .
+
+s:Q3612-579EB379-81BB-47CA-ABE2-1BACDDA9ED5A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P227 "4472501-2" ;
+	psn:P227 <https://d-nb.info/gnd/4472501-2> ;
+	prov:wasDerivedFrom ref:0b8cf0718e458c98eb60911afc839f476272ecb0 .
+
+wd:Q3612 p:P982 s:Q3612-D8745FD1-CEA4-4DDC-B06E-EA5EBC1EC914 .
+
+s:Q3612-D8745FD1-CEA4-4DDC-B06E-EA5EBC1EC914 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P982 "61c41a27-64bf-4c0e-8a32-beaad1248129" ;
+	psn:P982 <http://musicbrainz.org/area/61c41a27-64bf-4c0e-8a32-beaad1248129> ;
+	prov:wasDerivedFrom ref:706208b3024200fd0a39ad499808dd0d98d74065 .
+
+wd:Q3612 p:P214 s:Q3612-1544AA39-8B13-4E9A-ACDF-1C876B11C54E .
+
+s:Q3612-1544AA39-8B13-4E9A-ACDF-1C876B11C54E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P214 "146569688" ;
+	psn:P214 <http://viaf.org/viaf/146569688> .
+
+wd:Q3612 p:P935 s:Q3612-BB1E2F5E-FC2D-4AC5-A4D3-3B74741B4951 .
+
+s:Q3612-BB1E2F5E-FC2D-4AC5-A4D3-3B74741B4951 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P935 "Antofagasta" .
+
+wd:Q3612 p:P1997 s:Q3612-74c949d4-4a17-4e99-69ec-82828b1b4f65 .
+
+s:Q3612-74c949d4-4a17-4e99-69ec-82828b1b4f65 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1997 "110061615681238" .
+
+wd:Q3612 p:P1792 s:Q3612-ab07a28f-4831-6864-8060-06bb638cfa04 .
+
+s:Q3612-ab07a28f-4831-6864-8060-06bb638cfa04 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1792 wd:Q18575100 .
+
+wd:Q3612 p:P856 s:Q3612-179baf59-48a3-92e9-118c-84cbce02ce9c .
+
+s:Q3612-179baf59-48a3-92e9-118c-84cbce02ce9c a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P856 <https://www.municipalidadantofagasta.cl/> ;
+	pq:P407 wd:Q1321 .
+
+wd:Q3612 p:P281 s:Q3612-cd17b029-4013-f73b-7156-f3e3a9358bcb .
+
+s:Q3612-cd17b029-4013-f73b-7156-f3e3a9358bcb a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P281 "1240000" .
+
+wd:Q3612 p:P1082 s:Q3612-5f8eeedc-46dc-6cbb-a127-87bb902c9a41 .
+
+s:Q3612-5f8eeedc-46dc-6cbb-a127-87bb902c9a41 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1082 "+348517"^^xsd:decimal ;
+	psv:P1082 v:c51a2fa31ba11bb2b1975045b4cd85ea ;
+	pq:P585 "2017-01-01T00:00:00Z"^^xsd:dateTime ;
+	pqv:P585 v:c46565f21d8de8ea8b597dfaa738109a ;
+	pq:P459 wd:Q39825 ;
+	prov:wasDerivedFrom ref:0567cbdc51a69a18d5455394b8c41050944aa3f9 .
+
+wd:Q3612 p:P473 s:Q3612-af2414a2-45ab-ed30-2a98-d7bc0495f191 .
+
+s:Q3612-af2414a2-45ab-ed30-2a98-d7bc0495f191 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P473 "55" ;
+	prov:wasDerivedFrom ref:2ccfee54df9fa0623fd3f67de009a2418a4970f9,
+		ref:792f733ef05d43f1764a1d1578df772d8bf3a4e4 .
+
+wd:Q3612 p:P2046 s:Q3612-8e4a8407-4a98-65de-0610-2adc2192b4cc .
+
+s:Q3612-8e4a8407-4a98-65de-0610-2adc2192b4cc a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P2046 "+56.12"^^xsd:decimal ;
+	psv:P2046 v:bafe241ab674eb0d7d6a5e6ad0753f82 ;
+	psn:P2046 v:cf02f07017c013ed001a68e992c28456 ;
+	prov:wasDerivedFrom ref:0567cbdc51a69a18d5455394b8c41050944aa3f9 .
+
+wd:Q3612 p:P571 s:Q3612-a7f07408-4d34-5c1e-f47c-298a24abe040 .
+
+s:Q3612-a7f07408-4d34-5c1e-f47c-298a24abe040 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P571 "1868-10-22T00:00:00Z"^^xsd:dateTime ;
+	psv:P571 v:6a78003f12e83b0be551013c5d79c594 .
+
+wd:Q3612 p:P1296 s:Q3612-74F16BD3-C753-475C-8685-2CD243E17EC5 .
+
+s:Q3612-74F16BD3-C753-475C-8685-2CD243E17EC5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1296 "0004377" .
+
+wd:Q3612 p:P2044 s:Q3612-7A1C5905-DB72-4EA5-8024-05FC478F80B0 .
+
+s:Q3612-7A1C5905-DB72-4EA5-8024-05FC478F80B0 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P2044 "+40"^^xsd:decimal ;
+	psv:P2044 v:b14885a6f48aabe0a73e4366d496fc82 ;
+	psn:P2044 v:b14885a6f48aabe0a73e4366d496fc82 .
+
+wd:Q3612 p:P3417 s:Q3612-89405C09-82CE-4BFB-9A13-04E5E3344DE5 .
+
+s:Q3612-89405C09-82CE-4BFB-9A13-04E5E3344DE5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3417 "Antofagasta-Chile" .
+
+wd:Q3612 p:P1705 s:Q3612-7fff60be-4fab-afb1-261a-95cc2213b49a .
+
+s:Q3612-7fff60be-4fab-afb1-261a-95cc2213b49a a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1705 "Antofagasta"@es ;
+	pq:P443 <http://commons.wikimedia.org/wiki/Special:FilePath/Es-Antofagasta.ogg> .
+
+wd:Q3612 p:P1225 s:Q3612-18C0764D-1439-44D3-8BA7-6CC8FA8B8745 .
+
+s:Q3612-18C0764D-1439-44D3-8BA7-6CC8FA8B8745 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1225 "10037859" .
+
+wd:Q3612 p:P3219 s:Q3612-EC5110D5-C76E-41F2-BCD4-52C8656C77BB .
+
+s:Q3612-EC5110D5-C76E-41F2-BCD4-52C8656C77BB a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3219 "antofagasta" .
+
+wd:Q3612 p:P2924 s:Q3612-75B34E0E-CF37-4B5E-B3A8-6AE01399BB74 .
+
+s:Q3612-75B34E0E-CF37-4B5E-B3A8-6AE01399BB74 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P2924 "702010" ;
+	pq:P1810 "АНТОФАГАСТА" .
+
+wd:Q3612 p:P1448 s:Q3612-11008489-4f2a-6e6f-4fdb-634bfb730642 .
+
+s:Q3612-11008489-4f2a-6e6f-4fdb-634bfb730642 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1448 "Antofagasta"@es ;
+	prov:wasDerivedFrom ref:4f20246d5244d19cc899b462b088ff9ced00a5a9 .
+
+wd:Q3612 p:P5573 s:Q3612-5956CC7D-D10D-42A7-8733-EA66B3E19467 .
+
+s:Q3612-5956CC7D-D10D-42A7-8733-EA66B3E19467 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P5573 "9538" ;
+	prov:wasDerivedFrom ref:21494d78c86d729112257391ca4131a84f73b44b .
+
+wd:Q3612 p:P949 s:Q3612-11C81B19-5BBE-48C0-98AC-D8FD60012AAF .
+
+s:Q3612-11C81B19-5BBE-48C0-98AC-D8FD60012AAF a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P949 "000976284" ;
+	prov:wasDerivedFrom ref:6c17ef86bf8fab1a8176420fda6d033cc4760b9e .
+
+wd:Q3612 p:P1376 s:Q3612-3ED64BE5-893A-457E-9B58-ED547AE8521F .
+
+s:Q3612-3ED64BE5-893A-457E-9B58-ED547AE8521F a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1376 wd:Q2118 .
+
+wd:Q3612 p:P1376 s:Q3612-F9B0CBD9-38A4-4659-A035-824F2965C0E8 .
+
+s:Q3612-F9B0CBD9-38A4-4659-A035-824F2965C0E8 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1376 wd:Q94552 .
+
+wd:Q3612 p:P1376 s:Q3612-a68c4277-4768-30b0-0b6c-a2c339b56824 .
+
+s:Q3612-a68c4277-4768-30b0-0b6c-a2c339b56824 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1376 wd:Q23660303 .
+
+wd:Q3612 p:P244 s:Q3612-E1B7B9FE-94B9-4DB1-9C5A-4404BC1D988B .
+
+s:Q3612-E1B7B9FE-94B9-4DB1-9C5A-4404BC1D988B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P244 "n79086811" ;
+	psn:P244 <http://id.loc.gov/authorities/names/n79086811> ;
+	prov:wasDerivedFrom ref:14fa5898ac764e0660517aa07ea0bbba505f262b .
+
+wd:Q3612 p:P6766 s:Q3612-687B6B30-A4F5-4FEC-A373-1B436F6336B1 .
+
+s:Q3612-687B6B30-A4F5-4FEC-A373-1B436F6336B1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P6766 "102017963" .
+
+wd:Q3612 p:P1343 s:Q3612-a7ebec15-45fe-afe6-a369-63287fb810aa .
+
+s:Q3612-a7ebec15-45fe-afe6-a369-63287fb810aa a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1343 wd:Q3181656 ;
+	pq:P1810 "Antofagas′ta" .
+
+wd:Q3612 p:P1343 s:Q3612-EC7F0B5A-65C3-408E-9B29-C77EBAC06CCA .
+
+s:Q3612-EC7F0B5A-65C3-408E-9B29-C77EBAC06CCA a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1343 wd:Q867541 ;
+	pq:P805 wd:Q84655909 .
+
+wd:Q3612 p:P1245 s:Q3612-C38F78B1-8F70-4663-8313-9BF9F920ACAB .
+
+s:Q3612-C38F78B1-8F70-4663-8313-9BF9F920ACAB a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1245 "1655827" .
+
+wd:Q3612 p:P206 s:Q3612-EDD61243-6C83-4DEF-A13E-69306C98CBAC .
+
+s:Q3612-EDD61243-6C83-4DEF-A13E-69306C98CBAC a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P206 wd:Q98 .
+
+wd:Q3612 p:P691 s:Q3612-06C4ECC2-8793-4D9B-BE2D-6D285D94706E .
+
+s:Q3612-06C4ECC2-8793-4D9B-BE2D-6D285D94706E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P691 "ge502099" ;
+	pq:P1810 "Antofagasta (Chile)" .
+
+wd:Q3612 p:P6929 s:Q3612-6CFE4648-9FA6-4027-9146-A3F9CCBC8377 .
+
+s:Q3612-6CFE4648-9FA6-4027-9146-A3F9CCBC8377 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P6929 "02101" .
+
+wd:Q3612 p:P5063 s:Q3612-1847A85C-65C3-497E-9010-6ABF64E512B5 .
+
+s:Q3612-1847A85C-65C3-497E-9010-6ABF64E512B5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P5063 "i82727" ;
+	psn:P5063 <http://globalwordnet.org/ili/i82727> .
+
+wd:Q3612 p:P8814 s:Q3612-53B73839-192E-4A08-BFC4-AD6747F636CC .
+
+s:Q3612-53B73839-192E-4A08-BFC4-AD6747F636CC a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P8814 "08738978-n" ;
+	psn:P8814 <http://wordnet-rdf.princeton.edu/rdf/id/08738978-n> .
+
+wd:Q3612 p:P9241 s:Q3612-C405ABA5-CB7E-478F-8ADF-38E979D8AE6C .
+
+s:Q3612-C405ABA5-CB7E-478F-8ADF-38E979D8AE6C a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P9241 wd:Q2839096 .
+
+wd:Q3612 p:P9545 s:Q3612-C19A80F5-3FF2-41D1-9E53-6F020B61D945 .
+
+s:Q3612-C19A80F5-3FF2-41D1-9E53-6F020B61D945 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P9545 "191275" .
+
+wd:Q3612 p:P1889 s:Q3612-EF1FC2DD-B278-4E78-ADCD-5DD579A68500 .
+
+s:Q3612-EF1FC2DD-B278-4E78-ADCD-5DD579A68500 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1889 wd:Q109759762 .
+
+wd:Q3612 p:P1889 s:Q3612-e5b6de22-4761-a662-68b5-6ca49c57a113 .
+
+s:Q3612-e5b6de22-4761-a662-68b5-6ca49c57a113 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1889 wd:Q2076979 .
+
+wd:Q3612 p:P7305 s:Q3612-D727D188-72CA-4A85-9EEC-67847835E0A8 .
+
+s:Q3612-D727D188-72CA-4A85-9EEC-67847835E0A8 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P7305 "3869900" .
+
+wd:Q3612 p:P8189 s:Q3612-A292394B-4556-4C6F-98B8-F81677EF69F8 .
+
+s:Q3612-A292394B-4556-4C6F-98B8-F81677EF69F8 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P8189 "987007547801905171" .
+
+wd:Q3612 p:P4342 s:Q3612-53E009E0-D5A7-418F-8FF2-3127D7E18054 .
+
+s:Q3612-53E009E0-D5A7-418F-8FF2-3127D7E18054 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P4342 "Antofagasta" .
+
+wd:Q3612 p:P8313 s:Q3612-C9B09BDE-9BD7-416D-97CE-B8D55D6B6DF4 .
+
+s:Q3612-C9B09BDE-9BD7-416D-97CE-B8D55D6B6DF4 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P8313 "Antofagasta" .
+
+wd:Q3612 p:P8592 s:Q3612-29555388-A428-4E6A-A2FF-2753BCA847E3 .
+
+s:Q3612-29555388-A428-4E6A-A2FF-2753BCA847E3 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P8592 <http://commons.wikimedia.org/wiki/Special:FilePath/Antofagasta%2C%20Chile%20ESA23283624%20%28cropped%29.jpeg> .
+
+wd:Q3612 p:P7197 s:Q3612-5E4F4EA1-EEBE-4CFE-B884-35831FD5F5C6 .
+
+s:Q3612-5E4F4EA1-EEBE-4CFE-B884-35831FD5F5C6 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P7197 "3899539" .
+
+wd:Q3612 p:P8168 s:Q3612-98421F13-8976-42FC-ADCE-72837D483CF7 .
+
+s:Q3612-98421F13-8976-42FC-ADCE-72837D483CF7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P8168 "Q540105" ;
+	psn:P8168 <https://database.factgrid.de/entity/Q540105> .
+
+wd:Q3612 p:P12385 s:Q3612-937be1d8-93fb-41fa-9692-147701bcb938 .
+
+s:Q3612-937be1d8-93fb-41fa-9692-147701bcb938 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P12385 "antofagasta-0" .
+
+wd:Q3612 p:P1937 s:Q3612-f9b129a0-32ea-4d70-a0f8-1a9d2395288d .
+
+s:Q3612-f9b129a0-32ea-4d70-a0f8-1a9d2395288d a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1937 "CLANF" ;
+	prov:wasDerivedFrom ref:bf8c3ef13619afcac6ce3a61b531d8660484af9f .
+
+wd:Q3612 p:P10832 s:Q3612-479894E8-4914-401A-B732-FCD3D43A778E .
+
+s:Q3612-479894E8-4914-401A-B732-FCD3D43A778E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P10832 "E39PBJp68grfrr9hBtrWdDtBT3" ;
+	prov:wasDerivedFrom ref:6e8ca749e790739f625ea7f688ab2f3bd76a4245 .
+
+wd:Q3612 p:P12749 s:Q3612-956E0EF9-0C83-4B9D-BA0B-826438B64615 .
+
+s:Q3612-956E0EF9-0C83-4B9D-BA0B-826438B64615 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P12749 "Q45336" .
+
+wd:Q3612 p:P12800 s:Q3612-14F5A6AA-FEE8-440E-B7F5-7CFF9E65B3AD .
+
+s:Q3612-14F5A6AA-FEE8-440E-B7F5-7CFF9E65B3AD a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P12800 "fr:Antofagasta" .
+
+wd:Q3612 p:P8519 s:Q3612-B5C4B9FA-344C-44ED-A5E9-2A200FAF219F .
+
+s:Q3612-B5C4B9FA-344C-44ED-A5E9-2A200FAF219F a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P8519 "33628" ;
+	psn:P8519 <https://data.rkd.nl/thesau/33628> .
+
+wd:Q3612 rdfs:label "Antofagasta"@es ;
+	skos:prefLabel "Antofagasta"@es ;
+	schema:name "Antofagasta"@es ;
+	rdfs:label "Antofagasta"@fr ;
+	skos:prefLabel "Antofagasta"@fr ;
+	schema:name "Antofagasta"@fr ;
+	rdfs:label "Antofagasta"@en ;
+	skos:prefLabel "Antofagasta"@en ;
+	schema:name "Antofagasta"@en ;
+	rdfs:label "Antofagasta"@af ;
+	skos:prefLabel "Antofagasta"@af ;
+	schema:name "Antofagasta"@af ;
+	rdfs:label "Antofagasta"@ang ;
+	skos:prefLabel "Antofagasta"@ang ;
+	schema:name "Antofagasta"@ang ;
+	rdfs:label "Antofagasta"@ast ;
+	skos:prefLabel "Antofagasta"@ast ;
+	schema:name "Antofagasta"@ast ;
+	rdfs:label "Antofagasta"@ay ;
+	skos:prefLabel "Antofagasta"@ay ;
+	schema:name "Antofagasta"@ay ;
+	rdfs:label "Antofagasta"@az ;
+	skos:prefLabel "Antofagasta"@az ;
+	schema:name "Antofagasta"@az ;
+	rdfs:label "Антофагаста"@bg ;
+	skos:prefLabel "Антофагаста"@bg ;
+	schema:name "Антофагаста"@bg ;
+	rdfs:label "Antofagasta"@br ;
+	skos:prefLabel "Antofagasta"@br ;
+	schema:name "Antofagasta"@br ;
+	rdfs:label "Antofagasta"@bs ;
+	skos:prefLabel "Antofagasta"@bs ;
+	schema:name "Antofagasta"@bs ;
+	rdfs:label "Antofagasta"@ca ;
+	skos:prefLabel "Antofagasta"@ca ;
+	schema:name "Antofagasta"@ca ;
+	rdfs:label "Antofagasta"@cbk-zam ;
+	skos:prefLabel "Antofagasta"@cbk-zam ;
+	schema:name "Antofagasta"@cbk-zam ;
+	rdfs:label "Antofagasta"@chy ;
+	skos:prefLabel "Antofagasta"@chy ;
+	schema:name "Antofagasta"@chy ;
+	rdfs:label "Antofagasta"@cs ;
+	skos:prefLabel "Antofagasta"@cs ;
+	schema:name "Antofagasta"@cs ;
+	rdfs:label "Antofagasta"@da ;
+	skos:prefLabel "Antofagasta"@da ;
+	schema:name "Antofagasta"@da ;
+	rdfs:label "Antofagasta"@de ;
+	skos:prefLabel "Antofagasta"@de ;
+	schema:name "Antofagasta"@de ;
+	rdfs:label "Antofagasta"@de-ch ;
+	skos:prefLabel "Antofagasta"@de-ch ;
+	schema:name "Antofagasta"@de-ch ;
+	rdfs:label "Αντοφαγάστα"@el ;
+	skos:prefLabel "Αντοφαγάστα"@el ;
+	schema:name "Αντοφαγάστα"@el ;
+	rdfs:label "Antofagasta"@en-ca ;
+	skos:prefLabel "Antofagasta"@en-ca ;
+	schema:name "Antofagasta"@en-ca ;
+	rdfs:label "Antofagasta"@en-gb ;
+	skos:prefLabel "Antofagasta"@en-gb ;
+	schema:name "Antofagasta"@en-gb ;
+	rdfs:label "Antofagasta"@eo ;
+	skos:prefLabel "Antofagasta"@eo ;
+	schema:name "Antofagasta"@eo ;
+	rdfs:label "Antofagasta"@et ;
+	skos:prefLabel "Antofagasta"@et ;
+	schema:name "Antofagasta"@et ;
+	rdfs:label "Antofagasta"@eu ;
+	skos:prefLabel "Antofagasta"@eu ;
+	schema:name "Antofagasta"@eu ;
+	rdfs:label "آنتوفاگاستا"@fa ;
+	skos:prefLabel "آنتوفاگاستا"@fa ;
+	schema:name "آنتوفاگاستا"@fa ;
+	rdfs:label "Antofagasta"@fi ;
+	skos:prefLabel "Antofagasta"@fi ;
+	schema:name "Antofagasta"@fi ;
+	rdfs:label "Antofagasta"@frp ;
+	skos:prefLabel "Antofagasta"@frp ;
+	schema:name "Antofagasta"@frp ;
+	rdfs:label "Antofagasta"@fur ;
+	skos:prefLabel "Antofagasta"@fur ;
+	schema:name "Antofagasta"@fur ;
+	rdfs:label "Antofagasta"@ga ;
+	skos:prefLabel "Antofagasta"@ga ;
+	schema:name "Antofagasta"@ga ;
+	rdfs:label "Antofagasta"@gl ;
+	skos:prefLabel "Antofagasta"@gl ;
+	schema:name "Antofagasta"@gl ;
+	rdfs:label "Antofagasta"@gn ;
+	skos:prefLabel "Antofagasta"@gn ;
+	schema:name "Antofagasta"@gn ;
+	rdfs:label "Antofagasta"@hr ;
+	skos:prefLabel "Antofagasta"@hr ;
+	schema:name "Antofagasta"@hr ;
+	rdfs:label "Antofagasta"@ht ;
+	skos:prefLabel "Antofagasta"@ht ;
+	schema:name "Antofagasta"@ht ;
+	rdfs:label "Antofagasta"@id ;
+	skos:prefLabel "Antofagasta"@id ;
+	schema:name "Antofagasta"@id ;
+	rdfs:label "Antofagasta"@io ;
+	skos:prefLabel "Antofagasta"@io ;
+	schema:name "Antofagasta"@io ;
+	rdfs:label "Antofagasta"@is ;
+	skos:prefLabel "Antofagasta"@is ;
+	schema:name "Antofagasta"@is ;
+	rdfs:label "Antofagasta"@it ;
+	skos:prefLabel "Antofagasta"@it ;
+	schema:name "Antofagasta"@it ;
+	rdfs:label "アントファガスタ"@ja ;
+	skos:prefLabel "アントファガスタ"@ja ;
+	schema:name "アントファガスタ"@ja ;
+	rdfs:label "ანტოფაგასტა"@ka ;
+	skos:prefLabel "ანტოფაგასტა"@ka ;
+	schema:name "ანტოფაგასტა"@ka ;
+	rdfs:label "Antofagasta"@kl ;
+	skos:prefLabel "Antofagasta"@kl ;
+	schema:name "Antofagasta"@kl ;
+	rdfs:label "안토파가스타"@ko ;
+	skos:prefLabel "안토파가스타"@ko ;
+	schema:name "안토파가스타"@ko ;
+	rdfs:label "Antofagasta"@la ;
+	skos:prefLabel "Antofagasta"@la ;
+	schema:name "Antofagasta"@la ;
+	rdfs:label "Antofagasta"@lad ;
+	skos:prefLabel "Antofagasta"@lad ;
+	schema:name "Antofagasta"@lad ;
+	rdfs:label "Antofagasta"@li ;
+	skos:prefLabel "Antofagasta"@li ;
+	schema:name "Antofagasta"@li ;
+	rdfs:label "Antofagasta"@lt ;
+	skos:prefLabel "Antofagasta"@lt ;
+	schema:name "Antofagasta"@lt ;
+	rdfs:label "Antofagasta"@lv ;
+	skos:prefLabel "Antofagasta"@lv ;
+	schema:name "Antofagasta"@lv ;
+	rdfs:label "अंतोफागास्ता"@mr ;
+	skos:prefLabel "अंतोफागास्ता"@mr ;
+	schema:name "अंतोफागास्ता"@mr ;
+	rdfs:label "Antofagasta"@nl ;
+	skos:prefLabel "Antofagasta"@nl ;
+	schema:name "Antofagasta"@nl ;
+	rdfs:label "Antofagasta"@nrm ;
+	skos:prefLabel "Antofagasta"@nrm ;
+	schema:name "Antofagasta"@nrm ;
+	rdfs:label "Antofagasta"@oc ;
+	skos:prefLabel "Antofagasta"@oc ;
+	schema:name "Antofagasta"@oc ;
+	rdfs:label "Antofagasta"@pl ;
+	skos:prefLabel "Antofagasta"@pl ;
+	schema:name "Antofagasta"@pl ;
+	rdfs:label "انتوفاکوستا"@pnb ;
+	skos:prefLabel "انتوفاکوستا"@pnb ;
+	schema:name "انتوفاکوستا"@pnb ;
+	rdfs:label "Antofagasta"@pt ;
+	skos:prefLabel "Antofagasta"@pt ;
+	schema:name "Antofagasta"@pt ;
+	rdfs:label "Antofagasta"@pt-br ;
+	skos:prefLabel "Antofagasta"@pt-br ;
+	schema:name "Antofagasta"@pt-br ;
+	rdfs:label "Antofagasta"@qu ;
+	skos:prefLabel "Antofagasta"@qu ;
+	schema:name "Antofagasta"@qu ;
+	rdfs:label "Antofagasta"@rmy ;
+	skos:prefLabel "Antofagasta"@rmy ;
+	schema:name "Antofagasta"@rmy ;
+	rdfs:label "Antofagasta"@ro ;
+	skos:prefLabel "Antofagasta"@ro ;
+	schema:name "Antofagasta"@ro ;
+	rdfs:label "Антофагаста"@ru ;
+	skos:prefLabel "Антофагаста"@ru ;
+	schema:name "Антофагаста"@ru ;
+	rdfs:label "Antofagasta"@sh ;
+	skos:prefLabel "Antofagasta"@sh ;
+	schema:name "Antofagasta"@sh ;
+	rdfs:label "Антофагаста"@sr ;
+	skos:prefLabel "Антофагаста"@sr ;
+	schema:name "Антофагаста"@sr ;
+	rdfs:label "Antofagasta"@sv ;
+	skos:prefLabel "Antofagasta"@sv ;
+	schema:name "Antofagasta"@sv ;
+	rdfs:label "Antofagasta"@sw ;
+	skos:prefLabel "Antofagasta"@sw ;
+	schema:name "Antofagasta"@sw ;
+	rdfs:label "Antofagasta"@tl ;
+	skos:prefLabel "Antofagasta"@tl ;
+	schema:name "Antofagasta"@tl ;
+	rdfs:label "Antofagasta"@tr ;
+	skos:prefLabel "Antofagasta"@tr ;
+	schema:name "Antofagasta"@tr ;
+	rdfs:label "Антофаґаста"@uk ;
+	skos:prefLabel "Антофаґаста"@uk ;
+	schema:name "Антофаґаста"@uk ;
+	rdfs:label "Antofagasta"@uz ;
+	skos:prefLabel "Antofagasta"@uz ;
+	schema:name "Antofagasta"@uz ;
+	rdfs:label "Antofagast"@vep ;
+	skos:prefLabel "Antofagast"@vep ;
+	schema:name "Antofagast"@vep ;
+	rdfs:label "Antofagasta"@vi ;
+	skos:prefLabel "Antofagasta"@vi ;
+	schema:name "Antofagasta"@vi ;
+	rdfs:label "Antofagasta"@vo ;
+	skos:prefLabel "Antofagasta"@vo ;
+	schema:name "Antofagasta"@vo ;
+	rdfs:label "Antofagasta"@war ;
+	skos:prefLabel "Antofagasta"@war ;
+	schema:name "Antofagasta"@war ;
+	rdfs:label "אנטאפאגאסטא"@yi ;
+	skos:prefLabel "אנטאפאגאסטא"@yi ;
+	schema:name "אנטאפאגאסטא"@yi ;
+	rdfs:label "安托法加斯塔"@zh ;
+	skos:prefLabel "安托法加斯塔"@zh ;
+	schema:name "安托法加斯塔"@zh ;
+	rdfs:label "Antofagasta"@sco ;
+	skos:prefLabel "Antofagasta"@sco ;
+	schema:name "Antofagasta"@sco ;
+	rdfs:label "Antofagasta"@nah ;
+	skos:prefLabel "Antofagasta"@nah ;
+	schema:name "Antofagasta"@nah ;
+	rdfs:label "อันโตฟากัสตา"@th ;
+	skos:prefLabel "อันโตฟากัสตา"@th ;
+	schema:name "อันโตฟากัสตา"@th ;
+	rdfs:label "Antofagasta"@nb ;
+	skos:prefLabel "Antofagasta"@nb ;
+	schema:name "Antofagasta"@nb ;
+	rdfs:label "Антофагаста"@tt ;
+	skos:prefLabel "Антофагаста"@tt ;
+	schema:name "Антофагаста"@tt ;
+	rdfs:label "أنتوفاغاستا"@ar ;
+	skos:prefLabel "أنتوفاغاستا"@ar ;
+	schema:name "أنتوفاغاستا"@ar ;
+	rdfs:label "Antofagasta"@diq ;
+	skos:prefLabel "Antofagasta"@diq ;
+	schema:name "Antofagasta"@diq ;
+	rdfs:label "אנטופגסטה"@he ;
+	skos:prefLabel "אנטופגסטה"@he ;
+	schema:name "אנטופגסטה"@he ;
+	rdfs:label "Антофагаста"@mn ;
+	skos:prefLabel "Антофагаста"@mn ;
+	schema:name "Антофагаста"@mn ;
+	rdfs:label "Антофагаста"@kk ;
+	skos:prefLabel "Антофагаста"@kk ;
+	schema:name "Антофагаста"@kk ;
+	rdfs:label "Antuofagasta"@sgs ;
+	skos:prefLabel "Antuofagasta"@sgs ;
+	schema:name "Antuofagasta"@sgs ;
+	rdfs:label "Антафагаста"@be-tarask ;
+	skos:prefLabel "Антафагаста"@be-tarask ;
+	schema:name "Антафагаста"@be-tarask ;
+	rdfs:label "Antofagasta"@pap ;
+	skos:prefLabel "Antofagasta"@pap ;
+	schema:name "Antofagasta"@pap ;
+	rdfs:label "Antofagasta"@pms ;
+	skos:prefLabel "Antofagasta"@pms ;
+	schema:name "Antofagasta"@pms ;
+	rdfs:label "Antofagasta"@bar ;
+	skos:prefLabel "Antofagasta"@bar ;
+	schema:name "Antofagasta"@bar ;
+	rdfs:label "Antofagasta"@co ;
+	skos:prefLabel "Antofagasta"@co ;
+	schema:name "Antofagasta"@co ;
+	rdfs:label "Antofagasta"@sk ;
+	skos:prefLabel "Antofagasta"@sk ;
+	schema:name "Antofagasta"@sk ;
+	rdfs:label "Antofagasta"@za ;
+	skos:prefLabel "Antofagasta"@za ;
+	schema:name "Antofagasta"@za ;
+	rdfs:label "ܐܢܛܘܦܐܓܐܣܛܐ"@arc ;
+	skos:prefLabel "ܐܢܛܘܦܐܓܐܣܛܐ"@arc ;
+	schema:name "ܐܢܛܘܦܐܓܐܣܛܐ"@arc ;
+	rdfs:label "انتوفاجاستا"@arz ;
+	skos:prefLabel "انتوفاجاستا"@arz ;
+	schema:name "انتوفاجاستا"@arz ;
+	rdfs:label "ཨན་ཏོ་ཕ་ག་སི་ཏ"@bo ;
+	skos:prefLabel "ཨན་ཏོ་ཕ་ག་སི་ཏ"@bo ;
+	schema:name "ཨན་ཏོ་ཕ་ག་སི་ཏ"@bo ;
+	rdfs:label "ኣንቶፋጋስታ"@am ;
+	skos:prefLabel "ኣንቶፋጋስታ"@am ;
+	schema:name "ኣንቶፋጋስታ"@am ;
+	rdfs:label "انتوفاگاستا"@ur ;
+	skos:prefLabel "انتوفاگاستا"@ur ;
+	schema:name "انتوفاگاستا"@ur ;
+	rdfs:label "एंटोफ़गास्टा"@hi ;
+	skos:prefLabel "एंटोफ़गास्टा"@hi ;
+	schema:name "एंटोफ़गास्टा"@hi ;
+	rdfs:label "অন্তফাগস্টা"@bpy ;
+	skos:prefLabel "অন্তফাগস্টা"@bpy ;
+	schema:name "অন্তফাগস্টা"@bpy ;
+	rdfs:label "安托法加斯塔"@yue ;
+	skos:prefLabel "安托法加斯塔"@yue ;
+	schema:name "安托法加斯塔"@yue ;
+	rdfs:label "Antofagasta"@nan ;
+	skos:prefLabel "Antofagasta"@nan ;
+	schema:name "Antofagasta"@nan ;
+	rdfs:label "Antofagasta"@ceb ;
+	skos:prefLabel "Antofagasta"@ceb ;
+	schema:name "Antofagasta"@ceb ;
+	rdfs:label "Antofagasta"@sc ;
+	skos:prefLabel "Antofagasta"@sc ;
+	schema:name "Antofagasta"@sc ;
+	rdfs:label "Antofagasta"@cy ;
+	skos:prefLabel "Antofagasta"@cy ;
+	schema:name "Antofagasta"@cy ;
+	rdfs:label "Antofagasta"@hu ;
+	skos:prefLabel "Antofagasta"@hu ;
+	schema:name "Antofagasta"@hu ;
+	rdfs:label "Antofagasta"@ms ;
+	skos:prefLabel "Antofagasta"@ms ;
+	schema:name "Antofagasta"@ms ;
+	rdfs:label "ஆண்டோபாகஸ்டா"@ta ;
+	skos:prefLabel "ஆண்டோபாகஸ்டா"@ta ;
+	schema:name "ஆண்டோபாகஸ்டா"@ta ;
+	rdfs:label "అంటోఫాగస్టా"@te ;
+	skos:prefLabel "అంటోఫాగస్టా"@te ;
+	schema:name "అంటోఫాగస్టా"@te ;
+	rdfs:label "আন্তোফাগাস্তা"@bn ;
+	skos:prefLabel "আন্তোফাগাস্তা"@bn ;
+	schema:name "আন্তোফাগাস্তা"@bn ;
+	rdfs:label "අන්ටෝෆාගාස්ටා"@si ;
+	skos:prefLabel "අන්ටෝෆාගාස්ටා"@si ;
+	schema:name "අන්ටෝෆාගාස්ටා"@si ;
+	rdfs:label "એન્ટોફગાસ્ટા"@gu ;
+	skos:prefLabel "એન્ટોફગાસ્ટા"@gu ;
+	schema:name "એન્ટોફગાસ્ટા"@gu ;
+	rdfs:label "ಆಂಟೊಫಾಗಸ್ಟಾ"@kn ;
+	skos:prefLabel "ಆಂಟೊಫಾಗಸ್ಟಾ"@kn ;
+	schema:name "ಆಂಟೊಫಾಗಸ್ಟಾ"@kn ;
+	rdfs:label "Antofagasta"@lb ;
+	skos:prefLabel "Antofagasta"@lb ;
+	schema:name "Antofagasta"@lb ;
+	rdfs:label "Antofagasta"@ilo ;
+	skos:prefLabel "Antofagasta"@ilo ;
+	schema:name "Antofagasta"@ilo ;
+	rdfs:label "Antofagasta"@ia ;
+	skos:prefLabel "Antofagasta"@ia ;
+	schema:name "Antofagasta"@ia ;
+	rdfs:label "Antofagasta"@sl ;
+	skos:prefLabel "Antofagasta"@sl ;
+	schema:name "Antofagasta"@sl ;
+	rdfs:label "Антафагаста"@be ;
+	skos:prefLabel "Антафагаста"@be ;
+	schema:name "Антафагаста"@be ;
+	rdfs:label "Անտոֆագաստա"@hy ;
+	skos:prefLabel "Անտոֆագաստա"@hy ;
+	schema:name "Անտոֆագաստա"@hy ;
+	rdfs:label "安托法加斯塔"@zh-hant ;
+	skos:prefLabel "安托法加斯塔"@zh-hant ;
+	schema:name "安托法加斯塔"@zh-hant ;
+	rdfs:label "Antofagasta"@din ;
+	skos:prefLabel "Antofagasta"@din ;
+	schema:name "Antofagasta"@din ;
+	rdfs:label "安托法加斯塔"@wuu ;
+	skos:prefLabel "安托法加斯塔"@wuu ;
+	schema:name "安托法加斯塔"@wuu ;
+	rdfs:label "Antofagasta"@vec ;
+	skos:prefLabel "Antofagasta"@vec ;
+	schema:name "Antofagasta"@vec ;
+	rdfs:label "Antofagasta"@nn ;
+	skos:prefLabel "Antofagasta"@nn ;
+	schema:name "Antofagasta"@nn ;
+	rdfs:label "Антофагаста"@mk ;
+	skos:prefLabel "Антофагаста"@mk ;
+	schema:name "Антофагаста"@mk ;
+	rdfs:label "ئانتۆفاگاستا"@ckb ;
+	skos:prefLabel "ئانتۆفاگاستا"@ckb ;
+	schema:name "ئانتۆفاگاستا"@ckb ;
+	rdfs:label "Антофагастæ"@os ;
+	skos:prefLabel "Антофагастæ"@os ;
+	schema:name "Антофагастæ"@os ;
+	rdfs:label "ანტოფაგასტა"@xmf ;
+	skos:prefLabel "ანტოფაგასტა"@xmf ;
+	schema:name "ანტოფაგასტა"@xmf ;
+	rdfs:label "Antofagasta"@mt ;
+	skos:prefLabel "Antofagasta"@mt ;
+	schema:name "Antofagasta"@mt ;
+	rdfs:label "Antofagasta"@frr ;
+	skos:prefLabel "Antofagasta"@frr ;
+	schema:name "Antofagasta"@frr ;
+	schema:description "ciudad de Chile"@es,
+		"ville du Chili"@fr,
+		"comune cileno"@it,
+		"Stadt in der Región de Antofagasta, Chile"@de,
+		"city in Antofagasta Region, Chile"@en,
+		"stad"@nl,
+		"город в Чили, административный центр одноимённой области и провинции"@ru,
+		"város Észak-Chilében"@hu,
+		"Stad am Chile"@lb,
+		"ciutat de Xile"@ca,
+		"siudad ti Chile"@ilo,
+		"kapital sa rehiyon"@ceb,
+		"քաղաք Չիլիի հյուսիսում"@hy,
+		"by i Chile"@nb,
+		"vil peyi Chili"@ht,
+		"capital da região de Antofagasta, Chile"@pt,
+		"チリの都市"@ja,
+		"hlavní město chilského regionu Antofagasta"@cs,
+		"grad u Čileu"@hr,
+		"칠레의 도시"@ko,
+		"belt fiċ-Ċilì"@mt,
+		"град в Чили"@bg,
+		"stääd uun Chiile"@frr ;
+	skos:altLabel "एंटोफागास्टा"@hi,
+		"Antofagasta, Chile"@de .
+
+wd:Q8043695 a wikibase:Item ;
+	schema:description "Wikimedia category"@en .
+
+wd:P1464 a wikibase:Property ;
+	rdfs:label "category for people born here"@en ;
+	skos:prefLabel "category for people born here"@en ;
+	schema:name "category for people born here"@en ;
+	schema:description "category item that groups people born in this place"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P1464 ;
+	wikibase:claim p:P1464 ;
+	wikibase:statementProperty ps:P1464 ;
+	wikibase:statementValue psv:P1464 ;
+	wikibase:qualifier pq:P1464 ;
+	wikibase:qualifierValue pqv:P1464 ;
+	wikibase:reference pr:P1464 ;
+	wikibase:referenceValue prv:P1464 ;
+	wikibase:novalue wdno:P1464 .
+
+p:P1464 a owl:ObjectProperty .
+
+psv:P1464 a owl:ObjectProperty .
+
+pqv:P1464 a owl:ObjectProperty .
+
+prv:P1464 a owl:ObjectProperty .
+
+wdt:P1464 a owl:ObjectProperty .
+
+ps:P1464 a owl:ObjectProperty .
+
+pq:P1464 a owl:ObjectProperty .
+
+pr:P1464 a owl:ObjectProperty .
+
+wdno:P1464 a owl:Class ;
+	owl:complementOf _:00f39641df805b72b799b697a8433f2a .
+
+_:00f39641df805b72b799b697a8433f2a a owl:Restriction ;
+	owl:onProperty wdt:P1464 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P948 a wikibase:Property ;
+	rdfs:label "page banner"@en ;
+	skos:prefLabel "page banner"@en ;
+	schema:name "page banner"@en ;
+	schema:description "image at top of an article about the topic, mainly used by Wikivoyage and Women in Red"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#CommonsMedia> ;
+	wikibase:directClaim wdt:P948 ;
+	wikibase:claim p:P948 ;
+	wikibase:statementProperty ps:P948 ;
+	wikibase:statementValue psv:P948 ;
+	wikibase:qualifier pq:P948 ;
+	wikibase:qualifierValue pqv:P948 ;
+	wikibase:reference pr:P948 ;
+	wikibase:referenceValue prv:P948 ;
+	wikibase:novalue wdno:P948 .
+
+p:P948 a owl:ObjectProperty .
+
+psv:P948 a owl:ObjectProperty .
+
+pqv:P948 a owl:ObjectProperty .
+
+prv:P948 a owl:ObjectProperty .
+
+wdt:P948 a owl:ObjectProperty .
+
+ps:P948 a owl:ObjectProperty .
+
+pq:P948 a owl:ObjectProperty .
+
+pr:P948 a owl:ObjectProperty .
+
+wdno:P948 a owl:Class ;
+	owl:complementOf _:e7ac318f0652f24e4512780808b5c6a8 .
+
+_:e7ac318f0652f24e4512780808b5c6a8 a owl:Restriction ;
+	owl:onProperty wdt:P948 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q1663 a wikibase:Item ;
+	rdfs:label "Split"@en ;
+	skos:prefLabel "Split"@en ;
+	schema:name "Split"@en ;
+	schema:description "city and settlement in Split-Dalmatia County, Croatia"@en .
+
+wd:P190 a wikibase:Property ;
+	rdfs:label "twinned administrative body"@en ;
+	skos:prefLabel "twinned administrative body"@en ;
+	schema:name "twinned administrative body"@en ;
+	schema:description "twin towns, sister cities, twinned municipalities and other localities that have a partnership or cooperative agreement, either legally or informally acknowledged by their governments"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P190 ;
+	wikibase:claim p:P190 ;
+	wikibase:statementProperty ps:P190 ;
+	wikibase:statementValue psv:P190 ;
+	wikibase:qualifier pq:P190 ;
+	wikibase:qualifierValue pqv:P190 ;
+	wikibase:reference pr:P190 ;
+	wikibase:referenceValue prv:P190 ;
+	wikibase:novalue wdno:P190 .
+
+p:P190 a owl:ObjectProperty .
+
+psv:P190 a owl:ObjectProperty .
+
+pqv:P190 a owl:ObjectProperty .
+
+prv:P190 a owl:ObjectProperty .
+
+wdt:P190 a owl:ObjectProperty .
+
+ps:P190 a owl:ObjectProperty .
+
+pq:P190 a owl:ObjectProperty .
+
+pr:P190 a owl:ObjectProperty .
+
+wdno:P190 a owl:Class ;
+	owl:complementOf _:2b400a9dd8814b48a07251c8ce01c6d8 .
+
+_:2b400a9dd8814b48a07251c8ce01c6d8 a owl:Restriction ;
+	owl:onProperty wdt:P190 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q748474 a wikibase:Item ;
+	rdfs:label "Corvallis"@en ;
+	skos:prefLabel "Corvallis"@en ;
+	schema:name "Corvallis"@en ;
+	rdfs:label "Corvallis"@mul ;
+	skos:prefLabel "Corvallis"@mul ;
+	schema:name "Corvallis"@mul ;
+	schema:description "city in Oregon, USA"@en .
+
+wd:Q360326 a wikibase:Item ;
+	rdfs:label "Tongling"@en ;
+	skos:prefLabel "Tongling"@en ;
+	schema:name "Tongling"@en ;
+	schema:description "prefecture-level city in Anhui, China"@en .
+
+wd:Q200036 a wikibase:Item ;
+	rdfs:label "Volos"@en ;
+	skos:prefLabel "Volos"@en ;
+	schema:name "Volos"@en ;
+	schema:description "coastal port city in Thessaly, Greece"@en .
+
+wd:Q210161 a wikibase:Item ;
+	rdfs:label "Ambato"@en ;
+	skos:prefLabel "Ambato"@en ;
+	schema:name "Ambato"@en ;
+	schema:description "city in Ecuador, capital of the Tungurahua Province"@en .
+
+wd:P373 a wikibase:Property ;
+	rdfs:label "Commons category"@en ;
+	skos:prefLabel "Commons category"@en ;
+	schema:name "Commons category"@en ;
+	schema:description "name of the Wikimedia Commons category containing files related to this item (without the prefix \"Category:\")"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#String> ;
+	wikibase:directClaim wdt:P373 ;
+	wikibase:claim p:P373 ;
+	wikibase:statementProperty ps:P373 ;
+	wikibase:statementValue psv:P373 ;
+	wikibase:qualifier pq:P373 ;
+	wikibase:qualifierValue pqv:P373 ;
+	wikibase:reference pr:P373 ;
+	wikibase:referenceValue prv:P373 ;
+	wikibase:novalue wdno:P373 .
+
+p:P373 a owl:ObjectProperty .
+
+psv:P373 a owl:ObjectProperty .
+
+pqv:P373 a owl:ObjectProperty .
+
+prv:P373 a owl:ObjectProperty .
+
+wdt:P373 a owl:DatatypeProperty .
+
+ps:P373 a owl:DatatypeProperty .
+
+pq:P373 a owl:DatatypeProperty .
+
+pr:P373 a owl:DatatypeProperty .
+
+wdno:P373 a owl:Class ;
+	owl:complementOf _:3de19c92e209926f02f215095eb4fd12 .
+
+_:3de19c92e209926f02f215095eb4fd12 a owl:Restriction ;
+	owl:onProperty wdt:P373 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q298 a wikibase:Item ;
+	rdfs:label "Chile"@en ;
+	skos:prefLabel "Chile"@en ;
+	schema:name "Chile"@en ;
+	schema:description "country in South America"@en .
+
+wd:P17 a wikibase:Property ;
+	rdfs:label "country"@en ;
+	skos:prefLabel "country"@en ;
+	schema:name "country"@en ;
+	schema:description "sovereign state that this item is in (not to be used for human beings)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P17 ;
+	wikibase:claim p:P17 ;
+	wikibase:statementProperty ps:P17 ;
+	wikibase:statementValue psv:P17 ;
+	wikibase:qualifier pq:P17 ;
+	wikibase:qualifierValue pqv:P17 ;
+	wikibase:reference pr:P17 ;
+	wikibase:referenceValue prv:P17 ;
+	wikibase:novalue wdno:P17 .
+
+p:P17 a owl:ObjectProperty .
+
+psv:P17 a owl:ObjectProperty .
+
+pqv:P17 a owl:ObjectProperty .
+
+prv:P17 a owl:ObjectProperty .
+
+wdt:P17 a owl:ObjectProperty .
+
+ps:P17 a owl:ObjectProperty .
+
+pq:P17 a owl:ObjectProperty .
+
+pr:P17 a owl:ObjectProperty .
+
+wdno:P17 a owl:Class ;
+	owl:complementOf _:67baa1dbbc8d4f6b0b3d4a74a3ee0290 .
+
+_:67baa1dbbc8d4f6b0b3d4a74a3ee0290 a owl:Restriction ;
+	owl:onProperty wdt:P17 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P18 a wikibase:Property ;
+	rdfs:label "image"@en ;
+	skos:prefLabel "image"@en ;
+	schema:name "image"@en ;
+	schema:description "image of relevant illustration of the subject; if available, also use more specific properties (sample: coat of arms image, locator map, flag image, signature image, logo image, collage image)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#CommonsMedia> ;
+	wikibase:directClaim wdt:P18 ;
+	wikibase:claim p:P18 ;
+	wikibase:statementProperty ps:P18 ;
+	wikibase:statementValue psv:P18 ;
+	wikibase:qualifier pq:P18 ;
+	wikibase:qualifierValue pqv:P18 ;
+	wikibase:reference pr:P18 ;
+	wikibase:referenceValue prv:P18 ;
+	wikibase:novalue wdno:P18 .
+
+p:P18 a owl:ObjectProperty .
+
+psv:P18 a owl:ObjectProperty .
+
+pqv:P18 a owl:ObjectProperty .
+
+prv:P18 a owl:ObjectProperty .
+
+wdt:P18 a owl:ObjectProperty .
+
+ps:P18 a owl:ObjectProperty .
+
+pq:P18 a owl:ObjectProperty .
+
+pr:P18 a owl:ObjectProperty .
+
+wdno:P18 a owl:Class ;
+	owl:complementOf _:90353c5ec33a5dc569985590a17a3551 .
+
+_:90353c5ec33a5dc569985590a17a3551 a owl:Restriction ;
+	owl:onProperty wdt:P18 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q5762 a wikibase:Item ;
+	rdfs:label "UTC−04:00"@en ;
+	skos:prefLabel "UTC−04:00"@en ;
+	schema:name "UTC−04:00"@en ;
+	schema:description "identifier for a time offset from UTC of −4"@en .
+
+wd:P421 a wikibase:Property ;
+	rdfs:label "located in time zone"@en ;
+	skos:prefLabel "located in time zone"@en ;
+	schema:name "located in time zone"@en ;
+	schema:description "time zone for this item"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P421 ;
+	wikibase:claim p:P421 ;
+	wikibase:statementProperty ps:P421 ;
+	wikibase:statementValue psv:P421 ;
+	wikibase:qualifier pq:P421 ;
+	wikibase:qualifierValue pqv:P421 ;
+	wikibase:reference pr:P421 ;
+	wikibase:referenceValue prv:P421 ;
+	wikibase:novalue wdno:P421 .
+
+p:P421 a owl:ObjectProperty .
+
+psv:P421 a owl:ObjectProperty .
+
+pqv:P421 a owl:ObjectProperty .
+
+prv:P421 a owl:ObjectProperty .
+
+wdt:P421 a owl:ObjectProperty .
+
+ps:P421 a owl:ObjectProperty .
+
+pq:P421 a owl:ObjectProperty .
+
+pr:P421 a owl:ObjectProperty .
+
+wdno:P421 a owl:Class ;
+	owl:complementOf _:785344f4ef118720183a8ec3d61508f3 .
+
+_:785344f4ef118720183a8ec3d61508f3 a owl:Restriction ;
+	owl:onProperty wdt:P421 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P625 a wikibase:Property ;
+	rdfs:label "coordinate location"@en ;
+	skos:prefLabel "coordinate location"@en ;
+	schema:name "coordinate location"@en ;
+	schema:description "geocoordinates of the subject. For Earth, please note that only WGS84 coordinating system is supported at the moment"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#GlobeCoordinate> ;
+	wikibase:directClaim wdt:P625 ;
+	wikibase:claim p:P625 ;
+	wikibase:statementProperty ps:P625 ;
+	wikibase:statementValue psv:P625 ;
+	wikibase:qualifier pq:P625 ;
+	wikibase:qualifierValue pqv:P625 ;
+	wikibase:reference pr:P625 ;
+	wikibase:referenceValue prv:P625 ;
+	wikibase:novalue wdno:P625 .
+
+p:P625 a owl:ObjectProperty .
+
+psv:P625 a owl:ObjectProperty .
+
+pqv:P625 a owl:ObjectProperty .
+
+prv:P625 a owl:ObjectProperty .
+
+wdt:P625 a owl:DatatypeProperty .
+
+ps:P625 a owl:DatatypeProperty .
+
+pq:P625 a owl:DatatypeProperty .
+
+pr:P625 a owl:DatatypeProperty .
+
+wdno:P625 a owl:Class ;
+	owl:complementOf _:098a7705e988116e3a454eda03aef6ad .
+
+_:098a7705e988116e3a454eda03aef6ad a owl:Restriction ;
+	owl:onProperty wdt:P625 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q23660303 a wikibase:Item ;
+	rdfs:label "Antofagasta"@en ;
+	skos:prefLabel "Antofagasta"@en ;
+	schema:name "Antofagasta"@en ;
+	schema:description "municipality in Antofagasta Region, Chile"@en .
+
+wd:P131 a wikibase:Property ;
+	rdfs:label "located in the administrative territorial entity"@en ;
+	skos:prefLabel "located in the administrative territorial entity"@en ;
+	schema:name "located in the administrative territorial entity"@en ;
+	schema:description "the item is located on the territory of the following administrative entity. Use P276 for specifying locations that are non-administrative places and for items about events. Use P1382 if the item falls only partially into the administrative entity."@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P131 ;
+	wikibase:claim p:P131 ;
+	wikibase:statementProperty ps:P131 ;
+	wikibase:statementValue psv:P131 ;
+	wikibase:qualifier pq:P131 ;
+	wikibase:qualifierValue pqv:P131 ;
+	wikibase:reference pr:P131 ;
+	wikibase:referenceValue prv:P131 ;
+	wikibase:novalue wdno:P131 .
+
+p:P131 a owl:ObjectProperty .
+
+psv:P131 a owl:ObjectProperty .
+
+pqv:P131 a owl:ObjectProperty .
+
+prv:P131 a owl:ObjectProperty .
+
+wdt:P131 a owl:ObjectProperty .
+
+ps:P131 a owl:ObjectProperty .
+
+pq:P131 a owl:ObjectProperty .
+
+pr:P131 a owl:ObjectProperty .
+
+wdno:P131 a owl:Class ;
+	owl:complementOf _:1d2a8f0c3b3451be4d4228f97153e08d .
+
+_:1d2a8f0c3b3451be4d4228f97153e08d a owl:Restriction ;
+	owl:onProperty wdt:P131 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q8256626 a wikibase:Item ;
+	rdfs:label "Category:Antofagasta"@en ;
+	skos:prefLabel "Category:Antofagasta"@en ;
+	schema:name "Category:Antofagasta"@en ;
+	schema:description "Wikimedia category"@en .
+
+wd:P910 a wikibase:Property ;
+	rdfs:label "topic's main category"@en ;
+	skos:prefLabel "topic's main category"@en ;
+	schema:name "topic's main category"@en ;
+	schema:description "main Wikimedia category"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P910 ;
+	wikibase:claim p:P910 ;
+	wikibase:statementProperty ps:P910 ;
+	wikibase:statementValue psv:P910 ;
+	wikibase:qualifier pq:P910 ;
+	wikibase:qualifierValue pqv:P910 ;
+	wikibase:reference pr:P910 ;
+	wikibase:referenceValue prv:P910 ;
+	wikibase:novalue wdno:P910 .
+
+p:P910 a owl:ObjectProperty .
+
+psv:P910 a owl:ObjectProperty .
+
+pqv:P910 a owl:ObjectProperty .
+
+prv:P910 a owl:ObjectProperty .
+
+wdt:P910 a owl:ObjectProperty .
+
+ps:P910 a owl:ObjectProperty .
+
+pq:P910 a owl:ObjectProperty .
+
+pr:P910 a owl:ObjectProperty .
+
+wdno:P910 a owl:Class ;
+	owl:complementOf _:06be9361e78d041ce01df69013cf6906 .
+
+_:06be9361e78d041ce01df69013cf6906 a owl:Restriction ;
+	owl:onProperty wdt:P910 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P998 a wikibase:Property ;
+	rdfs:label "Curlie ID"@en ;
+	skos:prefLabel "Curlie ID"@en ;
+	schema:name "Curlie ID"@en ;
+	schema:description "category path at Open Directory Project"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P998 ;
+	wikibase:claim p:P998 ;
+	wikibase:statementProperty ps:P998 ;
+	wikibase:statementValue psv:P998 ;
+	wikibase:qualifier pq:P998 ;
+	wikibase:qualifierValue pqv:P998 ;
+	wikibase:reference pr:P998 ;
+	wikibase:referenceValue prv:P998 ;
+	wikibase:novalue wdno:P998 ;
+	wikibase:directClaimNormalized wdtn:P998 ;
+	wikibase:statementValueNormalized psn:P998 ;
+	wikibase:qualifierValueNormalized pqn:P998 ;
+	wikibase:referenceValueNormalized prn:P998 .
+
+p:P998 a owl:ObjectProperty .
+
+psv:P998 a owl:ObjectProperty .
+
+pqv:P998 a owl:ObjectProperty .
+
+prv:P998 a owl:ObjectProperty .
+
+wdt:P998 a owl:DatatypeProperty .
+
+ps:P998 a owl:DatatypeProperty .
+
+pq:P998 a owl:DatatypeProperty .
+
+pr:P998 a owl:DatatypeProperty .
+
+psn:P998 a owl:ObjectProperty .
+
+pqn:P998 a owl:ObjectProperty .
+
+prn:P998 a owl:ObjectProperty .
+
+wdtn:P998 a owl:ObjectProperty .
+
+wdno:P998 a owl:Class ;
+	owl:complementOf _:fb083a6ff16be725db56b625cc535be2 .
+
+_:fb083a6ff16be725db56b625cc535be2 a owl:Restriction ;
+	owl:onProperty wdt:P998 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q25412763 a wikibase:Item ;
+	rdfs:label "city in Chile"@en ;
+	skos:prefLabel "city in Chile"@en ;
+	schema:name "city in Chile"@en .
+
+wd:P31 a wikibase:Property ;
+	rdfs:label "instance of"@en ;
+	skos:prefLabel "instance of"@en ;
+	schema:name "instance of"@en ;
+	schema:description "that class of which this subject is a particular example and member; different from P279 (subclass of); for example: K2 is an instance of mountain; volcano is a subclass of mountain (and an instance of volcanic landform)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P31 ;
+	wikibase:claim p:P31 ;
+	wikibase:statementProperty ps:P31 ;
+	wikibase:statementValue psv:P31 ;
+	wikibase:qualifier pq:P31 ;
+	wikibase:qualifierValue pqv:P31 ;
+	wikibase:reference pr:P31 ;
+	wikibase:referenceValue prv:P31 ;
+	wikibase:novalue wdno:P31 .
+
+p:P31 a owl:ObjectProperty .
+
+psv:P31 a owl:ObjectProperty .
+
+pqv:P31 a owl:ObjectProperty .
+
+prv:P31 a owl:ObjectProperty .
+
+wdt:P31 a owl:ObjectProperty .
+
+ps:P31 a owl:ObjectProperty .
+
+pq:P31 a owl:ObjectProperty .
+
+pr:P31 a owl:ObjectProperty .
+
+wdno:P31 a owl:Class ;
+	owl:complementOf _:0b8bd71b926a65ca3fa72e5d9103e4d6 .
+
+_:0b8bd71b926a65ca3fa72e5d9103e4d6 a owl:Restriction ;
+	owl:onProperty wdt:P31 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q1549591 a wikibase:Item ;
+	rdfs:label "big city"@en ;
+	skos:prefLabel "big city"@en ;
+	schema:name "big city"@en ;
+	schema:description "city with a population of at least 100,000"@en .
+
+wd:P646 a wikibase:Property ;
+	rdfs:label "Freebase ID"@en ;
+	skos:prefLabel "Freebase ID"@en ;
+	schema:name "Freebase ID"@en ;
+	schema:description "identifier for a page in the Freebase database. Format: \"/m/0\" followed by 2 to 7 characters. For IDs starting with \"/g/\", use Google Knowledge Graph ID (P2671)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P646 ;
+	wikibase:claim p:P646 ;
+	wikibase:statementProperty ps:P646 ;
+	wikibase:statementValue psv:P646 ;
+	wikibase:qualifier pq:P646 ;
+	wikibase:qualifierValue pqv:P646 ;
+	wikibase:reference pr:P646 ;
+	wikibase:referenceValue prv:P646 ;
+	wikibase:novalue wdno:P646 ;
+	wikibase:directClaimNormalized wdtn:P646 ;
+	wikibase:statementValueNormalized psn:P646 ;
+	wikibase:qualifierValueNormalized pqn:P646 ;
+	wikibase:referenceValueNormalized prn:P646 .
+
+p:P646 a owl:ObjectProperty .
+
+psv:P646 a owl:ObjectProperty .
+
+pqv:P646 a owl:ObjectProperty .
+
+prv:P646 a owl:ObjectProperty .
+
+wdt:P646 a owl:DatatypeProperty .
+
+ps:P646 a owl:DatatypeProperty .
+
+pq:P646 a owl:DatatypeProperty .
+
+pr:P646 a owl:DatatypeProperty .
+
+psn:P646 a owl:ObjectProperty .
+
+pqn:P646 a owl:ObjectProperty .
+
+prn:P646 a owl:ObjectProperty .
+
+wdtn:P646 a owl:ObjectProperty .
+
+wdno:P646 a owl:Class ;
+	owl:complementOf _:38db277a4b10d59fd38a3fd995cbe570 .
+
+_:38db277a4b10d59fd38a3fd995cbe570 a owl:Restriction ;
+	owl:onProperty wdt:P646 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P94 a wikibase:Property ;
+	rdfs:label "coat of arms image"@en ;
+	skos:prefLabel "coat of arms image"@en ;
+	schema:name "coat of arms image"@en ;
+	schema:description "image of the item's coat of arms - for the shield part only use P4004"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#CommonsMedia> ;
+	wikibase:directClaim wdt:P94 ;
+	wikibase:claim p:P94 ;
+	wikibase:statementProperty ps:P94 ;
+	wikibase:statementValue psv:P94 ;
+	wikibase:qualifier pq:P94 ;
+	wikibase:qualifierValue pqv:P94 ;
+	wikibase:reference pr:P94 ;
+	wikibase:referenceValue prv:P94 ;
+	wikibase:novalue wdno:P94 .
+
+p:P94 a owl:ObjectProperty .
+
+psv:P94 a owl:ObjectProperty .
+
+pqv:P94 a owl:ObjectProperty .
+
+prv:P94 a owl:ObjectProperty .
+
+wdt:P94 a owl:ObjectProperty .
+
+ps:P94 a owl:ObjectProperty .
+
+pq:P94 a owl:ObjectProperty .
+
+pr:P94 a owl:ObjectProperty .
+
+wdno:P94 a owl:Class ;
+	owl:complementOf _:ab05f4b11709bc1547d87eceee80949d .
+
+_:ab05f4b11709bc1547d87eceee80949d a owl:Restriction ;
+	owl:onProperty wdt:P94 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P1566 a wikibase:Property ;
+	rdfs:label "GeoNames ID"@en ;
+	skos:prefLabel "GeoNames ID"@en ;
+	schema:name "GeoNames ID"@en ;
+	schema:description "identifier in the GeoNames geographical database"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P1566 ;
+	wikibase:claim p:P1566 ;
+	wikibase:statementProperty ps:P1566 ;
+	wikibase:statementValue psv:P1566 ;
+	wikibase:qualifier pq:P1566 ;
+	wikibase:qualifierValue pqv:P1566 ;
+	wikibase:reference pr:P1566 ;
+	wikibase:referenceValue prv:P1566 ;
+	wikibase:novalue wdno:P1566 ;
+	wikibase:directClaimNormalized wdtn:P1566 ;
+	wikibase:statementValueNormalized psn:P1566 ;
+	wikibase:qualifierValueNormalized pqn:P1566 ;
+	wikibase:referenceValueNormalized prn:P1566 .
+
+p:P1566 a owl:ObjectProperty .
+
+psv:P1566 a owl:ObjectProperty .
+
+pqv:P1566 a owl:ObjectProperty .
+
+prv:P1566 a owl:ObjectProperty .
+
+wdt:P1566 a owl:DatatypeProperty .
+
+ps:P1566 a owl:DatatypeProperty .
+
+pq:P1566 a owl:DatatypeProperty .
+
+pr:P1566 a owl:DatatypeProperty .
+
+psn:P1566 a owl:ObjectProperty .
+
+pqn:P1566 a owl:ObjectProperty .
+
+prn:P1566 a owl:ObjectProperty .
+
+wdtn:P1566 a owl:ObjectProperty .
+
+wdno:P1566 a owl:Class ;
+	owl:complementOf _:2f7a788ba78f01ba77a72e3b57a82c7e .
+
+_:2f7a788ba78f01ba77a72e3b57a82c7e a owl:Restriction ;
+	owl:onProperty wdt:P1566 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q18575102 a wikibase:Item ;
+	rdfs:label "Category:Deaths in Antofagasta"@en ;
+	skos:prefLabel "Category:Deaths in Antofagasta"@en ;
+	schema:name "Category:Deaths in Antofagasta"@en ;
+	schema:description "Wikimedia category"@en .
+
+wd:P1465 a wikibase:Property ;
+	rdfs:label "category for people who died here"@en ;
+	skos:prefLabel "category for people who died here"@en ;
+	schema:name "category for people who died here"@en ;
+	schema:description "category item for people who died in this location"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P1465 ;
+	wikibase:claim p:P1465 ;
+	wikibase:statementProperty ps:P1465 ;
+	wikibase:statementValue psv:P1465 ;
+	wikibase:qualifier pq:P1465 ;
+	wikibase:qualifierValue pqv:P1465 ;
+	wikibase:reference pr:P1465 ;
+	wikibase:referenceValue prv:P1465 ;
+	wikibase:novalue wdno:P1465 .
+
+p:P1465 a owl:ObjectProperty .
+
+psv:P1465 a owl:ObjectProperty .
+
+pqv:P1465 a owl:ObjectProperty .
+
+prv:P1465 a owl:ObjectProperty .
+
+wdt:P1465 a owl:ObjectProperty .
+
+ps:P1465 a owl:ObjectProperty .
+
+pq:P1465 a owl:ObjectProperty .
+
+pr:P1465 a owl:ObjectProperty .
+
+wdno:P1465 a owl:Class ;
+	owl:complementOf _:35a83b73b01778aee168203523ec0a02 .
+
+_:35a83b73b01778aee168203523ec0a02 a owl:Restriction ;
+	owl:onProperty wdt:P1465 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P227 a wikibase:Property ;
+	rdfs:label "GND ID"@en ;
+	skos:prefLabel "GND ID"@en ;
+	schema:name "GND ID"@en ;
+	schema:description "identifier from an international authority file of names, subjects, and organizations (please don't use type n = name, disambiguation) - Deutsche Nationalbibliothek"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P227 ;
+	wikibase:claim p:P227 ;
+	wikibase:statementProperty ps:P227 ;
+	wikibase:statementValue psv:P227 ;
+	wikibase:qualifier pq:P227 ;
+	wikibase:qualifierValue pqv:P227 ;
+	wikibase:reference pr:P227 ;
+	wikibase:referenceValue prv:P227 ;
+	wikibase:novalue wdno:P227 ;
+	wikibase:directClaimNormalized wdtn:P227 ;
+	wikibase:statementValueNormalized psn:P227 ;
+	wikibase:qualifierValueNormalized pqn:P227 ;
+	wikibase:referenceValueNormalized prn:P227 .
+
+p:P227 a owl:ObjectProperty .
+
+psv:P227 a owl:ObjectProperty .
+
+pqv:P227 a owl:ObjectProperty .
+
+prv:P227 a owl:ObjectProperty .
+
+wdt:P227 a owl:DatatypeProperty .
+
+ps:P227 a owl:DatatypeProperty .
+
+pq:P227 a owl:DatatypeProperty .
+
+pr:P227 a owl:DatatypeProperty .
+
+psn:P227 a owl:ObjectProperty .
+
+pqn:P227 a owl:ObjectProperty .
+
+prn:P227 a owl:ObjectProperty .
+
+wdtn:P227 a owl:ObjectProperty .
+
+wdno:P227 a owl:Class ;
+	owl:complementOf _:286c7ee15bc3c86b8eb6b23547b34d68 .
+
+_:286c7ee15bc3c86b8eb6b23547b34d68 a owl:Restriction ;
+	owl:onProperty wdt:P227 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P982 a wikibase:Property ;
+	rdfs:label "MusicBrainz area ID"@en ;
+	skos:prefLabel "MusicBrainz area ID"@en ;
+	schema:name "MusicBrainz area ID"@en ;
+	schema:description "identifier for an area in the MusicBrainz open music database"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P982 ;
+	wikibase:claim p:P982 ;
+	wikibase:statementProperty ps:P982 ;
+	wikibase:statementValue psv:P982 ;
+	wikibase:qualifier pq:P982 ;
+	wikibase:qualifierValue pqv:P982 ;
+	wikibase:reference pr:P982 ;
+	wikibase:referenceValue prv:P982 ;
+	wikibase:novalue wdno:P982 ;
+	wikibase:directClaimNormalized wdtn:P982 ;
+	wikibase:statementValueNormalized psn:P982 ;
+	wikibase:qualifierValueNormalized pqn:P982 ;
+	wikibase:referenceValueNormalized prn:P982 .
+
+p:P982 a owl:ObjectProperty .
+
+psv:P982 a owl:ObjectProperty .
+
+pqv:P982 a owl:ObjectProperty .
+
+prv:P982 a owl:ObjectProperty .
+
+wdt:P982 a owl:DatatypeProperty .
+
+ps:P982 a owl:DatatypeProperty .
+
+pq:P982 a owl:DatatypeProperty .
+
+pr:P982 a owl:DatatypeProperty .
+
+psn:P982 a owl:ObjectProperty .
+
+pqn:P982 a owl:ObjectProperty .
+
+prn:P982 a owl:ObjectProperty .
+
+wdtn:P982 a owl:ObjectProperty .
+
+wdno:P982 a owl:Class ;
+	owl:complementOf _:cd2145ee21041b7f262b26577487c61e .
+
+_:cd2145ee21041b7f262b26577487c61e a owl:Restriction ;
+	owl:onProperty wdt:P982 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P214 a wikibase:Property ;
+	rdfs:label "VIAF ID"@en ;
+	skos:prefLabel "VIAF ID"@en ;
+	schema:name "VIAF ID"@en ;
+	schema:description "identifier for the Virtual International Authority File database [format: up to 22 digits]"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P214 ;
+	wikibase:claim p:P214 ;
+	wikibase:statementProperty ps:P214 ;
+	wikibase:statementValue psv:P214 ;
+	wikibase:qualifier pq:P214 ;
+	wikibase:qualifierValue pqv:P214 ;
+	wikibase:reference pr:P214 ;
+	wikibase:referenceValue prv:P214 ;
+	wikibase:novalue wdno:P214 ;
+	wikibase:directClaimNormalized wdtn:P214 ;
+	wikibase:statementValueNormalized psn:P214 ;
+	wikibase:qualifierValueNormalized pqn:P214 ;
+	wikibase:referenceValueNormalized prn:P214 .
+
+p:P214 a owl:ObjectProperty .
+
+psv:P214 a owl:ObjectProperty .
+
+pqv:P214 a owl:ObjectProperty .
+
+prv:P214 a owl:ObjectProperty .
+
+wdt:P214 a owl:DatatypeProperty .
+
+ps:P214 a owl:DatatypeProperty .
+
+pq:P214 a owl:DatatypeProperty .
+
+pr:P214 a owl:DatatypeProperty .
+
+psn:P214 a owl:ObjectProperty .
+
+pqn:P214 a owl:ObjectProperty .
+
+prn:P214 a owl:ObjectProperty .
+
+wdtn:P214 a owl:ObjectProperty .
+
+wdno:P214 a owl:Class ;
+	owl:complementOf _:29da2ca818bc08f93ddc0a2be66197e9 .
+
+_:29da2ca818bc08f93ddc0a2be66197e9 a owl:Restriction ;
+	owl:onProperty wdt:P214 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P935 a wikibase:Property ;
+	rdfs:label "Commons gallery"@en ;
+	skos:prefLabel "Commons gallery"@en ;
+	schema:name "Commons gallery"@en ;
+	schema:description "name of the Wikimedia Commons gallery page(s) related to this item (is suitable to allow multiple links to more gallery pages)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#String> ;
+	wikibase:directClaim wdt:P935 ;
+	wikibase:claim p:P935 ;
+	wikibase:statementProperty ps:P935 ;
+	wikibase:statementValue psv:P935 ;
+	wikibase:qualifier pq:P935 ;
+	wikibase:qualifierValue pqv:P935 ;
+	wikibase:reference pr:P935 ;
+	wikibase:referenceValue prv:P935 ;
+	wikibase:novalue wdno:P935 .
+
+p:P935 a owl:ObjectProperty .
+
+psv:P935 a owl:ObjectProperty .
+
+pqv:P935 a owl:ObjectProperty .
+
+prv:P935 a owl:ObjectProperty .
+
+wdt:P935 a owl:DatatypeProperty .
+
+ps:P935 a owl:DatatypeProperty .
+
+pq:P935 a owl:DatatypeProperty .
+
+pr:P935 a owl:DatatypeProperty .
+
+wdno:P935 a owl:Class ;
+	owl:complementOf _:e611166fd8b736fb1e719dd5177883b3 .
+
+_:e611166fd8b736fb1e719dd5177883b3 a owl:Restriction ;
+	owl:onProperty wdt:P935 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P1997 a wikibase:Property ;
+	rdfs:label "Facebook location ID"@en ;
+	skos:prefLabel "Facebook location ID"@en ;
+	schema:name "Facebook location ID"@en ;
+	schema:description "identifier for a place in Facebook"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P1997 ;
+	wikibase:claim p:P1997 ;
+	wikibase:statementProperty ps:P1997 ;
+	wikibase:statementValue psv:P1997 ;
+	wikibase:qualifier pq:P1997 ;
+	wikibase:qualifierValue pqv:P1997 ;
+	wikibase:reference pr:P1997 ;
+	wikibase:referenceValue prv:P1997 ;
+	wikibase:novalue wdno:P1997 ;
+	wikibase:directClaimNormalized wdtn:P1997 ;
+	wikibase:statementValueNormalized psn:P1997 ;
+	wikibase:qualifierValueNormalized pqn:P1997 ;
+	wikibase:referenceValueNormalized prn:P1997 .
+
+p:P1997 a owl:ObjectProperty .
+
+psv:P1997 a owl:ObjectProperty .
+
+pqv:P1997 a owl:ObjectProperty .
+
+prv:P1997 a owl:ObjectProperty .
+
+wdt:P1997 a owl:DatatypeProperty .
+
+ps:P1997 a owl:DatatypeProperty .
+
+pq:P1997 a owl:DatatypeProperty .
+
+pr:P1997 a owl:DatatypeProperty .
+
+psn:P1997 a owl:ObjectProperty .
+
+pqn:P1997 a owl:ObjectProperty .
+
+prn:P1997 a owl:ObjectProperty .
+
+wdtn:P1997 a owl:ObjectProperty .
+
+wdno:P1997 a owl:Class ;
+	owl:complementOf _:a81bd35cd949880b8cf79cd171bf2052 .
+
+_:a81bd35cd949880b8cf79cd171bf2052 a owl:Restriction ;
+	owl:onProperty wdt:P1997 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q18575100 a wikibase:Item ;
+	rdfs:label "Category:People from Antofagasta"@en ;
+	skos:prefLabel "Category:People from Antofagasta"@en ;
+	schema:name "Category:People from Antofagasta"@en ;
+	schema:description "Wikimedia category"@en .
+
+wd:P1792 a wikibase:Property ;
+	rdfs:label "category of associated people"@en ;
+	skos:prefLabel "category of associated people"@en ;
+	schema:name "category of associated people"@en ;
+	schema:description "Wikimedia category for people associated with this place or organization"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P1792 ;
+	wikibase:claim p:P1792 ;
+	wikibase:statementProperty ps:P1792 ;
+	wikibase:statementValue psv:P1792 ;
+	wikibase:qualifier pq:P1792 ;
+	wikibase:qualifierValue pqv:P1792 ;
+	wikibase:reference pr:P1792 ;
+	wikibase:referenceValue prv:P1792 ;
+	wikibase:novalue wdno:P1792 .
+
+p:P1792 a owl:ObjectProperty .
+
+psv:P1792 a owl:ObjectProperty .
+
+pqv:P1792 a owl:ObjectProperty .
+
+prv:P1792 a owl:ObjectProperty .
+
+wdt:P1792 a owl:ObjectProperty .
+
+ps:P1792 a owl:ObjectProperty .
+
+pq:P1792 a owl:ObjectProperty .
+
+pr:P1792 a owl:ObjectProperty .
+
+wdno:P1792 a owl:Class ;
+	owl:complementOf _:7e0e52b1bdc974536dd650aadf944027 .
+
+_:7e0e52b1bdc974536dd650aadf944027 a owl:Restriction ;
+	owl:onProperty wdt:P1792 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P856 a wikibase:Property ;
+	rdfs:label "official website"@en ;
+	skos:prefLabel "official website"@en ;
+	schema:name "official website"@en ;
+	schema:description "URL of the official page of an item (current or former). Usage: If a listed URL no longer points to the official website, do not remove it, but see the \"Hijacked or dead websites\" section of the Talk page"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Url> ;
+	wikibase:directClaim wdt:P856 ;
+	wikibase:claim p:P856 ;
+	wikibase:statementProperty ps:P856 ;
+	wikibase:statementValue psv:P856 ;
+	wikibase:qualifier pq:P856 ;
+	wikibase:qualifierValue pqv:P856 ;
+	wikibase:reference pr:P856 ;
+	wikibase:referenceValue prv:P856 ;
+	wikibase:novalue wdno:P856 .
+
+p:P856 a owl:ObjectProperty .
+
+psv:P856 a owl:ObjectProperty .
+
+pqv:P856 a owl:ObjectProperty .
+
+prv:P856 a owl:ObjectProperty .
+
+wdt:P856 a owl:ObjectProperty .
+
+ps:P856 a owl:ObjectProperty .
+
+pq:P856 a owl:ObjectProperty .
+
+pr:P856 a owl:ObjectProperty .
+
+wdno:P856 a owl:Class ;
+	owl:complementOf _:1d357f887a7e27ff82787607ac757e2c .
+
+_:1d357f887a7e27ff82787607ac757e2c a owl:Restriction ;
+	owl:onProperty wdt:P856 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P281 a wikibase:Property ;
+	rdfs:label "postal code"@en ;
+	skos:prefLabel "postal code"@en ;
+	schema:name "postal code"@en ;
+	schema:description "identifier assigned by postal authorities for the subject area or building"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#String> ;
+	wikibase:directClaim wdt:P281 ;
+	wikibase:claim p:P281 ;
+	wikibase:statementProperty ps:P281 ;
+	wikibase:statementValue psv:P281 ;
+	wikibase:qualifier pq:P281 ;
+	wikibase:qualifierValue pqv:P281 ;
+	wikibase:reference pr:P281 ;
+	wikibase:referenceValue prv:P281 ;
+	wikibase:novalue wdno:P281 .
+
+p:P281 a owl:ObjectProperty .
+
+psv:P281 a owl:ObjectProperty .
+
+pqv:P281 a owl:ObjectProperty .
+
+prv:P281 a owl:ObjectProperty .
+
+wdt:P281 a owl:DatatypeProperty .
+
+ps:P281 a owl:DatatypeProperty .
+
+pq:P281 a owl:DatatypeProperty .
+
+pr:P281 a owl:DatatypeProperty .
+
+wdno:P281 a owl:Class ;
+	owl:complementOf _:ac429fd23169c78451ea2bba7c1f4b50 .
+
+_:ac429fd23169c78451ea2bba7c1f4b50 a owl:Restriction ;
+	owl:onProperty wdt:P281 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P1082 a wikibase:Property ;
+	rdfs:label "population"@en ;
+	skos:prefLabel "population"@en ;
+	schema:name "population"@en ;
+	schema:description "number of people inhabiting the place; number of people of subject"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Quantity> ;
+	wikibase:directClaim wdt:P1082 ;
+	wikibase:claim p:P1082 ;
+	wikibase:statementProperty ps:P1082 ;
+	wikibase:statementValue psv:P1082 ;
+	wikibase:qualifier pq:P1082 ;
+	wikibase:qualifierValue pqv:P1082 ;
+	wikibase:reference pr:P1082 ;
+	wikibase:referenceValue prv:P1082 ;
+	wikibase:novalue wdno:P1082 ;
+	wikibase:directClaimNormalized wdtn:P1082 ;
+	wikibase:statementValueNormalized psn:P1082 ;
+	wikibase:qualifierValueNormalized pqn:P1082 ;
+	wikibase:referenceValueNormalized prn:P1082 .
+
+p:P1082 a owl:ObjectProperty .
+
+psv:P1082 a owl:ObjectProperty .
+
+pqv:P1082 a owl:ObjectProperty .
+
+prv:P1082 a owl:ObjectProperty .
+
+wdt:P1082 a owl:DatatypeProperty .
+
+ps:P1082 a owl:DatatypeProperty .
+
+pq:P1082 a owl:DatatypeProperty .
+
+pr:P1082 a owl:DatatypeProperty .
+
+psn:P1082 a owl:ObjectProperty .
+
+pqn:P1082 a owl:ObjectProperty .
+
+prn:P1082 a owl:ObjectProperty .
+
+wdtn:P1082 a owl:DatatypeProperty .
+
+wdno:P1082 a owl:Class ;
+	owl:complementOf _:2a1892fba552c53d822cf911a54d2853 .
+
+_:2a1892fba552c53d822cf911a54d2853 a owl:Restriction ;
+	owl:onProperty wdt:P1082 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P473 a wikibase:Property ;
+	rdfs:label "local dialing code"@en ;
+	skos:prefLabel "local dialing code"@en ;
+	schema:name "local dialing code"@en ;
+	schema:description "identifier dedicated to subject city by the area communication network"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#String> ;
+	wikibase:directClaim wdt:P473 ;
+	wikibase:claim p:P473 ;
+	wikibase:statementProperty ps:P473 ;
+	wikibase:statementValue psv:P473 ;
+	wikibase:qualifier pq:P473 ;
+	wikibase:qualifierValue pqv:P473 ;
+	wikibase:reference pr:P473 ;
+	wikibase:referenceValue prv:P473 ;
+	wikibase:novalue wdno:P473 .
+
+p:P473 a owl:ObjectProperty .
+
+psv:P473 a owl:ObjectProperty .
+
+pqv:P473 a owl:ObjectProperty .
+
+prv:P473 a owl:ObjectProperty .
+
+wdt:P473 a owl:DatatypeProperty .
+
+ps:P473 a owl:DatatypeProperty .
+
+pq:P473 a owl:DatatypeProperty .
+
+pr:P473 a owl:DatatypeProperty .
+
+wdno:P473 a owl:Class ;
+	owl:complementOf _:9b1a898ba0a9f674d3f99ff2fa3ec3b4 .
+
+_:9b1a898ba0a9f674d3f99ff2fa3ec3b4 a owl:Restriction ;
+	owl:onProperty wdt:P473 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P2046 a wikibase:Property ;
+	rdfs:label "area"@en ;
+	skos:prefLabel "area"@en ;
+	schema:name "area"@en ;
+	schema:description "area occupied by an object"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Quantity> ;
+	wikibase:directClaim wdt:P2046 ;
+	wikibase:claim p:P2046 ;
+	wikibase:statementProperty ps:P2046 ;
+	wikibase:statementValue psv:P2046 ;
+	wikibase:qualifier pq:P2046 ;
+	wikibase:qualifierValue pqv:P2046 ;
+	wikibase:reference pr:P2046 ;
+	wikibase:referenceValue prv:P2046 ;
+	wikibase:novalue wdno:P2046 ;
+	wikibase:directClaimNormalized wdtn:P2046 ;
+	wikibase:statementValueNormalized psn:P2046 ;
+	wikibase:qualifierValueNormalized pqn:P2046 ;
+	wikibase:referenceValueNormalized prn:P2046 .
+
+p:P2046 a owl:ObjectProperty .
+
+psv:P2046 a owl:ObjectProperty .
+
+pqv:P2046 a owl:ObjectProperty .
+
+prv:P2046 a owl:ObjectProperty .
+
+wdt:P2046 a owl:DatatypeProperty .
+
+ps:P2046 a owl:DatatypeProperty .
+
+pq:P2046 a owl:DatatypeProperty .
+
+pr:P2046 a owl:DatatypeProperty .
+
+psn:P2046 a owl:ObjectProperty .
+
+pqn:P2046 a owl:ObjectProperty .
+
+prn:P2046 a owl:ObjectProperty .
+
+wdtn:P2046 a owl:DatatypeProperty .
+
+wdno:P2046 a owl:Class ;
+	owl:complementOf _:1c97a9c1044067f0a2e533b9b61d3b2b .
+
+_:1c97a9c1044067f0a2e533b9b61d3b2b a owl:Restriction ;
+	owl:onProperty wdt:P2046 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P571 a wikibase:Property ;
+	rdfs:label "inception"@en ;
+	skos:prefLabel "inception"@en ;
+	schema:name "inception"@en ;
+	schema:description "time when an entity begins to exist; for date of official opening use P1619"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Time> ;
+	wikibase:directClaim wdt:P571 ;
+	wikibase:claim p:P571 ;
+	wikibase:statementProperty ps:P571 ;
+	wikibase:statementValue psv:P571 ;
+	wikibase:qualifier pq:P571 ;
+	wikibase:qualifierValue pqv:P571 ;
+	wikibase:reference pr:P571 ;
+	wikibase:referenceValue prv:P571 ;
+	wikibase:novalue wdno:P571 .
+
+p:P571 a owl:ObjectProperty .
+
+psv:P571 a owl:ObjectProperty .
+
+pqv:P571 a owl:ObjectProperty .
+
+prv:P571 a owl:ObjectProperty .
+
+wdt:P571 a owl:DatatypeProperty .
+
+ps:P571 a owl:DatatypeProperty .
+
+pq:P571 a owl:DatatypeProperty .
+
+pr:P571 a owl:DatatypeProperty .
+
+wdno:P571 a owl:Class ;
+	owl:complementOf _:ed4d9507645e2210d8e4ed14d3266267 .
+
+_:ed4d9507645e2210d8e4ed14d3266267 a owl:Restriction ;
+	owl:onProperty wdt:P571 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P1296 a wikibase:Property ;
+	rdfs:label "Gran Enciclopèdia Catalana ID (former scheme)"@en ;
+	skos:prefLabel "Gran Enciclopèdia Catalana ID (former scheme)"@en ;
+	schema:name "Gran Enciclopèdia Catalana ID (former scheme)"@en ;
+	schema:description "identifier for an item in the Gran Enciclopèdia Catalana. Replaced with \"Gran Enciclopèdia Catalana ID (P12385)\"."@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P1296 ;
+	wikibase:claim p:P1296 ;
+	wikibase:statementProperty ps:P1296 ;
+	wikibase:statementValue psv:P1296 ;
+	wikibase:qualifier pq:P1296 ;
+	wikibase:qualifierValue pqv:P1296 ;
+	wikibase:reference pr:P1296 ;
+	wikibase:referenceValue prv:P1296 ;
+	wikibase:novalue wdno:P1296 ;
+	wikibase:directClaimNormalized wdtn:P1296 ;
+	wikibase:statementValueNormalized psn:P1296 ;
+	wikibase:qualifierValueNormalized pqn:P1296 ;
+	wikibase:referenceValueNormalized prn:P1296 .
+
+p:P1296 a owl:ObjectProperty .
+
+psv:P1296 a owl:ObjectProperty .
+
+pqv:P1296 a owl:ObjectProperty .
+
+prv:P1296 a owl:ObjectProperty .
+
+wdt:P1296 a owl:DatatypeProperty .
+
+ps:P1296 a owl:DatatypeProperty .
+
+pq:P1296 a owl:DatatypeProperty .
+
+pr:P1296 a owl:DatatypeProperty .
+
+psn:P1296 a owl:ObjectProperty .
+
+pqn:P1296 a owl:ObjectProperty .
+
+prn:P1296 a owl:ObjectProperty .
+
+wdtn:P1296 a owl:ObjectProperty .
+
+wdno:P1296 a owl:Class ;
+	owl:complementOf _:2b4e9773af61d716df50661bea8bd3b2 .
+
+_:2b4e9773af61d716df50661bea8bd3b2 a owl:Restriction ;
+	owl:onProperty wdt:P1296 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P2044 a wikibase:Property ;
+	rdfs:label "elevation above sea level"@en ;
+	skos:prefLabel "elevation above sea level"@en ;
+	schema:name "elevation above sea level"@en ;
+	schema:description "height of the item (geographical object) as measured relative to sea level"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Quantity> ;
+	wikibase:directClaim wdt:P2044 ;
+	wikibase:claim p:P2044 ;
+	wikibase:statementProperty ps:P2044 ;
+	wikibase:statementValue psv:P2044 ;
+	wikibase:qualifier pq:P2044 ;
+	wikibase:qualifierValue pqv:P2044 ;
+	wikibase:reference pr:P2044 ;
+	wikibase:referenceValue prv:P2044 ;
+	wikibase:novalue wdno:P2044 ;
+	wikibase:directClaimNormalized wdtn:P2044 ;
+	wikibase:statementValueNormalized psn:P2044 ;
+	wikibase:qualifierValueNormalized pqn:P2044 ;
+	wikibase:referenceValueNormalized prn:P2044 .
+
+p:P2044 a owl:ObjectProperty .
+
+psv:P2044 a owl:ObjectProperty .
+
+pqv:P2044 a owl:ObjectProperty .
+
+prv:P2044 a owl:ObjectProperty .
+
+wdt:P2044 a owl:DatatypeProperty .
+
+ps:P2044 a owl:DatatypeProperty .
+
+pq:P2044 a owl:DatatypeProperty .
+
+pr:P2044 a owl:DatatypeProperty .
+
+psn:P2044 a owl:ObjectProperty .
+
+pqn:P2044 a owl:ObjectProperty .
+
+prn:P2044 a owl:ObjectProperty .
+
+wdtn:P2044 a owl:DatatypeProperty .
+
+wdno:P2044 a owl:Class ;
+	owl:complementOf _:f47974cfb2a3e57f67fbe7e8ec2d7088 .
+
+_:f47974cfb2a3e57f67fbe7e8ec2d7088 a owl:Restriction ;
+	owl:onProperty wdt:P2044 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P3417 a wikibase:Property ;
+	rdfs:label "Quora topic ID"@en ;
+	skos:prefLabel "Quora topic ID"@en ;
+	schema:name "Quora topic ID"@en ;
+	schema:description "identifier for a topic on Quora (English language version)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P3417 ;
+	wikibase:claim p:P3417 ;
+	wikibase:statementProperty ps:P3417 ;
+	wikibase:statementValue psv:P3417 ;
+	wikibase:qualifier pq:P3417 ;
+	wikibase:qualifierValue pqv:P3417 ;
+	wikibase:reference pr:P3417 ;
+	wikibase:referenceValue prv:P3417 ;
+	wikibase:novalue wdno:P3417 ;
+	wikibase:directClaimNormalized wdtn:P3417 ;
+	wikibase:statementValueNormalized psn:P3417 ;
+	wikibase:qualifierValueNormalized pqn:P3417 ;
+	wikibase:referenceValueNormalized prn:P3417 .
+
+p:P3417 a owl:ObjectProperty .
+
+psv:P3417 a owl:ObjectProperty .
+
+pqv:P3417 a owl:ObjectProperty .
+
+prv:P3417 a owl:ObjectProperty .
+
+wdt:P3417 a owl:DatatypeProperty .
+
+ps:P3417 a owl:DatatypeProperty .
+
+pq:P3417 a owl:DatatypeProperty .
+
+pr:P3417 a owl:DatatypeProperty .
+
+psn:P3417 a owl:ObjectProperty .
+
+pqn:P3417 a owl:ObjectProperty .
+
+prn:P3417 a owl:ObjectProperty .
+
+wdtn:P3417 a owl:ObjectProperty .
+
+wdno:P3417 a owl:Class ;
+	owl:complementOf _:54217a89695819ffcfec13afc576b468 .
+
+_:54217a89695819ffcfec13afc576b468 a owl:Restriction ;
+	owl:onProperty wdt:P3417 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P1705 a wikibase:Property ;
+	rdfs:label "native label"@en ;
+	skos:prefLabel "native label"@en ;
+	schema:name "native label"@en ;
+	schema:description "label for the items in their official language (P37) or their original language (P364)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Monolingualtext> ;
+	wikibase:directClaim wdt:P1705 ;
+	wikibase:claim p:P1705 ;
+	wikibase:statementProperty ps:P1705 ;
+	wikibase:statementValue psv:P1705 ;
+	wikibase:qualifier pq:P1705 ;
+	wikibase:qualifierValue pqv:P1705 ;
+	wikibase:reference pr:P1705 ;
+	wikibase:referenceValue prv:P1705 ;
+	wikibase:novalue wdno:P1705 .
+
+p:P1705 a owl:ObjectProperty .
+
+psv:P1705 a owl:ObjectProperty .
+
+pqv:P1705 a owl:ObjectProperty .
+
+prv:P1705 a owl:ObjectProperty .
+
+wdt:P1705 a owl:DatatypeProperty .
+
+ps:P1705 a owl:DatatypeProperty .
+
+pq:P1705 a owl:DatatypeProperty .
+
+pr:P1705 a owl:DatatypeProperty .
+
+wdno:P1705 a owl:Class ;
+	owl:complementOf _:0a41b27a4556bdd4b02570fc72c83c95 .
+
+_:0a41b27a4556bdd4b02570fc72c83c95 a owl:Restriction ;
+	owl:onProperty wdt:P1705 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P1225 a wikibase:Property ;
+	rdfs:label "U.S. National Archives Identifier"@en ;
+	skos:prefLabel "U.S. National Archives Identifier"@en ;
+	schema:name "U.S. National Archives Identifier"@en ;
+	schema:description "identifier for the United States National Archives and Records Administration's online catalog"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P1225 ;
+	wikibase:claim p:P1225 ;
+	wikibase:statementProperty ps:P1225 ;
+	wikibase:statementValue psv:P1225 ;
+	wikibase:qualifier pq:P1225 ;
+	wikibase:qualifierValue pqv:P1225 ;
+	wikibase:reference pr:P1225 ;
+	wikibase:referenceValue prv:P1225 ;
+	wikibase:novalue wdno:P1225 ;
+	wikibase:directClaimNormalized wdtn:P1225 ;
+	wikibase:statementValueNormalized psn:P1225 ;
+	wikibase:qualifierValueNormalized pqn:P1225 ;
+	wikibase:referenceValueNormalized prn:P1225 .
+
+p:P1225 a owl:ObjectProperty .
+
+psv:P1225 a owl:ObjectProperty .
+
+pqv:P1225 a owl:ObjectProperty .
+
+prv:P1225 a owl:ObjectProperty .
+
+wdt:P1225 a owl:DatatypeProperty .
+
+ps:P1225 a owl:DatatypeProperty .
+
+pq:P1225 a owl:DatatypeProperty .
+
+pr:P1225 a owl:DatatypeProperty .
+
+psn:P1225 a owl:ObjectProperty .
+
+pqn:P1225 a owl:ObjectProperty .
+
+prn:P1225 a owl:ObjectProperty .
+
+wdtn:P1225 a owl:ObjectProperty .
+
+wdno:P1225 a owl:Class ;
+	owl:complementOf _:3df0d7331aed2f2366239785e0675c7e .
+
+_:3df0d7331aed2f2366239785e0675c7e a owl:Restriction ;
+	owl:onProperty wdt:P1225 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P3219 a wikibase:Property ;
+	rdfs:label "Encyclopædia Universalis ID"@en ;
+	skos:prefLabel "Encyclopædia Universalis ID"@en ;
+	schema:name "Encyclopædia Universalis ID"@en ;
+	schema:description "identifier for an article in the online version of Encyclopædia Universalis"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P3219 ;
+	wikibase:claim p:P3219 ;
+	wikibase:statementProperty ps:P3219 ;
+	wikibase:statementValue psv:P3219 ;
+	wikibase:qualifier pq:P3219 ;
+	wikibase:qualifierValue pqv:P3219 ;
+	wikibase:reference pr:P3219 ;
+	wikibase:referenceValue prv:P3219 ;
+	wikibase:novalue wdno:P3219 ;
+	wikibase:directClaimNormalized wdtn:P3219 ;
+	wikibase:statementValueNormalized psn:P3219 ;
+	wikibase:qualifierValueNormalized pqn:P3219 ;
+	wikibase:referenceValueNormalized prn:P3219 .
+
+p:P3219 a owl:ObjectProperty .
+
+psv:P3219 a owl:ObjectProperty .
+
+pqv:P3219 a owl:ObjectProperty .
+
+prv:P3219 a owl:ObjectProperty .
+
+wdt:P3219 a owl:DatatypeProperty .
+
+ps:P3219 a owl:DatatypeProperty .
+
+pq:P3219 a owl:DatatypeProperty .
+
+pr:P3219 a owl:DatatypeProperty .
+
+psn:P3219 a owl:ObjectProperty .
+
+pqn:P3219 a owl:ObjectProperty .
+
+prn:P3219 a owl:ObjectProperty .
+
+wdtn:P3219 a owl:ObjectProperty .
+
+wdno:P3219 a owl:Class ;
+	owl:complementOf _:b59412a453ea85a39b5b493ca89a2026 .
+
+_:b59412a453ea85a39b5b493ca89a2026 a owl:Restriction ;
+	owl:onProperty wdt:P3219 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P2924 a wikibase:Property ;
+	rdfs:label "Great Russian Encyclopedia Online ID (old version)"@en ;
+	skos:prefLabel "Great Russian Encyclopedia Online ID (old version)"@en ;
+	schema:name "Great Russian Encyclopedia Online ID (old version)"@en ;
+	schema:description "identifier for an entry on old.bigenc.ru, the official site of the Great Russian Encyclopedia Online 2014–2017 (current version of bigenc.ru is P11514)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P2924 ;
+	wikibase:claim p:P2924 ;
+	wikibase:statementProperty ps:P2924 ;
+	wikibase:statementValue psv:P2924 ;
+	wikibase:qualifier pq:P2924 ;
+	wikibase:qualifierValue pqv:P2924 ;
+	wikibase:reference pr:P2924 ;
+	wikibase:referenceValue prv:P2924 ;
+	wikibase:novalue wdno:P2924 ;
+	wikibase:directClaimNormalized wdtn:P2924 ;
+	wikibase:statementValueNormalized psn:P2924 ;
+	wikibase:qualifierValueNormalized pqn:P2924 ;
+	wikibase:referenceValueNormalized prn:P2924 .
+
+p:P2924 a owl:ObjectProperty .
+
+psv:P2924 a owl:ObjectProperty .
+
+pqv:P2924 a owl:ObjectProperty .
+
+prv:P2924 a owl:ObjectProperty .
+
+wdt:P2924 a owl:DatatypeProperty .
+
+ps:P2924 a owl:DatatypeProperty .
+
+pq:P2924 a owl:DatatypeProperty .
+
+pr:P2924 a owl:DatatypeProperty .
+
+psn:P2924 a owl:ObjectProperty .
+
+pqn:P2924 a owl:ObjectProperty .
+
+prn:P2924 a owl:ObjectProperty .
+
+wdtn:P2924 a owl:ObjectProperty .
+
+wdno:P2924 a owl:Class ;
+	owl:complementOf _:6b3043e2d784bcf6151a060f4982b663 .
+
+_:6b3043e2d784bcf6151a060f4982b663 a owl:Restriction ;
+	owl:onProperty wdt:P2924 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P1448 a wikibase:Property ;
+	rdfs:label "official name"@en ;
+	skos:prefLabel "official name"@en ;
+	schema:name "official name"@en ;
+	schema:description "official name of the subject in its official language(s)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Monolingualtext> ;
+	wikibase:directClaim wdt:P1448 ;
+	wikibase:claim p:P1448 ;
+	wikibase:statementProperty ps:P1448 ;
+	wikibase:statementValue psv:P1448 ;
+	wikibase:qualifier pq:P1448 ;
+	wikibase:qualifierValue pqv:P1448 ;
+	wikibase:reference pr:P1448 ;
+	wikibase:referenceValue prv:P1448 ;
+	wikibase:novalue wdno:P1448 .
+
+p:P1448 a owl:ObjectProperty .
+
+psv:P1448 a owl:ObjectProperty .
+
+pqv:P1448 a owl:ObjectProperty .
+
+prv:P1448 a owl:ObjectProperty .
+
+wdt:P1448 a owl:DatatypeProperty .
+
+ps:P1448 a owl:DatatypeProperty .
+
+pq:P1448 a owl:DatatypeProperty .
+
+pr:P1448 a owl:DatatypeProperty .
+
+wdno:P1448 a owl:Class ;
+	owl:complementOf _:262ace7888163a9086c18611df9f3893 .
+
+_:262ace7888163a9086c18611df9f3893 a owl:Restriction ;
+	owl:onProperty wdt:P1448 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P5573 a wikibase:Property ;
+	rdfs:label "archINFORM location ID"@en ;
+	skos:prefLabel "archINFORM location ID"@en ;
+	schema:name "archINFORM location ID"@en ;
+	schema:description "identifier for a location on the archINFORM website"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P5573 ;
+	wikibase:claim p:P5573 ;
+	wikibase:statementProperty ps:P5573 ;
+	wikibase:statementValue psv:P5573 ;
+	wikibase:qualifier pq:P5573 ;
+	wikibase:qualifierValue pqv:P5573 ;
+	wikibase:reference pr:P5573 ;
+	wikibase:referenceValue prv:P5573 ;
+	wikibase:novalue wdno:P5573 ;
+	wikibase:directClaimNormalized wdtn:P5573 ;
+	wikibase:statementValueNormalized psn:P5573 ;
+	wikibase:qualifierValueNormalized pqn:P5573 ;
+	wikibase:referenceValueNormalized prn:P5573 .
+
+p:P5573 a owl:ObjectProperty .
+
+psv:P5573 a owl:ObjectProperty .
+
+pqv:P5573 a owl:ObjectProperty .
+
+prv:P5573 a owl:ObjectProperty .
+
+wdt:P5573 a owl:DatatypeProperty .
+
+ps:P5573 a owl:DatatypeProperty .
+
+pq:P5573 a owl:DatatypeProperty .
+
+pr:P5573 a owl:DatatypeProperty .
+
+psn:P5573 a owl:ObjectProperty .
+
+pqn:P5573 a owl:ObjectProperty .
+
+prn:P5573 a owl:ObjectProperty .
+
+wdtn:P5573 a owl:ObjectProperty .
+
+wdno:P5573 a owl:Class ;
+	owl:complementOf _:444f645e97d44a52c2f078839c889f11 .
+
+_:444f645e97d44a52c2f078839c889f11 a owl:Restriction ;
+	owl:onProperty wdt:P5573 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P949 a wikibase:Property ;
+	rdfs:label "National Library of Israel ID (old)"@en ;
+	skos:prefLabel "National Library of Israel ID (old)"@en ;
+	schema:name "National Library of Israel ID (old)"@en ;
+	schema:description "former identifier for authority control used at the National Library of Israel. Replaced with \"National Library of Israel J9U ID\" (P8189)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P949 ;
+	wikibase:claim p:P949 ;
+	wikibase:statementProperty ps:P949 ;
+	wikibase:statementValue psv:P949 ;
+	wikibase:qualifier pq:P949 ;
+	wikibase:qualifierValue pqv:P949 ;
+	wikibase:reference pr:P949 ;
+	wikibase:referenceValue prv:P949 ;
+	wikibase:novalue wdno:P949 ;
+	wikibase:directClaimNormalized wdtn:P949 ;
+	wikibase:statementValueNormalized psn:P949 ;
+	wikibase:qualifierValueNormalized pqn:P949 ;
+	wikibase:referenceValueNormalized prn:P949 .
+
+p:P949 a owl:ObjectProperty .
+
+psv:P949 a owl:ObjectProperty .
+
+pqv:P949 a owl:ObjectProperty .
+
+prv:P949 a owl:ObjectProperty .
+
+wdt:P949 a owl:DatatypeProperty .
+
+ps:P949 a owl:DatatypeProperty .
+
+pq:P949 a owl:DatatypeProperty .
+
+pr:P949 a owl:DatatypeProperty .
+
+psn:P949 a owl:ObjectProperty .
+
+pqn:P949 a owl:ObjectProperty .
+
+prn:P949 a owl:ObjectProperty .
+
+wdtn:P949 a owl:ObjectProperty .
+
+wdno:P949 a owl:Class ;
+	owl:complementOf _:85c146c8026653253daee222e99e6207 .
+
+_:85c146c8026653253daee222e99e6207 a owl:Restriction ;
+	owl:onProperty wdt:P949 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q2118 a wikibase:Item ;
+	rdfs:label "Antofagasta Region"@en ;
+	skos:prefLabel "Antofagasta Region"@en ;
+	schema:name "Antofagasta Region"@en ;
+	schema:description "administrative division in Chile"@en .
+
+wd:P1376 a wikibase:Property ;
+	rdfs:label "capital of"@en ;
+	skos:prefLabel "capital of"@en ;
+	schema:name "capital of"@en ;
+	schema:description "country, state, department, canton or other administrative division of which the municipality is the governmental seat"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P1376 ;
+	wikibase:claim p:P1376 ;
+	wikibase:statementProperty ps:P1376 ;
+	wikibase:statementValue psv:P1376 ;
+	wikibase:qualifier pq:P1376 ;
+	wikibase:qualifierValue pqv:P1376 ;
+	wikibase:reference pr:P1376 ;
+	wikibase:referenceValue prv:P1376 ;
+	wikibase:novalue wdno:P1376 .
+
+p:P1376 a owl:ObjectProperty .
+
+psv:P1376 a owl:ObjectProperty .
+
+pqv:P1376 a owl:ObjectProperty .
+
+prv:P1376 a owl:ObjectProperty .
+
+wdt:P1376 a owl:ObjectProperty .
+
+ps:P1376 a owl:ObjectProperty .
+
+pq:P1376 a owl:ObjectProperty .
+
+pr:P1376 a owl:ObjectProperty .
+
+wdno:P1376 a owl:Class ;
+	owl:complementOf _:227ae9c7942e8b38293239f5b7963afe .
+
+_:227ae9c7942e8b38293239f5b7963afe a owl:Restriction ;
+	owl:onProperty wdt:P1376 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q94552 a wikibase:Item ;
+	rdfs:label "Antofagasta Province"@en ;
+	skos:prefLabel "Antofagasta Province"@en ;
+	schema:name "Antofagasta Province"@en ;
+	schema:description "province of Chile"@en .
+
+wd:P244 a wikibase:Property ;
+	rdfs:label "Library of Congress authority ID"@en ;
+	skos:prefLabel "Library of Congress authority ID"@en ;
+	schema:name "Library of Congress authority ID"@en ;
+	schema:description "Library of Congress name authority (persons, families, corporate bodies, events, places, works and expressions) and subject authority identifier [Format: 1-2 specific letters followed by 8-10 digits (see regex). For manifestations, use P1144]"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P244 ;
+	wikibase:claim p:P244 ;
+	wikibase:statementProperty ps:P244 ;
+	wikibase:statementValue psv:P244 ;
+	wikibase:qualifier pq:P244 ;
+	wikibase:qualifierValue pqv:P244 ;
+	wikibase:reference pr:P244 ;
+	wikibase:referenceValue prv:P244 ;
+	wikibase:novalue wdno:P244 ;
+	wikibase:directClaimNormalized wdtn:P244 ;
+	wikibase:statementValueNormalized psn:P244 ;
+	wikibase:qualifierValueNormalized pqn:P244 ;
+	wikibase:referenceValueNormalized prn:P244 .
+
+p:P244 a owl:ObjectProperty .
+
+psv:P244 a owl:ObjectProperty .
+
+pqv:P244 a owl:ObjectProperty .
+
+prv:P244 a owl:ObjectProperty .
+
+wdt:P244 a owl:DatatypeProperty .
+
+ps:P244 a owl:DatatypeProperty .
+
+pq:P244 a owl:DatatypeProperty .
+
+pr:P244 a owl:DatatypeProperty .
+
+psn:P244 a owl:ObjectProperty .
+
+pqn:P244 a owl:ObjectProperty .
+
+prn:P244 a owl:ObjectProperty .
+
+wdtn:P244 a owl:ObjectProperty .
+
+wdno:P244 a owl:Class ;
+	owl:complementOf _:590c65ffccb1a1851cc444e4370c7714 .
+
+_:590c65ffccb1a1851cc444e4370c7714 a owl:Restriction ;
+	owl:onProperty wdt:P244 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P6766 a wikibase:Property ;
+	rdfs:label "Who's on First ID"@en ;
+	skos:prefLabel "Who's on First ID"@en ;
+	schema:name "Who's on First ID"@en ;
+	schema:description "identifier from the Who's on First database"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P6766 ;
+	wikibase:claim p:P6766 ;
+	wikibase:statementProperty ps:P6766 ;
+	wikibase:statementValue psv:P6766 ;
+	wikibase:qualifier pq:P6766 ;
+	wikibase:qualifierValue pqv:P6766 ;
+	wikibase:reference pr:P6766 ;
+	wikibase:referenceValue prv:P6766 ;
+	wikibase:novalue wdno:P6766 ;
+	wikibase:directClaimNormalized wdtn:P6766 ;
+	wikibase:statementValueNormalized psn:P6766 ;
+	wikibase:qualifierValueNormalized pqn:P6766 ;
+	wikibase:referenceValueNormalized prn:P6766 .
+
+p:P6766 a owl:ObjectProperty .
+
+psv:P6766 a owl:ObjectProperty .
+
+pqv:P6766 a owl:ObjectProperty .
+
+prv:P6766 a owl:ObjectProperty .
+
+wdt:P6766 a owl:DatatypeProperty .
+
+ps:P6766 a owl:DatatypeProperty .
+
+pq:P6766 a owl:DatatypeProperty .
+
+pr:P6766 a owl:DatatypeProperty .
+
+psn:P6766 a owl:ObjectProperty .
+
+pqn:P6766 a owl:ObjectProperty .
+
+prn:P6766 a owl:ObjectProperty .
+
+wdtn:P6766 a owl:ObjectProperty .
+
+wdno:P6766 a owl:Class ;
+	owl:complementOf _:0116ddf1c74589f079685693c943094f .
+
+_:0116ddf1c74589f079685693c943094f a owl:Restriction ;
+	owl:onProperty wdt:P6766 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q3181656 a wikibase:Item ;
+	rdfs:label "The Nuttall Encyclopædia"@en ;
+	skos:prefLabel "The Nuttall Encyclopædia"@en ;
+	schema:name "The Nuttall Encyclopædia"@en ;
+	schema:description "British encyclopedia"@en .
+
+wd:P1343 a wikibase:Property ;
+	rdfs:label "described by source"@en ;
+	skos:prefLabel "described by source"@en ;
+	schema:name "described by source"@en ;
+	schema:description "work where this item is described"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P1343 ;
+	wikibase:claim p:P1343 ;
+	wikibase:statementProperty ps:P1343 ;
+	wikibase:statementValue psv:P1343 ;
+	wikibase:qualifier pq:P1343 ;
+	wikibase:qualifierValue pqv:P1343 ;
+	wikibase:reference pr:P1343 ;
+	wikibase:referenceValue prv:P1343 ;
+	wikibase:novalue wdno:P1343 .
+
+p:P1343 a owl:ObjectProperty .
+
+psv:P1343 a owl:ObjectProperty .
+
+pqv:P1343 a owl:ObjectProperty .
+
+prv:P1343 a owl:ObjectProperty .
+
+wdt:P1343 a owl:ObjectProperty .
+
+ps:P1343 a owl:ObjectProperty .
+
+pq:P1343 a owl:ObjectProperty .
+
+pr:P1343 a owl:ObjectProperty .
+
+wdno:P1343 a owl:Class ;
+	owl:complementOf _:9c5978c46703ed90be57b769a8622d59 .
+
+_:9c5978c46703ed90be57b769a8622d59 a owl:Restriction ;
+	owl:onProperty wdt:P1343 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q867541 a wikibase:Item ;
+	rdfs:label "Encyclopædia Britannica 11th edition"@en ;
+	skos:prefLabel "Encyclopædia Britannica 11th edition"@en ;
+	schema:name "Encyclopædia Britannica 11th edition"@en ;
+	schema:description "11th edition of Encyclopædia Britannica"@en .
+
+wd:P1245 a wikibase:Property ;
+	rdfs:label "OmegaWiki Defined Meaning"@en ;
+	skos:prefLabel "OmegaWiki Defined Meaning"@en ;
+	schema:name "OmegaWiki Defined Meaning"@en ;
+	schema:description "\"Defined Meaning\" on the site"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P1245 ;
+	wikibase:claim p:P1245 ;
+	wikibase:statementProperty ps:P1245 ;
+	wikibase:statementValue psv:P1245 ;
+	wikibase:qualifier pq:P1245 ;
+	wikibase:qualifierValue pqv:P1245 ;
+	wikibase:reference pr:P1245 ;
+	wikibase:referenceValue prv:P1245 ;
+	wikibase:novalue wdno:P1245 ;
+	wikibase:directClaimNormalized wdtn:P1245 ;
+	wikibase:statementValueNormalized psn:P1245 ;
+	wikibase:qualifierValueNormalized pqn:P1245 ;
+	wikibase:referenceValueNormalized prn:P1245 .
+
+p:P1245 a owl:ObjectProperty .
+
+psv:P1245 a owl:ObjectProperty .
+
+pqv:P1245 a owl:ObjectProperty .
+
+prv:P1245 a owl:ObjectProperty .
+
+wdt:P1245 a owl:DatatypeProperty .
+
+ps:P1245 a owl:DatatypeProperty .
+
+pq:P1245 a owl:DatatypeProperty .
+
+pr:P1245 a owl:DatatypeProperty .
+
+psn:P1245 a owl:ObjectProperty .
+
+pqn:P1245 a owl:ObjectProperty .
+
+prn:P1245 a owl:ObjectProperty .
+
+wdtn:P1245 a owl:ObjectProperty .
+
+wdno:P1245 a owl:Class ;
+	owl:complementOf _:6e697cc455c85845bc517351bce8bc92 .
+
+_:6e697cc455c85845bc517351bce8bc92 a owl:Restriction ;
+	owl:onProperty wdt:P1245 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q98 a wikibase:Item ;
+	rdfs:label "Pacific Ocean"@en ;
+	skos:prefLabel "Pacific Ocean"@en ;
+	schema:name "Pacific Ocean"@en ;
+	schema:description "ocean between Asia, Australia and the Americas"@en .
+
+wd:P206 a wikibase:Property ;
+	rdfs:label "located in or next to body of water"@en ;
+	skos:prefLabel "located in or next to body of water"@en ;
+	schema:name "located in or next to body of water"@en ;
+	schema:description "body of water on or next to which a place is located"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P206 ;
+	wikibase:claim p:P206 ;
+	wikibase:statementProperty ps:P206 ;
+	wikibase:statementValue psv:P206 ;
+	wikibase:qualifier pq:P206 ;
+	wikibase:qualifierValue pqv:P206 ;
+	wikibase:reference pr:P206 ;
+	wikibase:referenceValue prv:P206 ;
+	wikibase:novalue wdno:P206 .
+
+p:P206 a owl:ObjectProperty .
+
+psv:P206 a owl:ObjectProperty .
+
+pqv:P206 a owl:ObjectProperty .
+
+prv:P206 a owl:ObjectProperty .
+
+wdt:P206 a owl:ObjectProperty .
+
+ps:P206 a owl:ObjectProperty .
+
+pq:P206 a owl:ObjectProperty .
+
+pr:P206 a owl:ObjectProperty .
+
+wdno:P206 a owl:Class ;
+	owl:complementOf _:5847f0043d28c92618a435901bb15459 .
+
+_:5847f0043d28c92618a435901bb15459 a owl:Restriction ;
+	owl:onProperty wdt:P206 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P691 a wikibase:Property ;
+	rdfs:label "NL CR AUT ID"@en ;
+	skos:prefLabel "NL CR AUT ID"@en ;
+	schema:name "NL CR AUT ID"@en ;
+	schema:description "identifier in the Czech National Authority Database of National Library of the Czech Republic (NL CR)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P691 ;
+	wikibase:claim p:P691 ;
+	wikibase:statementProperty ps:P691 ;
+	wikibase:statementValue psv:P691 ;
+	wikibase:qualifier pq:P691 ;
+	wikibase:qualifierValue pqv:P691 ;
+	wikibase:reference pr:P691 ;
+	wikibase:referenceValue prv:P691 ;
+	wikibase:novalue wdno:P691 ;
+	wikibase:directClaimNormalized wdtn:P691 ;
+	wikibase:statementValueNormalized psn:P691 ;
+	wikibase:qualifierValueNormalized pqn:P691 ;
+	wikibase:referenceValueNormalized prn:P691 .
+
+p:P691 a owl:ObjectProperty .
+
+psv:P691 a owl:ObjectProperty .
+
+pqv:P691 a owl:ObjectProperty .
+
+prv:P691 a owl:ObjectProperty .
+
+wdt:P691 a owl:DatatypeProperty .
+
+ps:P691 a owl:DatatypeProperty .
+
+pq:P691 a owl:DatatypeProperty .
+
+pr:P691 a owl:DatatypeProperty .
+
+psn:P691 a owl:ObjectProperty .
+
+pqn:P691 a owl:ObjectProperty .
+
+prn:P691 a owl:ObjectProperty .
+
+wdtn:P691 a owl:ObjectProperty .
+
+wdno:P691 a owl:Class ;
+	owl:complementOf _:eee17ba34d3dca4b3bf5b23f68ca71b1 .
+
+_:eee17ba34d3dca4b3bf5b23f68ca71b1 a owl:Restriction ;
+	owl:onProperty wdt:P691 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P6929 a wikibase:Property ;
+	rdfs:label "CUT code"@en ;
+	skos:prefLabel "CUT code"@en ;
+	schema:name "CUT code"@en ;
+	schema:description "identifier for regions, provinces, and municipalities in Chile as defined by Ministerio de Bienes Nacionales"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P6929 ;
+	wikibase:claim p:P6929 ;
+	wikibase:statementProperty ps:P6929 ;
+	wikibase:statementValue psv:P6929 ;
+	wikibase:qualifier pq:P6929 ;
+	wikibase:qualifierValue pqv:P6929 ;
+	wikibase:reference pr:P6929 ;
+	wikibase:referenceValue prv:P6929 ;
+	wikibase:novalue wdno:P6929 ;
+	wikibase:directClaimNormalized wdtn:P6929 ;
+	wikibase:statementValueNormalized psn:P6929 ;
+	wikibase:qualifierValueNormalized pqn:P6929 ;
+	wikibase:referenceValueNormalized prn:P6929 .
+
+p:P6929 a owl:ObjectProperty .
+
+psv:P6929 a owl:ObjectProperty .
+
+pqv:P6929 a owl:ObjectProperty .
+
+prv:P6929 a owl:ObjectProperty .
+
+wdt:P6929 a owl:DatatypeProperty .
+
+ps:P6929 a owl:DatatypeProperty .
+
+pq:P6929 a owl:DatatypeProperty .
+
+pr:P6929 a owl:DatatypeProperty .
+
+psn:P6929 a owl:ObjectProperty .
+
+pqn:P6929 a owl:ObjectProperty .
+
+prn:P6929 a owl:ObjectProperty .
+
+wdtn:P6929 a owl:ObjectProperty .
+
+wdno:P6929 a owl:Class ;
+	owl:complementOf _:24892eb27562a410f6fc22403fdd6e25 .
+
+_:24892eb27562a410f6fc22403fdd6e25 a owl:Restriction ;
+	owl:onProperty wdt:P6929 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P5063 a wikibase:Property ;
+	rdfs:label "Interlingual Index ID"@en ;
+	skos:prefLabel "Interlingual Index ID"@en ;
+	schema:name "Interlingual Index ID"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P5063 ;
+	wikibase:claim p:P5063 ;
+	wikibase:statementProperty ps:P5063 ;
+	wikibase:statementValue psv:P5063 ;
+	wikibase:qualifier pq:P5063 ;
+	wikibase:qualifierValue pqv:P5063 ;
+	wikibase:reference pr:P5063 ;
+	wikibase:referenceValue prv:P5063 ;
+	wikibase:novalue wdno:P5063 ;
+	wikibase:directClaimNormalized wdtn:P5063 ;
+	wikibase:statementValueNormalized psn:P5063 ;
+	wikibase:qualifierValueNormalized pqn:P5063 ;
+	wikibase:referenceValueNormalized prn:P5063 .
+
+p:P5063 a owl:ObjectProperty .
+
+psv:P5063 a owl:ObjectProperty .
+
+pqv:P5063 a owl:ObjectProperty .
+
+prv:P5063 a owl:ObjectProperty .
+
+wdt:P5063 a owl:DatatypeProperty .
+
+ps:P5063 a owl:DatatypeProperty .
+
+pq:P5063 a owl:DatatypeProperty .
+
+pr:P5063 a owl:DatatypeProperty .
+
+psn:P5063 a owl:ObjectProperty .
+
+pqn:P5063 a owl:ObjectProperty .
+
+prn:P5063 a owl:ObjectProperty .
+
+wdtn:P5063 a owl:ObjectProperty .
+
+wdno:P5063 a owl:Class ;
+	owl:complementOf _:07f7aaefead897686ee4d08e4ce58498 .
+
+_:07f7aaefead897686ee4d08e4ce58498 a owl:Restriction ;
+	owl:onProperty wdt:P5063 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P8814 a wikibase:Property ;
+	rdfs:label "WordNet 3.1 Synset ID"@en ;
+	skos:prefLabel "WordNet 3.1 Synset ID"@en ;
+	schema:name "WordNet 3.1 Synset ID"@en ;
+	schema:description "Synset identifier in Princeton’s WordNet Version 3.1"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P8814 ;
+	wikibase:claim p:P8814 ;
+	wikibase:statementProperty ps:P8814 ;
+	wikibase:statementValue psv:P8814 ;
+	wikibase:qualifier pq:P8814 ;
+	wikibase:qualifierValue pqv:P8814 ;
+	wikibase:reference pr:P8814 ;
+	wikibase:referenceValue prv:P8814 ;
+	wikibase:novalue wdno:P8814 ;
+	wikibase:directClaimNormalized wdtn:P8814 ;
+	wikibase:statementValueNormalized psn:P8814 ;
+	wikibase:qualifierValueNormalized pqn:P8814 ;
+	wikibase:referenceValueNormalized prn:P8814 .
+
+p:P8814 a owl:ObjectProperty .
+
+psv:P8814 a owl:ObjectProperty .
+
+pqv:P8814 a owl:ObjectProperty .
+
+prv:P8814 a owl:ObjectProperty .
+
+wdt:P8814 a owl:DatatypeProperty .
+
+ps:P8814 a owl:DatatypeProperty .
+
+pq:P8814 a owl:DatatypeProperty .
+
+pr:P8814 a owl:DatatypeProperty .
+
+psn:P8814 a owl:ObjectProperty .
+
+pqn:P8814 a owl:ObjectProperty .
+
+prn:P8814 a owl:ObjectProperty .
+
+wdtn:P8814 a owl:ObjectProperty .
+
+wdno:P8814 a owl:Class ;
+	owl:complementOf _:eb345aeb18fe7fba166f7abc9770574d .
+
+_:eb345aeb18fe7fba166f7abc9770574d a owl:Restriction ;
+	owl:onProperty wdt:P8814 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q2839096 a wikibase:Item .
+
+wd:P9241 a wikibase:Property ;
+	rdfs:label "demographics of topic"@en ;
+	skos:prefLabel "demographics of topic"@en ;
+	schema:name "demographics of topic"@en ;
+	schema:description "item that deals with demographics of the subject"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P9241 ;
+	wikibase:claim p:P9241 ;
+	wikibase:statementProperty ps:P9241 ;
+	wikibase:statementValue psv:P9241 ;
+	wikibase:qualifier pq:P9241 ;
+	wikibase:qualifierValue pqv:P9241 ;
+	wikibase:reference pr:P9241 ;
+	wikibase:referenceValue prv:P9241 ;
+	wikibase:novalue wdno:P9241 .
+
+p:P9241 a owl:ObjectProperty .
+
+psv:P9241 a owl:ObjectProperty .
+
+pqv:P9241 a owl:ObjectProperty .
+
+prv:P9241 a owl:ObjectProperty .
+
+wdt:P9241 a owl:ObjectProperty .
+
+ps:P9241 a owl:ObjectProperty .
+
+pq:P9241 a owl:ObjectProperty .
+
+pr:P9241 a owl:ObjectProperty .
+
+wdno:P9241 a owl:Class ;
+	owl:complementOf _:5ac7cc80fd2591e23af6bd6100bbfb08 .
+
+_:5ac7cc80fd2591e23af6bd6100bbfb08 a owl:Restriction ;
+	owl:onProperty wdt:P9241 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P9545 a wikibase:Property ;
+	rdfs:label "Encyclopedia of China (Second Edition) ID"@en ;
+	skos:prefLabel "Encyclopedia of China (Second Edition) ID"@en ;
+	schema:name "Encyclopedia of China (Second Edition) ID"@en ;
+	schema:description "identifier for an article in the online version of Encyclopedia of China (Second Edition)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P9545 ;
+	wikibase:claim p:P9545 ;
+	wikibase:statementProperty ps:P9545 ;
+	wikibase:statementValue psv:P9545 ;
+	wikibase:qualifier pq:P9545 ;
+	wikibase:qualifierValue pqv:P9545 ;
+	wikibase:reference pr:P9545 ;
+	wikibase:referenceValue prv:P9545 ;
+	wikibase:novalue wdno:P9545 ;
+	wikibase:directClaimNormalized wdtn:P9545 ;
+	wikibase:statementValueNormalized psn:P9545 ;
+	wikibase:qualifierValueNormalized pqn:P9545 ;
+	wikibase:referenceValueNormalized prn:P9545 .
+
+p:P9545 a owl:ObjectProperty .
+
+psv:P9545 a owl:ObjectProperty .
+
+pqv:P9545 a owl:ObjectProperty .
+
+prv:P9545 a owl:ObjectProperty .
+
+wdt:P9545 a owl:DatatypeProperty .
+
+ps:P9545 a owl:DatatypeProperty .
+
+pq:P9545 a owl:DatatypeProperty .
+
+pr:P9545 a owl:DatatypeProperty .
+
+psn:P9545 a owl:ObjectProperty .
+
+pqn:P9545 a owl:ObjectProperty .
+
+prn:P9545 a owl:ObjectProperty .
+
+wdtn:P9545 a owl:ObjectProperty .
+
+wdno:P9545 a owl:Class ;
+	owl:complementOf _:07d79a410c0487b1d959e6bc8cfe9202 .
+
+_:07d79a410c0487b1d959e6bc8cfe9202 a owl:Restriction ;
+	owl:onProperty wdt:P9545 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q109759762 a wikibase:Item ;
+	rdfs:label "Antofagasta"@en ;
+	skos:prefLabel "Antofagasta"@en ;
+	schema:name "Antofagasta"@en ;
+	schema:description "neighbourhood in Bolivia"@en .
+
+wd:P1889 a wikibase:Property ;
+	rdfs:label "different from"@en ;
+	skos:prefLabel "different from"@en ;
+	schema:name "different from"@en ;
+	schema:description "item that is different from another item, with which it may be confused"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P1889 ;
+	wikibase:claim p:P1889 ;
+	wikibase:statementProperty ps:P1889 ;
+	wikibase:statementValue psv:P1889 ;
+	wikibase:qualifier pq:P1889 ;
+	wikibase:qualifierValue pqv:P1889 ;
+	wikibase:reference pr:P1889 ;
+	wikibase:referenceValue prv:P1889 ;
+	wikibase:novalue wdno:P1889 .
+
+p:P1889 a owl:ObjectProperty .
+
+psv:P1889 a owl:ObjectProperty .
+
+pqv:P1889 a owl:ObjectProperty .
+
+prv:P1889 a owl:ObjectProperty .
+
+wdt:P1889 a owl:ObjectProperty .
+
+ps:P1889 a owl:ObjectProperty .
+
+pq:P1889 a owl:ObjectProperty .
+
+pr:P1889 a owl:ObjectProperty .
+
+wdno:P1889 a owl:Class ;
+	owl:complementOf _:4fcc9ce770ae6fe14cb8672fb35a8bc9 .
+
+_:4fcc9ce770ae6fe14cb8672fb35a8bc9 a owl:Restriction ;
+	owl:onProperty wdt:P1889 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q2076979 a wikibase:Item ;
+	rdfs:label "Club Deportes Antofagasta"@en ;
+	skos:prefLabel "Club Deportes Antofagasta"@en ;
+	schema:name "Club Deportes Antofagasta"@en ;
+	schema:description "Chilean football club"@en .
+
+wd:P7305 a wikibase:Property ;
+	rdfs:label "Online PWN Encyclopedia ID"@en ;
+	skos:prefLabel "Online PWN Encyclopedia ID"@en ;
+	schema:name "Online PWN Encyclopedia ID"@en ;
+	schema:description "identifier for an entry in the online release of the Online PWN Encyclopedia"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P7305 ;
+	wikibase:claim p:P7305 ;
+	wikibase:statementProperty ps:P7305 ;
+	wikibase:statementValue psv:P7305 ;
+	wikibase:qualifier pq:P7305 ;
+	wikibase:qualifierValue pqv:P7305 ;
+	wikibase:reference pr:P7305 ;
+	wikibase:referenceValue prv:P7305 ;
+	wikibase:novalue wdno:P7305 ;
+	wikibase:directClaimNormalized wdtn:P7305 ;
+	wikibase:statementValueNormalized psn:P7305 ;
+	wikibase:qualifierValueNormalized pqn:P7305 ;
+	wikibase:referenceValueNormalized prn:P7305 .
+
+p:P7305 a owl:ObjectProperty .
+
+psv:P7305 a owl:ObjectProperty .
+
+pqv:P7305 a owl:ObjectProperty .
+
+prv:P7305 a owl:ObjectProperty .
+
+wdt:P7305 a owl:DatatypeProperty .
+
+ps:P7305 a owl:DatatypeProperty .
+
+pq:P7305 a owl:DatatypeProperty .
+
+pr:P7305 a owl:DatatypeProperty .
+
+psn:P7305 a owl:ObjectProperty .
+
+pqn:P7305 a owl:ObjectProperty .
+
+prn:P7305 a owl:ObjectProperty .
+
+wdtn:P7305 a owl:ObjectProperty .
+
+wdno:P7305 a owl:Class ;
+	owl:complementOf _:8b899d0054b33046d7243043181e724d .
+
+_:8b899d0054b33046d7243043181e724d a owl:Restriction ;
+	owl:onProperty wdt:P7305 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P8189 a wikibase:Property ;
+	rdfs:label "J9U ID"@en ;
+	skos:prefLabel "J9U ID"@en ;
+	schema:name "J9U ID"@en ;
+	schema:description "identifier used by the National Library of Israel"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P8189 ;
+	wikibase:claim p:P8189 ;
+	wikibase:statementProperty ps:P8189 ;
+	wikibase:statementValue psv:P8189 ;
+	wikibase:qualifier pq:P8189 ;
+	wikibase:qualifierValue pqv:P8189 ;
+	wikibase:reference pr:P8189 ;
+	wikibase:referenceValue prv:P8189 ;
+	wikibase:novalue wdno:P8189 ;
+	wikibase:directClaimNormalized wdtn:P8189 ;
+	wikibase:statementValueNormalized psn:P8189 ;
+	wikibase:qualifierValueNormalized pqn:P8189 ;
+	wikibase:referenceValueNormalized prn:P8189 .
+
+p:P8189 a owl:ObjectProperty .
+
+psv:P8189 a owl:ObjectProperty .
+
+pqv:P8189 a owl:ObjectProperty .
+
+prv:P8189 a owl:ObjectProperty .
+
+wdt:P8189 a owl:DatatypeProperty .
+
+ps:P8189 a owl:DatatypeProperty .
+
+pq:P8189 a owl:DatatypeProperty .
+
+pr:P8189 a owl:DatatypeProperty .
+
+psn:P8189 a owl:ObjectProperty .
+
+pqn:P8189 a owl:ObjectProperty .
+
+prn:P8189 a owl:ObjectProperty .
+
+wdtn:P8189 a owl:ObjectProperty .
+
+wdno:P8189 a owl:Class ;
+	owl:complementOf _:92bc7d972c1bed2e801eb42a65bd6c0a .
+
+_:92bc7d972c1bed2e801eb42a65bd6c0a a owl:Restriction ;
+	owl:onProperty wdt:P8189 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P4342 a wikibase:Property ;
+	rdfs:label "Store norske leksikon ID"@en ;
+	skos:prefLabel "Store norske leksikon ID"@en ;
+	schema:name "Store norske leksikon ID"@en ;
+	schema:description "identifier of an article in the online encyclopedia snl.no"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P4342 ;
+	wikibase:claim p:P4342 ;
+	wikibase:statementProperty ps:P4342 ;
+	wikibase:statementValue psv:P4342 ;
+	wikibase:qualifier pq:P4342 ;
+	wikibase:qualifierValue pqv:P4342 ;
+	wikibase:reference pr:P4342 ;
+	wikibase:referenceValue prv:P4342 ;
+	wikibase:novalue wdno:P4342 ;
+	wikibase:directClaimNormalized wdtn:P4342 ;
+	wikibase:statementValueNormalized psn:P4342 ;
+	wikibase:qualifierValueNormalized pqn:P4342 ;
+	wikibase:referenceValueNormalized prn:P4342 .
+
+p:P4342 a owl:ObjectProperty .
+
+psv:P4342 a owl:ObjectProperty .
+
+pqv:P4342 a owl:ObjectProperty .
+
+prv:P4342 a owl:ObjectProperty .
+
+wdt:P4342 a owl:DatatypeProperty .
+
+ps:P4342 a owl:DatatypeProperty .
+
+pq:P4342 a owl:DatatypeProperty .
+
+pr:P4342 a owl:DatatypeProperty .
+
+psn:P4342 a owl:ObjectProperty .
+
+pqn:P4342 a owl:ObjectProperty .
+
+prn:P4342 a owl:ObjectProperty .
+
+wdtn:P4342 a owl:ObjectProperty .
+
+wdno:P4342 a owl:Class ;
+	owl:complementOf _:798f6d589e42f1b7a13b07c18239c1c6 .
+
+_:798f6d589e42f1b7a13b07c18239c1c6 a owl:Restriction ;
+	owl:onProperty wdt:P4342 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P8313 a wikibase:Property ;
+	rdfs:label "Lex ID"@en ;
+	skos:prefLabel "Lex ID"@en ;
+	schema:name "Lex ID"@en ;
+	schema:description "identifier of an article in the online encyclopedia.lex.dk"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P8313 ;
+	wikibase:claim p:P8313 ;
+	wikibase:statementProperty ps:P8313 ;
+	wikibase:statementValue psv:P8313 ;
+	wikibase:qualifier pq:P8313 ;
+	wikibase:qualifierValue pqv:P8313 ;
+	wikibase:reference pr:P8313 ;
+	wikibase:referenceValue prv:P8313 ;
+	wikibase:novalue wdno:P8313 ;
+	wikibase:directClaimNormalized wdtn:P8313 ;
+	wikibase:statementValueNormalized psn:P8313 ;
+	wikibase:qualifierValueNormalized pqn:P8313 ;
+	wikibase:referenceValueNormalized prn:P8313 .
+
+p:P8313 a owl:ObjectProperty .
+
+psv:P8313 a owl:ObjectProperty .
+
+pqv:P8313 a owl:ObjectProperty .
+
+prv:P8313 a owl:ObjectProperty .
+
+wdt:P8313 a owl:DatatypeProperty .
+
+ps:P8313 a owl:DatatypeProperty .
+
+pq:P8313 a owl:DatatypeProperty .
+
+pr:P8313 a owl:DatatypeProperty .
+
+psn:P8313 a owl:ObjectProperty .
+
+pqn:P8313 a owl:ObjectProperty .
+
+prn:P8313 a owl:ObjectProperty .
+
+wdtn:P8313 a owl:ObjectProperty .
+
+wdno:P8313 a owl:Class ;
+	owl:complementOf _:5ce4742f42f26afe436b747d2437666d .
+
+_:5ce4742f42f26afe436b747d2437666d a owl:Restriction ;
+	owl:onProperty wdt:P8313 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P8592 a wikibase:Property ;
+	rdfs:label "aerial view"@en ;
+	skos:prefLabel "aerial view"@en ;
+	schema:name "aerial view"@en ;
+	schema:description "image of the subject taken from the air"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#CommonsMedia> ;
+	wikibase:directClaim wdt:P8592 ;
+	wikibase:claim p:P8592 ;
+	wikibase:statementProperty ps:P8592 ;
+	wikibase:statementValue psv:P8592 ;
+	wikibase:qualifier pq:P8592 ;
+	wikibase:qualifierValue pqv:P8592 ;
+	wikibase:reference pr:P8592 ;
+	wikibase:referenceValue prv:P8592 ;
+	wikibase:novalue wdno:P8592 .
+
+p:P8592 a owl:ObjectProperty .
+
+psv:P8592 a owl:ObjectProperty .
+
+pqv:P8592 a owl:ObjectProperty .
+
+prv:P8592 a owl:ObjectProperty .
+
+wdt:P8592 a owl:ObjectProperty .
+
+ps:P8592 a owl:ObjectProperty .
+
+pq:P8592 a owl:ObjectProperty .
+
+pr:P8592 a owl:ObjectProperty .
+
+wdno:P8592 a owl:Class ;
+	owl:complementOf _:3ebc5191d6e9a8c3c7126713a8335905 .
+
+_:3ebc5191d6e9a8c3c7126713a8335905 a owl:Restriction ;
+	owl:onProperty wdt:P8592 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P7197 a wikibase:Property ;
+	rdfs:label "OpenWeatherMap city ID"@en ;
+	skos:prefLabel "OpenWeatherMap city ID"@en ;
+	schema:name "OpenWeatherMap city ID"@en ;
+	schema:description "identifier for a location on OpenWeatherMap (not exclusively cities)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P7197 ;
+	wikibase:claim p:P7197 ;
+	wikibase:statementProperty ps:P7197 ;
+	wikibase:statementValue psv:P7197 ;
+	wikibase:qualifier pq:P7197 ;
+	wikibase:qualifierValue pqv:P7197 ;
+	wikibase:reference pr:P7197 ;
+	wikibase:referenceValue prv:P7197 ;
+	wikibase:novalue wdno:P7197 ;
+	wikibase:directClaimNormalized wdtn:P7197 ;
+	wikibase:statementValueNormalized psn:P7197 ;
+	wikibase:qualifierValueNormalized pqn:P7197 ;
+	wikibase:referenceValueNormalized prn:P7197 .
+
+p:P7197 a owl:ObjectProperty .
+
+psv:P7197 a owl:ObjectProperty .
+
+pqv:P7197 a owl:ObjectProperty .
+
+prv:P7197 a owl:ObjectProperty .
+
+wdt:P7197 a owl:DatatypeProperty .
+
+ps:P7197 a owl:DatatypeProperty .
+
+pq:P7197 a owl:DatatypeProperty .
+
+pr:P7197 a owl:DatatypeProperty .
+
+psn:P7197 a owl:ObjectProperty .
+
+pqn:P7197 a owl:ObjectProperty .
+
+prn:P7197 a owl:ObjectProperty .
+
+wdtn:P7197 a owl:ObjectProperty .
+
+wdno:P7197 a owl:Class ;
+	owl:complementOf _:81a4884b1ac531e350297d051b6f7b71 .
+
+_:81a4884b1ac531e350297d051b6f7b71 a owl:Restriction ;
+	owl:onProperty wdt:P7197 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P8168 a wikibase:Property ;
+	rdfs:label "FactGrid item ID"@en ;
+	skos:prefLabel "FactGrid item ID"@en ;
+	schema:name "FactGrid item ID"@en ;
+	schema:description "identifier for an item in FactGrid"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P8168 ;
+	wikibase:claim p:P8168 ;
+	wikibase:statementProperty ps:P8168 ;
+	wikibase:statementValue psv:P8168 ;
+	wikibase:qualifier pq:P8168 ;
+	wikibase:qualifierValue pqv:P8168 ;
+	wikibase:reference pr:P8168 ;
+	wikibase:referenceValue prv:P8168 ;
+	wikibase:novalue wdno:P8168 ;
+	wikibase:directClaimNormalized wdtn:P8168 ;
+	wikibase:statementValueNormalized psn:P8168 ;
+	wikibase:qualifierValueNormalized pqn:P8168 ;
+	wikibase:referenceValueNormalized prn:P8168 .
+
+p:P8168 a owl:ObjectProperty .
+
+psv:P8168 a owl:ObjectProperty .
+
+pqv:P8168 a owl:ObjectProperty .
+
+prv:P8168 a owl:ObjectProperty .
+
+wdt:P8168 a owl:DatatypeProperty .
+
+ps:P8168 a owl:DatatypeProperty .
+
+pq:P8168 a owl:DatatypeProperty .
+
+pr:P8168 a owl:DatatypeProperty .
+
+psn:P8168 a owl:ObjectProperty .
+
+pqn:P8168 a owl:ObjectProperty .
+
+prn:P8168 a owl:ObjectProperty .
+
+wdtn:P8168 a owl:ObjectProperty .
+
+wdno:P8168 a owl:Class ;
+	owl:complementOf _:49519c81f4756e1502024440539489c8 .
+
+_:49519c81f4756e1502024440539489c8 a owl:Restriction ;
+	owl:onProperty wdt:P8168 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P12385 a wikibase:Property ;
+	rdfs:label "Gran Enciclopèdia Catalana ID"@en ;
+	skos:prefLabel "Gran Enciclopèdia Catalana ID"@en ;
+	schema:name "Gran Enciclopèdia Catalana ID"@en ;
+	schema:description "identifier for an item in the Gran Enciclopèdia Catalana"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P12385 ;
+	wikibase:claim p:P12385 ;
+	wikibase:statementProperty ps:P12385 ;
+	wikibase:statementValue psv:P12385 ;
+	wikibase:qualifier pq:P12385 ;
+	wikibase:qualifierValue pqv:P12385 ;
+	wikibase:reference pr:P12385 ;
+	wikibase:referenceValue prv:P12385 ;
+	wikibase:novalue wdno:P12385 ;
+	wikibase:directClaimNormalized wdtn:P12385 ;
+	wikibase:statementValueNormalized psn:P12385 ;
+	wikibase:qualifierValueNormalized pqn:P12385 ;
+	wikibase:referenceValueNormalized prn:P12385 .
+
+p:P12385 a owl:ObjectProperty .
+
+psv:P12385 a owl:ObjectProperty .
+
+pqv:P12385 a owl:ObjectProperty .
+
+prv:P12385 a owl:ObjectProperty .
+
+wdt:P12385 a owl:DatatypeProperty .
+
+ps:P12385 a owl:DatatypeProperty .
+
+pq:P12385 a owl:DatatypeProperty .
+
+pr:P12385 a owl:DatatypeProperty .
+
+psn:P12385 a owl:ObjectProperty .
+
+pqn:P12385 a owl:ObjectProperty .
+
+prn:P12385 a owl:ObjectProperty .
+
+wdtn:P12385 a owl:ObjectProperty .
+
+wdno:P12385 a owl:Class ;
+	owl:complementOf _:28732a297c655ab9be28ac3c4c9e83e6 .
+
+_:28732a297c655ab9be28ac3c4c9e83e6 a owl:Restriction ;
+	owl:onProperty wdt:P12385 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P1937 a wikibase:Property ;
+	rdfs:label "UN/LOCODE"@en ;
+	skos:prefLabel "UN/LOCODE"@en ;
+	schema:name "UN/LOCODE"@en ;
+	schema:description "geographic location code mantained by UNECE"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P1937 ;
+	wikibase:claim p:P1937 ;
+	wikibase:statementProperty ps:P1937 ;
+	wikibase:statementValue psv:P1937 ;
+	wikibase:qualifier pq:P1937 ;
+	wikibase:qualifierValue pqv:P1937 ;
+	wikibase:reference pr:P1937 ;
+	wikibase:referenceValue prv:P1937 ;
+	wikibase:novalue wdno:P1937 ;
+	wikibase:directClaimNormalized wdtn:P1937 ;
+	wikibase:statementValueNormalized psn:P1937 ;
+	wikibase:qualifierValueNormalized pqn:P1937 ;
+	wikibase:referenceValueNormalized prn:P1937 .
+
+p:P1937 a owl:ObjectProperty .
+
+psv:P1937 a owl:ObjectProperty .
+
+pqv:P1937 a owl:ObjectProperty .
+
+prv:P1937 a owl:ObjectProperty .
+
+wdt:P1937 a owl:DatatypeProperty .
+
+ps:P1937 a owl:DatatypeProperty .
+
+pq:P1937 a owl:DatatypeProperty .
+
+pr:P1937 a owl:DatatypeProperty .
+
+psn:P1937 a owl:ObjectProperty .
+
+pqn:P1937 a owl:ObjectProperty .
+
+prn:P1937 a owl:ObjectProperty .
+
+wdtn:P1937 a owl:ObjectProperty .
+
+wdno:P1937 a owl:Class ;
+	owl:complementOf _:a43478a034d0ed794bb84ea56f4cda4b .
+
+_:a43478a034d0ed794bb84ea56f4cda4b a owl:Restriction ;
+	owl:onProperty wdt:P1937 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P10832 a wikibase:Property ;
+	rdfs:label "WorldCat Entities ID"@en ;
+	skos:prefLabel "WorldCat Entities ID"@en ;
+	schema:name "WorldCat Entities ID"@en ;
+	schema:description "identifier for a person, work, place, historical period, or event from the WorldCat Entities linked data service"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P10832 ;
+	wikibase:claim p:P10832 ;
+	wikibase:statementProperty ps:P10832 ;
+	wikibase:statementValue psv:P10832 ;
+	wikibase:qualifier pq:P10832 ;
+	wikibase:qualifierValue pqv:P10832 ;
+	wikibase:reference pr:P10832 ;
+	wikibase:referenceValue prv:P10832 ;
+	wikibase:novalue wdno:P10832 ;
+	wikibase:directClaimNormalized wdtn:P10832 ;
+	wikibase:statementValueNormalized psn:P10832 ;
+	wikibase:qualifierValueNormalized pqn:P10832 ;
+	wikibase:referenceValueNormalized prn:P10832 .
+
+p:P10832 a owl:ObjectProperty .
+
+psv:P10832 a owl:ObjectProperty .
+
+pqv:P10832 a owl:ObjectProperty .
+
+prv:P10832 a owl:ObjectProperty .
+
+wdt:P10832 a owl:DatatypeProperty .
+
+ps:P10832 a owl:DatatypeProperty .
+
+pq:P10832 a owl:DatatypeProperty .
+
+pr:P10832 a owl:DatatypeProperty .
+
+psn:P10832 a owl:ObjectProperty .
+
+pqn:P10832 a owl:ObjectProperty .
+
+prn:P10832 a owl:ObjectProperty .
+
+wdtn:P10832 a owl:ObjectProperty .
+
+wdno:P10832 a owl:Class ;
+	owl:complementOf _:e9bad1722decfe86eb473982d452186a .
+
+_:e9bad1722decfe86eb473982d452186a a owl:Restriction ;
+	owl:onProperty wdt:P10832 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P12749 a wikibase:Property ;
+	rdfs:label "SNARC ID"@en ;
+	skos:prefLabel "SNARC ID"@en ;
+	schema:name "SNARC ID"@en ;
+	schema:description "unique identifier for people, places and organisations represented in Welsh collections"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P12749 ;
+	wikibase:claim p:P12749 ;
+	wikibase:statementProperty ps:P12749 ;
+	wikibase:statementValue psv:P12749 ;
+	wikibase:qualifier pq:P12749 ;
+	wikibase:qualifierValue pqv:P12749 ;
+	wikibase:reference pr:P12749 ;
+	wikibase:referenceValue prv:P12749 ;
+	wikibase:novalue wdno:P12749 ;
+	wikibase:directClaimNormalized wdtn:P12749 ;
+	wikibase:statementValueNormalized psn:P12749 ;
+	wikibase:qualifierValueNormalized pqn:P12749 ;
+	wikibase:referenceValueNormalized prn:P12749 .
+
+p:P12749 a owl:ObjectProperty .
+
+psv:P12749 a owl:ObjectProperty .
+
+pqv:P12749 a owl:ObjectProperty .
+
+prv:P12749 a owl:ObjectProperty .
+
+wdt:P12749 a owl:DatatypeProperty .
+
+ps:P12749 a owl:DatatypeProperty .
+
+pq:P12749 a owl:DatatypeProperty .
+
+pr:P12749 a owl:DatatypeProperty .
+
+psn:P12749 a owl:ObjectProperty .
+
+pqn:P12749 a owl:ObjectProperty .
+
+prn:P12749 a owl:ObjectProperty .
+
+wdtn:P12749 a owl:ObjectProperty .
+
+wdno:P12749 a owl:Class ;
+	owl:complementOf _:2021421b79f11a7c9e670a8d9467d74c .
+
+_:2021421b79f11a7c9e670a8d9467d74c a owl:Restriction ;
+	owl:onProperty wdt:P12749 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P12800 a wikibase:Property ;
+	rdfs:label "Vikidia article ID"@en ;
+	skos:prefLabel "Vikidia article ID"@en ;
+	schema:name "Vikidia article ID"@en ;
+	schema:description "identifier for an article on Vikidia (format \"lang-code:title\")"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P12800 ;
+	wikibase:claim p:P12800 ;
+	wikibase:statementProperty ps:P12800 ;
+	wikibase:statementValue psv:P12800 ;
+	wikibase:qualifier pq:P12800 ;
+	wikibase:qualifierValue pqv:P12800 ;
+	wikibase:reference pr:P12800 ;
+	wikibase:referenceValue prv:P12800 ;
+	wikibase:novalue wdno:P12800 ;
+	wikibase:directClaimNormalized wdtn:P12800 ;
+	wikibase:statementValueNormalized psn:P12800 ;
+	wikibase:qualifierValueNormalized pqn:P12800 ;
+	wikibase:referenceValueNormalized prn:P12800 .
+
+p:P12800 a owl:ObjectProperty .
+
+psv:P12800 a owl:ObjectProperty .
+
+pqv:P12800 a owl:ObjectProperty .
+
+prv:P12800 a owl:ObjectProperty .
+
+wdt:P12800 a owl:DatatypeProperty .
+
+ps:P12800 a owl:DatatypeProperty .
+
+pq:P12800 a owl:DatatypeProperty .
+
+pr:P12800 a owl:DatatypeProperty .
+
+psn:P12800 a owl:ObjectProperty .
+
+pqn:P12800 a owl:ObjectProperty .
+
+prn:P12800 a owl:ObjectProperty .
+
+wdtn:P12800 a owl:ObjectProperty .
+
+wdno:P12800 a owl:Class ;
+	owl:complementOf _:4bde49d991ba8a18a10d9dd07caa1065 .
+
+_:4bde49d991ba8a18a10d9dd07caa1065 a owl:Restriction ;
+	owl:onProperty wdt:P12800 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P8519 a wikibase:Property ;
+	rdfs:label "RKD thesaurus ID"@en ;
+	skos:prefLabel "RKD thesaurus ID"@en ;
+	schema:name "RKD thesaurus ID"@en ;
+	schema:description "identifier in the RKD thesaurus (Rijksbureau voor Kunsthistorische Documentatie)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P8519 ;
+	wikibase:claim p:P8519 ;
+	wikibase:statementProperty ps:P8519 ;
+	wikibase:statementValue psv:P8519 ;
+	wikibase:qualifier pq:P8519 ;
+	wikibase:qualifierValue pqv:P8519 ;
+	wikibase:reference pr:P8519 ;
+	wikibase:referenceValue prv:P8519 ;
+	wikibase:novalue wdno:P8519 ;
+	wikibase:directClaimNormalized wdtn:P8519 ;
+	wikibase:statementValueNormalized psn:P8519 ;
+	wikibase:qualifierValueNormalized pqn:P8519 ;
+	wikibase:referenceValueNormalized prn:P8519 .
+
+p:P8519 a owl:ObjectProperty .
+
+psv:P8519 a owl:ObjectProperty .
+
+pqv:P8519 a owl:ObjectProperty .
+
+prv:P8519 a owl:ObjectProperty .
+
+wdt:P8519 a owl:DatatypeProperty .
+
+ps:P8519 a owl:DatatypeProperty .
+
+pq:P8519 a owl:DatatypeProperty .
+
+pr:P8519 a owl:DatatypeProperty .
+
+psn:P8519 a owl:ObjectProperty .
+
+pqn:P8519 a owl:ObjectProperty .
+
+prn:P8519 a owl:ObjectProperty .
+
+wdtn:P8519 a owl:ObjectProperty .
+
+wdno:P8519 a owl:Class ;
+	owl:complementOf _:da548e7f1dbb9a9772003bef26820301 .
+
+_:da548e7f1dbb9a9772003bef26820301 a owl:Restriction ;
+	owl:onProperty wdt:P8519 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P1036 a wikibase:Property ;
+	rdfs:label "Dewey Decimal Classification"@en ;
+	skos:prefLabel "Dewey Decimal Classification"@en ;
+	schema:name "Dewey Decimal Classification"@en ;
+	schema:description "use with qualifier \"edition (P747)\" with item value \"DDC 23\" or create new item to represent the corresponding DDC edition"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P1036 ;
+	wikibase:claim p:P1036 ;
+	wikibase:statementProperty ps:P1036 ;
+	wikibase:statementValue psv:P1036 ;
+	wikibase:qualifier pq:P1036 ;
+	wikibase:qualifierValue pqv:P1036 ;
+	wikibase:reference pr:P1036 ;
+	wikibase:referenceValue prv:P1036 ;
+	wikibase:novalue wdno:P1036 ;
+	wikibase:directClaimNormalized wdtn:P1036 ;
+	wikibase:statementValueNormalized psn:P1036 ;
+	wikibase:qualifierValueNormalized pqn:P1036 ;
+	wikibase:referenceValueNormalized prn:P1036 .
+
+p:P1036 a owl:ObjectProperty .
+
+psv:P1036 a owl:ObjectProperty .
+
+pqv:P1036 a owl:ObjectProperty .
+
+prv:P1036 a owl:ObjectProperty .
+
+wdt:P1036 a owl:DatatypeProperty .
+
+ps:P1036 a owl:DatatypeProperty .
+
+pq:P1036 a owl:DatatypeProperty .
+
+pr:P1036 a owl:DatatypeProperty .
+
+psn:P1036 a owl:ObjectProperty .
+
+pqn:P1036 a owl:ObjectProperty .
+
+prn:P1036 a owl:ObjectProperty .
+
+wdtn:P1036 a owl:ObjectProperty .
+
+wdno:P1036 a owl:Class ;
+	owl:complementOf _:2fb5c2af36e460068b89a8ca39c8bbcd .
+
+_:2fb5c2af36e460068b89a8ca39c8bbcd a owl:Restriction ;
+	owl:onProperty wdt:P1036 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q265049 a wikibase:Item ;
+	rdfs:label "archINFORM"@en ;
+	skos:prefLabel "archINFORM"@en ;
+	schema:name "archINFORM"@en ;
+	schema:description "international architecture database"@en .
+
+wd:P248 a wikibase:Property ;
+	rdfs:label "stated in"@en ;
+	skos:prefLabel "stated in"@en ;
+	schema:name "stated in"@en ;
+	schema:description "to be used in the references field to refer to the information document or database in which a claim is made; for qualifiers use P805; for the type of document in which a claim is made use P3865"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P248 ;
+	wikibase:claim p:P248 ;
+	wikibase:statementProperty ps:P248 ;
+	wikibase:statementValue psv:P248 ;
+	wikibase:qualifier pq:P248 ;
+	wikibase:qualifierValue pqv:P248 ;
+	wikibase:reference pr:P248 ;
+	wikibase:referenceValue prv:P248 ;
+	wikibase:novalue wdno:P248 .
+
+p:P248 a owl:ObjectProperty .
+
+psv:P248 a owl:ObjectProperty .
+
+pqv:P248 a owl:ObjectProperty .
+
+prv:P248 a owl:ObjectProperty .
+
+wdt:P248 a owl:ObjectProperty .
+
+ps:P248 a owl:ObjectProperty .
+
+pq:P248 a owl:ObjectProperty .
+
+pr:P248 a owl:ObjectProperty .
+
+wdno:P248 a owl:Class ;
+	owl:complementOf _:a2b31078afaf5caae811f4ac846f5f35 .
+
+_:a2b31078afaf5caae811f4ac846f5f35 a owl:Restriction ;
+	owl:onProperty wdt:P248 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P813 a wikibase:Property ;
+	rdfs:label "retrieved"@en ;
+	skos:prefLabel "retrieved"@en ;
+	schema:name "retrieved"@en ;
+	schema:description "date or point in time that information was retrieved from a database or website (for use in online sources)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Time> ;
+	wikibase:directClaim wdt:P813 ;
+	wikibase:claim p:P813 ;
+	wikibase:statementProperty ps:P813 ;
+	wikibase:statementValue psv:P813 ;
+	wikibase:qualifier pq:P813 ;
+	wikibase:qualifierValue pqv:P813 ;
+	wikibase:reference pr:P813 ;
+	wikibase:referenceValue prv:P813 ;
+	wikibase:novalue wdno:P813 .
+
+p:P813 a owl:ObjectProperty .
+
+psv:P813 a owl:ObjectProperty .
+
+pqv:P813 a owl:ObjectProperty .
+
+prv:P813 a owl:ObjectProperty .
+
+wdt:P813 a owl:DatatypeProperty .
+
+ps:P813 a owl:DatatypeProperty .
+
+pq:P813 a owl:DatatypeProperty .
+
+pr:P813 a owl:DatatypeProperty .
+
+wdno:P813 a owl:Class ;
+	owl:complementOf _:a84dea0fd38ed74f926ea4bdef778770 .
+
+_:a84dea0fd38ed74f926ea4bdef778770 a owl:Restriction ;
+	owl:onProperty wdt:P813 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q15241312 a wikibase:Item ;
+	rdfs:label "Freebase Data Dumps"@en ;
+	skos:prefLabel "Freebase Data Dumps"@en ;
+	schema:name "Freebase Data Dumps"@en ;
+	schema:description "dumps of the public part of Google's Knowledge Graph"@en .
+
+wd:P577 a wikibase:Property ;
+	rdfs:label "publication date"@en ;
+	skos:prefLabel "publication date"@en ;
+	schema:name "publication date"@en ;
+	schema:description "date or point in time when a work was first published or released"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Time> ;
+	wikibase:directClaim wdt:P577 ;
+	wikibase:claim p:P577 ;
+	wikibase:statementProperty ps:P577 ;
+	wikibase:statementValue psv:P577 ;
+	wikibase:qualifier pq:P577 ;
+	wikibase:qualifierValue pqv:P577 ;
+	wikibase:reference pr:P577 ;
+	wikibase:referenceValue prv:P577 ;
+	wikibase:novalue wdno:P577 .
+
+p:P577 a owl:ObjectProperty .
+
+psv:P577 a owl:ObjectProperty .
+
+pqv:P577 a owl:ObjectProperty .
+
+prv:P577 a owl:ObjectProperty .
+
+wdt:P577 a owl:DatatypeProperty .
+
+ps:P577 a owl:DatatypeProperty .
+
+pq:P577 a owl:DatatypeProperty .
+
+pr:P577 a owl:DatatypeProperty .
+
+wdno:P577 a owl:Class ;
+	owl:complementOf _:eca5fcd2c546d0e0c20e05f61e0aa797 .
+
+_:eca5fcd2c546d0e0c20e05f61e0aa797 a owl:Restriction ;
+	owl:onProperty wdt:P577 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q206855 a wikibase:Item ;
+	rdfs:label "Russian Wikipedia"@en ;
+	skos:prefLabel "Russian Wikipedia"@en ;
+	schema:name "Russian Wikipedia"@en ;
+	schema:description "Russian-language edition of Wikipedia"@en .
+
+wd:P143 a wikibase:Property ;
+	rdfs:label "imported from Wikimedia project"@en ;
+	skos:prefLabel "imported from Wikimedia project"@en ;
+	schema:name "imported from Wikimedia project"@en ;
+	schema:description "source of this claim's value; used in references section by bots or humans importing data from Wikimedia projects"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P143 ;
+	wikibase:claim p:P143 ;
+	wikibase:statementProperty ps:P143 ;
+	wikibase:statementValue psv:P143 ;
+	wikibase:qualifier pq:P143 ;
+	wikibase:qualifierValue pqv:P143 ;
+	wikibase:reference pr:P143 ;
+	wikibase:referenceValue prv:P143 ;
+	wikibase:novalue wdno:P143 .
+
+p:P143 a owl:ObjectProperty .
+
+psv:P143 a owl:ObjectProperty .
+
+pqv:P143 a owl:ObjectProperty .
+
+prv:P143 a owl:ObjectProperty .
+
+wdt:P143 a owl:ObjectProperty .
+
+ps:P143 a owl:ObjectProperty .
+
+pq:P143 a owl:ObjectProperty .
+
+pr:P143 a owl:ObjectProperty .
+
+wdno:P143 a owl:Class ;
+	owl:complementOf _:66a2156e9cbfe8d655274b862fca1b59 .
+
+_:66a2156e9cbfe8d655274b862fca1b59 a owl:Restriction ;
+	owl:onProperty wdt:P143 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q830106 a wikibase:Item ;
+	rdfs:label "GeoNames"@en ;
+	skos:prefLabel "GeoNames"@en ;
+	schema:name "GeoNames"@en ;
+	schema:description "geographical database available and accessible through various web services, operated by Unxos GmbH"@en .
+
+wd:Q14005 a wikibase:Item ;
+	rdfs:label "MusicBrainz"@en ;
+	skos:prefLabel "MusicBrainz"@en ;
+	schema:name "MusicBrainz"@en ;
+	rdfs:label "MusicBrainz"@mul ;
+	skos:prefLabel "MusicBrainz"@mul ;
+	schema:name "MusicBrainz"@mul ;
+	schema:description "online music metadata database"@en .
+
+wd:Q1321 a wikibase:Item ;
+	rdfs:label "Spanish"@en ;
+	skos:prefLabel "Spanish"@en ;
+	schema:name "Spanish"@en ;
+	schema:description "Romance language originating in the Iberian Peninsula"@en .
+
+wd:P407 a wikibase:Property ;
+	rdfs:label "language of work or name"@en ;
+	skos:prefLabel "language of work or name"@en ;
+	schema:name "language of work or name"@en ;
+	schema:description "language associated with this creative work (such as books, shows, songs, broadcasts or websites) or a name (for persons use \"native language\" (P103) and \"languages spoken, written or signed\" (P1412))"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P407 ;
+	wikibase:claim p:P407 ;
+	wikibase:statementProperty ps:P407 ;
+	wikibase:statementValue psv:P407 ;
+	wikibase:qualifier pq:P407 ;
+	wikibase:qualifierValue pqv:P407 ;
+	wikibase:reference pr:P407 ;
+	wikibase:referenceValue prv:P407 ;
+	wikibase:novalue wdno:P407 .
+
+p:P407 a owl:ObjectProperty .
+
+psv:P407 a owl:ObjectProperty .
+
+pqv:P407 a owl:ObjectProperty .
+
+prv:P407 a owl:ObjectProperty .
+
+wdt:P407 a owl:ObjectProperty .
+
+ps:P407 a owl:ObjectProperty .
+
+pq:P407 a owl:ObjectProperty .
+
+pr:P407 a owl:ObjectProperty .
+
+wdno:P407 a owl:Class ;
+	owl:complementOf _:7ecb658fb35d6b90057eeb2a2a932c62 .
+
+_:7ecb658fb35d6b90057eeb2a2a932c62 a owl:Restriction ;
+	owl:onProperty wdt:P407 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P585 a wikibase:Property ;
+	rdfs:label "point in time"@en ;
+	skos:prefLabel "point in time"@en ;
+	schema:name "point in time"@en ;
+	schema:description "date something took place, existed or a statement was true; for providing time use the \"refine date\" property (P4241)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Time> ;
+	wikibase:directClaim wdt:P585 ;
+	wikibase:claim p:P585 ;
+	wikibase:statementProperty ps:P585 ;
+	wikibase:statementValue psv:P585 ;
+	wikibase:qualifier pq:P585 ;
+	wikibase:qualifierValue pqv:P585 ;
+	wikibase:reference pr:P585 ;
+	wikibase:referenceValue prv:P585 ;
+	wikibase:novalue wdno:P585 .
+
+p:P585 a owl:ObjectProperty .
+
+psv:P585 a owl:ObjectProperty .
+
+pqv:P585 a owl:ObjectProperty .
+
+prv:P585 a owl:ObjectProperty .
+
+wdt:P585 a owl:DatatypeProperty .
+
+ps:P585 a owl:DatatypeProperty .
+
+pq:P585 a owl:DatatypeProperty .
+
+pr:P585 a owl:DatatypeProperty .
+
+wdno:P585 a owl:Class ;
+	owl:complementOf _:dd1c08307a09e1466ce90c482ad42ea9 .
+
+_:dd1c08307a09e1466ce90c482ad42ea9 a owl:Restriction ;
+	owl:onProperty wdt:P585 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q39825 a wikibase:Item ;
+	rdfs:label "census"@en ;
+	skos:prefLabel "census"@en ;
+	schema:name "census"@en ;
+	schema:description "survey designed to collect data about all members of a population"@en .
+
+wd:P459 a wikibase:Property ;
+	rdfs:label "determination method or standard"@en ;
+	skos:prefLabel "determination method or standard"@en ;
+	schema:name "determination method or standard"@en ;
+	schema:description "how a value is determined, or the standard by which it is declared"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P459 ;
+	wikibase:claim p:P459 ;
+	wikibase:statementProperty ps:P459 ;
+	wikibase:statementValue psv:P459 ;
+	wikibase:qualifier pq:P459 ;
+	wikibase:qualifierValue pqv:P459 ;
+	wikibase:reference pr:P459 ;
+	wikibase:referenceValue prv:P459 ;
+	wikibase:novalue wdno:P459 .
+
+p:P459 a owl:ObjectProperty .
+
+psv:P459 a owl:ObjectProperty .
+
+pqv:P459 a owl:ObjectProperty .
+
+prv:P459 a owl:ObjectProperty .
+
+wdt:P459 a owl:ObjectProperty .
+
+ps:P459 a owl:ObjectProperty .
+
+pq:P459 a owl:ObjectProperty .
+
+pr:P459 a owl:ObjectProperty .
+
+wdno:P459 a owl:Class ;
+	owl:complementOf _:88b70b8bfdb5c147baf5a03f4254bd4b .
+
+_:88b70b8bfdb5c147baf5a03f4254bd4b a owl:Restriction ;
+	owl:onProperty wdt:P459 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q21001879 a wikibase:Item ;
+	rdfs:label "2017 Chile census"@en ;
+	skos:prefLabel "2017 Chile census"@en ;
+	schema:name "2017 Chile census"@en .
+
+wd:P854 a wikibase:Property ;
+	rdfs:label "reference URL"@en ;
+	skos:prefLabel "reference URL"@en ;
+	schema:name "reference URL"@en ;
+	schema:description "should be used for Internet URLs as references. Use \"Wikimedia import URL\" (P4656) for imports from WMF sites"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Url> ;
+	wikibase:directClaim wdt:P854 ;
+	wikibase:claim p:P854 ;
+	wikibase:statementProperty ps:P854 ;
+	wikibase:statementValue psv:P854 ;
+	wikibase:qualifier pq:P854 ;
+	wikibase:qualifierValue pqv:P854 ;
+	wikibase:reference pr:P854 ;
+	wikibase:referenceValue prv:P854 ;
+	wikibase:novalue wdno:P854 .
+
+p:P854 a owl:ObjectProperty .
+
+psv:P854 a owl:ObjectProperty .
+
+pqv:P854 a owl:ObjectProperty .
+
+prv:P854 a owl:ObjectProperty .
+
+wdt:P854 a owl:ObjectProperty .
+
+ps:P854 a owl:ObjectProperty .
+
+pq:P854 a owl:ObjectProperty .
+
+pr:P854 a owl:ObjectProperty .
+
+wdno:P854 a owl:Class ;
+	owl:complementOf _:7317e7e5a3edc1980ecfe7616bb5fa1d .
+
+_:7317e7e5a3edc1980ecfe7616bb5fa1d a owl:Restriction ;
+	owl:onProperty wdt:P854 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P1476 a wikibase:Property ;
+	rdfs:label "title"@en ;
+	skos:prefLabel "title"@en ;
+	schema:name "title"@en ;
+	schema:description "published name of a work, such as a newspaper article, a literary work, piece of music, a website, or a performance work"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Monolingualtext> ;
+	wikibase:directClaim wdt:P1476 ;
+	wikibase:claim p:P1476 ;
+	wikibase:statementProperty ps:P1476 ;
+	wikibase:statementValue psv:P1476 ;
+	wikibase:qualifier pq:P1476 ;
+	wikibase:qualifierValue pqv:P1476 ;
+	wikibase:reference pr:P1476 ;
+	wikibase:referenceValue prv:P1476 ;
+	wikibase:novalue wdno:P1476 .
+
+p:P1476 a owl:ObjectProperty .
+
+psv:P1476 a owl:ObjectProperty .
+
+pqv:P1476 a owl:ObjectProperty .
+
+prv:P1476 a owl:ObjectProperty .
+
+wdt:P1476 a owl:DatatypeProperty .
+
+ps:P1476 a owl:DatatypeProperty .
+
+pq:P1476 a owl:DatatypeProperty .
+
+pr:P1476 a owl:DatatypeProperty .
+
+wdno:P1476 a owl:Class ;
+	owl:complementOf _:d280eacd08390593b606f11be98380c0 .
+
+_:d280eacd08390593b606f11be98380c0 a owl:Restriction ;
+	owl:onProperty wdt:P1476 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q3288549 a wikibase:Item ;
+	rdfs:label "Instituto Nacional de Estadísticas"@en ;
+	skos:prefLabel "Instituto Nacional de Estadísticas"@en ;
+	schema:name "Instituto Nacional de Estadísticas"@en ;
+	schema:description "Chile's principal government institution in charge of statistics and census data"@en .
+
+wd:P50 a wikibase:Property ;
+	rdfs:label "author"@en ;
+	skos:prefLabel "author"@en ;
+	schema:name "author"@en ;
+	schema:description "main creator(s) of a written work (use on works, not humans); use P2093 (author name string) when Wikidata item is unknown or does not exist"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P50 ;
+	wikibase:claim p:P50 ;
+	wikibase:statementProperty ps:P50 ;
+	wikibase:statementValue psv:P50 ;
+	wikibase:qualifier pq:P50 ;
+	wikibase:qualifierValue pqv:P50 ;
+	wikibase:reference pr:P50 ;
+	wikibase:referenceValue prv:P50 ;
+	wikibase:novalue wdno:P50 .
+
+p:P50 a owl:ObjectProperty .
+
+psv:P50 a owl:ObjectProperty .
+
+pqv:P50 a owl:ObjectProperty .
+
+prv:P50 a owl:ObjectProperty .
+
+wdt:P50 a owl:ObjectProperty .
+
+ps:P50 a owl:ObjectProperty .
+
+pq:P50 a owl:ObjectProperty .
+
+pr:P50 a owl:ObjectProperty .
+
+wdno:P50 a owl:Class ;
+	owl:complementOf _:b031acc4c46aca4c83feb5878a7c4a6a .
+
+_:b031acc4c46aca4c83feb5878a7c4a6a a owl:Restriction ;
+	owl:onProperty wdt:P50 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P443 a wikibase:Property ;
+	rdfs:label "pronunciation audio"@en ;
+	skos:prefLabel "pronunciation audio"@en ;
+	schema:name "pronunciation audio"@en ;
+	schema:description "audio file with pronunciation"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#CommonsMedia> ;
+	wikibase:directClaim wdt:P443 ;
+	wikibase:claim p:P443 ;
+	wikibase:statementProperty ps:P443 ;
+	wikibase:statementValue psv:P443 ;
+	wikibase:qualifier pq:P443 ;
+	wikibase:qualifierValue pqv:P443 ;
+	wikibase:reference pr:P443 ;
+	wikibase:referenceValue prv:P443 ;
+	wikibase:novalue wdno:P443 .
+
+p:P443 a owl:ObjectProperty .
+
+psv:P443 a owl:ObjectProperty .
+
+pqv:P443 a owl:ObjectProperty .
+
+prv:P443 a owl:ObjectProperty .
+
+wdt:P443 a owl:ObjectProperty .
+
+ps:P443 a owl:ObjectProperty .
+
+pq:P443 a owl:ObjectProperty .
+
+pr:P443 a owl:ObjectProperty .
+
+wdno:P443 a owl:Class ;
+	owl:complementOf _:94e248b043a403a96bb38251ab94bf95 .
+
+_:94e248b043a403a96bb38251ab94bf95 a owl:Restriction ;
+	owl:onProperty wdt:P443 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P1810 a wikibase:Property ;
+	rdfs:label "subject named as"@en ;
+	skos:prefLabel "subject named as"@en ;
+	schema:name "subject named as"@en ;
+	schema:description "name by which a subject is recorded in a database, mentioned as a contributor of a work, or is referred to in a particular context"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#String> ;
+	wikibase:directClaim wdt:P1810 ;
+	wikibase:claim p:P1810 ;
+	wikibase:statementProperty ps:P1810 ;
+	wikibase:statementValue psv:P1810 ;
+	wikibase:qualifier pq:P1810 ;
+	wikibase:qualifierValue pqv:P1810 ;
+	wikibase:reference pr:P1810 ;
+	wikibase:referenceValue prv:P1810 ;
+	wikibase:novalue wdno:P1810 .
+
+p:P1810 a owl:ObjectProperty .
+
+psv:P1810 a owl:ObjectProperty .
+
+pqv:P1810 a owl:ObjectProperty .
+
+prv:P1810 a owl:ObjectProperty .
+
+wdt:P1810 a owl:DatatypeProperty .
+
+ps:P1810 a owl:DatatypeProperty .
+
+pq:P1810 a owl:DatatypeProperty .
+
+pr:P1810 a owl:DatatypeProperty .
+
+wdno:P1810 a owl:Class ;
+	owl:complementOf _:1d6e1ecf4f0164f6a3471dd66d38c9d8 .
+
+_:1d6e1ecf4f0164f6a3471dd66d38c9d8 a owl:Restriction ;
+	owl:onProperty wdt:P1810 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q54919 a wikibase:Item ;
+	rdfs:label "Virtual International Authority File"@en ;
+	skos:prefLabel "Virtual International Authority File"@en ;
+	schema:name "Virtual International Authority File"@en ;
+	schema:description "OCLC dataset and service that virtually combines multiple name authority files into a single name authority service"@en .
+
+wd:Q84655909 a wikibase:Item ;
+	rdfs:label "1911 Encyclopædia Britannica/Antofagasta"@en ;
+	skos:prefLabel "1911 Encyclopædia Britannica/Antofagasta"@en ;
+	schema:name "1911 Encyclopædia Britannica/Antofagasta"@en ;
+	schema:description "encyclopedia article"@en .
+
+wd:P805 a wikibase:Property ;
+	rdfs:label "statement is subject of"@en ;
+	skos:prefLabel "statement is subject of"@en ;
+	schema:name "statement is subject of"@en ;
+	schema:description "(qualifying) item that describes the relation identified in this statement"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P805 ;
+	wikibase:claim p:P805 ;
+	wikibase:statementProperty ps:P805 ;
+	wikibase:statementValue psv:P805 ;
+	wikibase:qualifier pq:P805 ;
+	wikibase:qualifierValue pqv:P805 ;
+	wikibase:reference pr:P805 ;
+	wikibase:referenceValue prv:P805 ;
+	wikibase:novalue wdno:P805 .
+
+p:P805 a owl:ObjectProperty .
+
+psv:P805 a owl:ObjectProperty .
+
+pqv:P805 a owl:ObjectProperty .
+
+prv:P805 a owl:ObjectProperty .
+
+wdt:P805 a owl:ObjectProperty .
+
+ps:P805 a owl:ObjectProperty .
+
+pq:P805 a owl:ObjectProperty .
+
+pr:P805 a owl:ObjectProperty .
+
+wdno:P805 a owl:Class ;
+	owl:complementOf _:b0057da68fba9959eba43619c1638733 .
+
+_:b0057da68fba9959eba43619c1638733 a owl:Restriction ;
+	owl:onProperty wdt:P805 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q13219454 a wikibase:Item ;
+	rdfs:label "Library of Congress Authorities"@en ;
+	skos:prefLabel "Library of Congress Authorities"@en ;
+	schema:name "Library of Congress Authorities"@en ;
+	schema:description "browsable database to view authority headings for subject, name, title and name/title combinations"@en .
+
+wd:P11797 a wikibase:Property ;
+	rdfs:label "matched by identifier from"@en ;
+	skos:prefLabel "matched by identifier from"@en ;
+	schema:name "matched by identifier from"@en ;
+	schema:description "this external ID was added because the following link was presented in both the external database and the Wikidata item"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P11797 ;
+	wikibase:claim p:P11797 ;
+	wikibase:statementProperty ps:P11797 ;
+	wikibase:statementValue psv:P11797 ;
+	wikibase:qualifier pq:P11797 ;
+	wikibase:qualifierValue pqv:P11797 ;
+	wikibase:reference pr:P11797 ;
+	wikibase:referenceValue prv:P11797 ;
+	wikibase:novalue wdno:P11797 .
+
+p:P11797 a owl:ObjectProperty .
+
+psv:P11797 a owl:ObjectProperty .
+
+pqv:P11797 a owl:ObjectProperty .
+
+prv:P11797 a owl:ObjectProperty .
+
+wdt:P11797 a owl:ObjectProperty .
+
+ps:P11797 a owl:ObjectProperty .
+
+pq:P11797 a owl:ObjectProperty .
+
+pr:P11797 a owl:ObjectProperty .
+
+wdno:P11797 a owl:Class ;
+	owl:complementOf _:e02a0f59b610ada8055358e3c10e0300 .
+
+_:e02a0f59b610ada8055358e3c10e0300 a owl:Restriction ;
+	owl:onProperty wdt:P11797 ;
+	owl:someValuesFrom owl:Thing .
+
+v:64200e70e50da8b1b679a8a59ff8cbcf a wikibase:GlobecoordinateValue ;
+	wikibase:geoLatitude "-23.646388888889"^^xsd:double ;
+	wikibase:geoLongitude "-70.398055555556"^^xsd:double ;
+	wikibase:geoPrecision "0.00027777777777778"^^xsd:double ;
+	wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> .
+
+v:c51a2fa31ba11bb2b1975045b4cd85ea a wikibase:QuantityValue ;
+	wikibase:quantityAmount "+348517"^^xsd:decimal ;
+	wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+v:bafe241ab674eb0d7d6a5e6ad0753f82 a wikibase:QuantityValue ;
+	wikibase:quantityAmount "+56.12"^^xsd:decimal ;
+	wikibase:quantityUnit <http://www.wikidata.org/entity/Q712226> .
+
+v:cf02f07017c013ed001a68e992c28456 a wikibase:QuantityValue ;
+	wikibase:quantityAmount "+56120000.00"^^xsd:decimal ;
+	wikibase:quantityUnit <http://www.wikidata.org/entity/Q25343> ;
+	wikibase:quantityNormalized v:cf02f07017c013ed001a68e992c28456 .
+
+v:bafe241ab674eb0d7d6a5e6ad0753f82 wikibase:quantityNormalized v:cf02f07017c013ed001a68e992c28456 .
+
+v:b14885a6f48aabe0a73e4366d496fc82 a wikibase:QuantityValue ;
+	wikibase:quantityAmount "+40"^^xsd:decimal ;
+	wikibase:quantityUnit <http://www.wikidata.org/entity/Q11573> ;
+	wikibase:quantityNormalized v:b14885a6f48aabe0a73e4366d496fc82 .
+
+v:3f90c3a1d52c1cad51b69e586dd5d860 a wikibase:TimeValue ;
+	wikibase:timeValue "2024-06-15T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+v:f987783e1f9c9fa0cb0b774d330af52d a wikibase:TimeValue ;
+	wikibase:timeValue "2013-10-28T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+v:c46565f21d8de8ea8b597dfaa738109a a wikibase:TimeValue ;
+	wikibase:timeValue "2017-01-01T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "9"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+v:78ee92094e7305badfc648cd764902d0 a wikibase:TimeValue ;
+	wikibase:timeValue "2021-01-13T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+v:1c9551a398cfb51623c28b80416004d3 a wikibase:TimeValue ;
+	wikibase:timeValue "2019-01-01T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "9"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+v:6a78003f12e83b0be551013c5d79c594 a wikibase:TimeValue ;
+	wikibase:timeValue "1868-10-22T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+v:7488c67169f63bb9b57929cf9869fa4b a wikibase:TimeValue ;
+	wikibase:timeValue "2018-08-05T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+v:e3d91cc3562b7bb25e38543e3b40127b a wikibase:TimeValue ;
+	wikibase:timeValue "2016-04-01T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+v:935dfd5f42e156482ba75e42ddf3146b a wikibase:TimeValue ;
+	wikibase:timeValue "2019-03-06T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+v:af78c3d17893a9ba3d7bc2e54d44dbb6 a wikibase:TimeValue ;
+	wikibase:timeValue "2024-04-25T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+ref:0b8cf0718e458c98eb60911afc839f476272ecb0 a wikibase:Reference ;
+	pr:P5573 "9538" ;
+	pr:P248 wd:Q265049 ;
+	pr:P813 "2024-06-15T00:00:00Z"^^xsd:dateTime ;
+	prv:P813 v:3f90c3a1d52c1cad51b69e586dd5d860 .
+
+ref:2b00cb481cddcac7623114367489b5c194901c4a a wikibase:Reference ;
+	pr:P248 wd:Q15241312 ;
+	pr:P577 "2013-10-28T00:00:00Z"^^xsd:dateTime ;
+	prv:P577 v:f987783e1f9c9fa0cb0b774d330af52d .
+
+ref:288ab581e7d2d02995a26dfa8b091d96e78457fc a wikibase:Reference ;
+	pr:P143 wd:Q206855 .
+
+ref:88694a0f4d1486770c269f7db16a1982f74da69d a wikibase:Reference ;
+	pr:P248 wd:Q830106 .
+
+ref:706208b3024200fd0a39ad499808dd0d98d74065 a wikibase:Reference ;
+	pr:P248 wd:Q14005 .
+
+ref:0567cbdc51a69a18d5455394b8c41050944aa3f9 a wikibase:Reference ;
+	pr:P248 wd:Q21001879 ;
+	pr:P854 <https://geoarchivos.ine.cl/File/pub/Cd_Pb_Al_Cs_2019.pdf> ;
+	pr:P813 "2021-01-13T00:00:00Z"^^xsd:dateTime ;
+	prv:P813 v:78ee92094e7305badfc648cd764902d0 ;
+	pr:P1476 "Ciudades, pueblos, aldeas y caseríos 2019"@es ;
+	pr:P50 wd:Q3288549 ;
+	pr:P577 "2019-01-01T00:00:00Z"^^xsd:dateTime ;
+	prv:P577 v:1c9551a398cfb51623c28b80416004d3 ;
+	pr:P407 wd:Q1321 .
+
+ref:2ccfee54df9fa0623fd3f67de009a2418a4970f9 a wikibase:Reference ;
+	pr:P854 <https://chl.areacodebase.com/node/21> .
+
+ref:792f733ef05d43f1764a1d1578df772d8bf3a4e4 a wikibase:Reference ;
+	pr:P854 <https://areaphonecodes.com/chile/antofagasta> .
+
+ref:4f20246d5244d19cc899b462b088ff9ced00a5a9 a wikibase:Reference ;
+	pr:P854 <https://www.antofagasta.cl/> .
+
+ref:21494d78c86d729112257391ca4131a84f73b44b a wikibase:Reference ;
+	pr:P854 <https://www.archinform.net/service/wd_aiort.php> ;
+	pr:P248 wd:Q265049 ;
+	pr:P813 "2018-08-05T00:00:00Z"^^xsd:dateTime ;
+	prv:P813 v:7488c67169f63bb9b57929cf9869fa4b .
+
+ref:6c17ef86bf8fab1a8176420fda6d033cc4760b9e a wikibase:Reference ;
+	pr:P248 wd:Q54919 ;
+	pr:P214 "146569688" ;
+	prn:P214 <http://viaf.org/viaf/146569688> ;
+	pr:P854 <http://www.viaf.org/viaf/146569688/> ;
+	pr:P813 "2016-04-01T00:00:00Z"^^xsd:dateTime ;
+	prv:P813 v:e3d91cc3562b7bb25e38543e3b40127b .
+
+ref:14fa5898ac764e0660517aa07ea0bbba505f262b a wikibase:Reference ;
+	pr:P248 wd:Q54919 ;
+	pr:P813 "2019-03-06T00:00:00Z"^^xsd:dateTime ;
+	prv:P813 v:935dfd5f42e156482ba75e42ddf3146b .
+
+ref:bf8c3ef13619afcac6ce3a61b531d8660484af9f a wikibase:Reference ;
+	pr:P854 <https://service.unece.org/trade/locode/cl.htm> .
+
+ref:6e8ca749e790739f625ea7f688ab2f3bd76a4245 a wikibase:Reference ;
+	pr:P11797 wd:Q13219454 ;
+	pr:P244 "n79086811" ;
+	prn:P244 <http://id.loc.gov/authorities/names/n79086811> ;
+	pr:P813 "2024-04-25T00:00:00Z"^^xsd:dateTime ;
+	prv:P813 v:af78c3d17893a9ba3d7bc2e54d44dbb6 .
